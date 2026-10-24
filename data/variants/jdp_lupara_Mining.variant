@@ -1,0 +1,43 @@
+{
+    "displayName": "Mining",
+    "fluxCapacitors": 2,
+    "fluxVents": 30,
+    "goalVariant": true,
+    "hullId": "jdp_lupara",
+    "hullMods": [
+        "auxiliarythrusters",
+        "hardenedshieldemitter",
+        "missleracks",
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "suppressedMods": [],
+    "variantId": "jdp_lupara_Mining",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 006": "miningblaster",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 003": "mininglaser",
+                "WS 000": "hammerrack",
+                "WS 002": "hammerrack",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 009": "lrpdlaser",
+            }
+        },
+    ],
+    "wings": [],
+    "modules": [],
+}

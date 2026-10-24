@@ -1,0 +1,28 @@
+{
+	id:"jdp_technology",
+
+	"color":[187,110,255,255],
+	"displayName":"Ministry of Technological Standards",
+	"displayNameWithArticle":"Ministry of Technological Standards",
+	"logo":"graphics/factions/jdp_technology_flag.png",
+	"crest": "graphics/factions/jdp_technology_crest.png",
+	"showInIntelTab":false,
+	"names":{
+	},
+	"portraits":{
+	},
+	"music":{
+		"theme":"music_none",
+		"market_neutral":"music_none",
+		"market_hostile":"music_none",
+		"market_friendly":"music_none",
+		"encounter_neutral":"music_none",
+		"encounter_hostile":"music_none",
+		"encounter_friendly":"music_none",
+	},
+	"custom":{
+		"engageWhenEvenStrength":true,
+		"postsNoBounties":true,
+		"fightToTheLast":true, # order a full assault instead of retreating, in most cases
+	},	
+},

@@ -1,0 +1,11 @@
+{
+    "displayName": "Drone",
+    "fluxCapacitors": 0,
+    "fluxVents": 0,
+    "goalVariant": false,
+    "hullId": "jdp_relay",
+    "hullMods": [],
+    "quality": 1.0,
+    "variantId": "jdp_relay_Drone",
+    "weaponGroups": []
+}

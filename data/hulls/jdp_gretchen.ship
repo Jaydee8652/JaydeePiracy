@@ -1,0 +1,282 @@
+{
+    "hullName": "Gretchen",
+    "hullId": "jdp_gretchen",
+    "hullSize": "CRUISER",
+    "style": "LOW_TECH",
+    "spriteName": "graphics/ships/jdp_gretchen.png",
+    "height": 260,
+    "width": 180,
+    "center": [
+        90, 130
+    ],
+    "collisionRadius": 180,
+    "coversColor": "",
+    "shieldCenter": [
+        -11.5, -0.5
+    ],
+    "shieldRadius": 170,
+    "viewOffset": 0,
+    "builtInMods": [
+        "rugged",
+        "ablative_armor"
+    ],
+    "builtInWings": [],
+    "builtInModules": null,
+    "weaponSlots": [
+        {
+            "id": "WS 005",
+            "size": "SMALL",
+            "type": "BALLISTIC",
+            "mount": "TURRET",
+            "arc": 210,
+            "angle": 0.5,
+            "locations": [
+                      92,        8
+            ]
+        },
+        {
+            "id": "WS 007",
+            "size": "SMALL",
+            "type": "BALLISTIC",
+            "mount": "TURRET",
+            "arc": 210,
+            "angle": 270.5,
+            "locations": [
+                     -79,      -58
+            ]
+        },
+        {
+            "id": "WS 008",
+            "size": "SMALL",
+            "type": "BALLISTIC",
+            "mount": "TURRET",
+            "arc": 150,
+            "angle": 164.5,
+            "locations": [
+                    -107,       49
+            ]
+        },
+        {
+            "id": "WS 009",
+            "size": "SMALL",
+            "type": "BALLISTIC",
+            "mount": "TURRET",
+            "arc": 210,
+            "angle": 193.5,
+            "locations": [
+                    -107,       12
+            ]
+        },
+        {
+            "id": "WS 010",
+            "size": "MEDIUM",
+            "type": "BALLISTIC",
+            "mount": "TURRET",
+            "arc": 210,
+            "angle": 0,
+            "locations": [
+                       1,       14
+            ]
+        },
+        {
+            "id": "WS 015",
+            "size": "MEDIUM",
+            "type": "MISSILE",
+            "mount": "HARDPOINT",
+            "arc": 5,
+            "angle": 0,
+            "locations": [
+                     103,       58
+            ]
+        },
+        {
+            "id": "WS 016",
+            "size": "MEDIUM",
+            "type": "MISSILE",
+            "mount": "HARDPOINT",
+            "arc": 5,
+            "angle": 0,
+            "locations": [
+                     113,     -9.5
+            ]
+        },
+        {
+            "id": "WS 000",
+            "size": "SMALL",
+            "type": "MISSILE",
+            "mount": "HARDPOINT",
+            "arc": 5,
+            "angle": 90,
+            "locations": [
+                      22,       79
+            ]
+        },
+        {
+            "id": "WS 001",
+            "size": "SMALL",
+            "type": "MISSILE",
+            "mount": "HARDPOINT",
+            "arc": 5,
+            "angle": 90,
+            "locations": [
+                       6,       79
+            ]
+        },
+        {
+            "id": "WS 002",
+            "size": "SMALL",
+            "type": "MISSILE",
+            "mount": "HARDPOINT",
+            "arc": 5,
+            "angle": 90,
+            "locations": [
+                     -10,       79
+            ]
+        },
+        {
+            "id": "WS 017",
+            "size": "LARGE",
+            "type": "LAUNCH_BAY",
+            "mount": "HIDDEN",
+            "arc": 5,
+            "angle": 0,
+            "locations": [
+                    45.5,       39,
+                    24.5,       38,
+                    23.5,     21.5,
+                    67.5,     38.5
+            ]
+        },
+        {
+            "id": "WS 016",
+            "size": "LARGE",
+            "type": "LAUNCH_BAY",
+            "mount": "HIDDEN",
+            "arc": 5,
+            "angle": 0,
+            "locations": [
+                     3.5,    -34.5,
+                    32.5,      -24,
+                    18.5,      -24,
+                     3.5,      -23
+            ]
+        }
+    ],
+    "engineSlots": [
+        {
+            "location": [
+                -118, 58.5
+            ],
+            "length": 32,
+            "width": 12,
+            "angle": 180,
+            "contrailSize": 64,
+            "style": "LOW_TECH"
+        },
+        {
+            "location": [
+                -98.5, -60
+            ],
+            "length": 32,
+            "width": 12,
+            "angle": 180,
+            "contrailSize": 64,
+            "style": "LOW_TECH"
+        },
+        {
+            "location": [
+                -103.5, -37
+            ],
+            "length": 64,
+            "width": 24,
+            "angle": 180,
+            "contrailSize": 64,
+            "style": "LOW_TECH"
+        },
+        {
+            "location": [
+                -123.5, 4.5
+            ],
+            "length": 24,
+            "width": 12,
+            "angle": 180,
+            "contrailSize": 64,
+            "style": "LOW_TECH"
+        },
+        {
+            "location": [
+                -106.5, -22
+            ],
+            "length": 24,
+            "width": 12,
+            "angle": 180,
+            "contrailSize": 64,
+            "style": "LOW_TECH"
+        },
+        {
+            "location": [
+                -124.5, 36
+            ],
+            "length": 48,
+            "width": 16,
+            "angle": 180,
+            "contrailSize": 64,
+            "style": "LOW_TECH"
+        },
+        {
+            "location": [
+                -124.5, 22
+            ],
+            "length": 48,
+            "width": 16,
+            "angle": 180,
+            "contrailSize": 64,
+            "style": "LOW_TECH"
+        },
+        {
+            "location": [
+                -125.5, 46.5
+            ],
+            "length": 24,
+            "width": 12,
+            "angle": 180,
+            "contrailSize": 64,
+            "style": "LOW_TECH"
+        },
+        {
+            "location": [
+                -103, -51
+            ],
+            "length": 24,
+            "width": 12,
+            "angle": 180,
+            "contrailSize": 64,
+            "style": "LOW_TECH"
+        }
+    ],
+    "bounds": [
+          -127.5,       29,
+            -107,    -13.5,
+          -105.5,      -50,
+             -87,      -78,
+              40,    -78.5,
+        
+            41.5,    -53.5,
+              15,      -53,
+              14,    -27.5,
+              98,      -26,
+             121,      -19,
+        
+           121.5,      1.5,
+             103,       17,
+              36,     29.5,
+             109,       40,
+           109.5,       68,
+        
+            40.5,     82.5,
+           -40.5,       84,
+           -75.5,     89.5,
+          -107.5,     73.5
+    # 19 points total.
+    ]
+}

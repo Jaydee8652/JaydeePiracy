@@ -1,0 +1,16 @@
+{
+	"id":"jdp_inactive",
+	"governingAptitude":"jdp_unique",
+	"compressHullmods":false,
+	"scope":"PILOTED_SHIP",
+	"effectGroups":[
+		{
+			"requiredSkillLevel":1,
+			"effectBasedOnLevel":false,
+			"effects":[
+				{"type":"SHIP", "script":"Jaydee8652.JaydeePiracy.scripts.skills.jdp_inactive$Level1"},
+				{"type":"SHIP", "script":"Jaydee8652.JaydeePiracy.scripts.skills.jdp_inactive$Level2"},
+			]
+		},
+	],
+}

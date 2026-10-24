@@ -1,0 +1,43 @@
+{
+    "displayName": "Locus",
+    "fluxCapacitors": 0,
+    "fluxVents": 0,
+    "goalVariant": false,
+    "hullId": "jdp_locus_hangar",
+    "hullMods": [
+        "fluxbreakers",
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "suppressedMods": [],
+    "variantId": "jdp_locus_hangar_Locus",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "ionpulser",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 002": "guardian",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 004": "irpulse",
+            }
+        },
+    ],
+    "wings": [
+        "flash_wing",
+        "lux_wing",
+        "spark_wing",
+    ],
+    "modules": [],
+}

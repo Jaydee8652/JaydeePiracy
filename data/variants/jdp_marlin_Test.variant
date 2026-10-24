@@ -1,0 +1,25 @@
+{
+    "displayName": "Test",
+    "fluxCapacitors": 10,
+    "fluxVents": 0,
+    "goalVariant": true,
+    "hullId": "jdp_marlin",
+    "hullMods": [
+        "frontemitter",
+        "hardenedshieldemitter",
+        "militarized_subsystems",
+        "stabilizedshieldemitter"
+    ],
+    "variantId": "jdp_marlin_Test",
+    "weaponGroups": [],
+    "modules": {
+        "JDP_Radiator 001L": "module_blocker2b_Standard",
+        "JDP_Radiator 002L": "module_blocker2b_Standard",
+        "JDP_Radiator 003L": "module_blocker2b_Standard",
+        "JDP_Radiator 004L": "module_blocker2b_Standard",
+        "JDP_Radiator 001R": "module_blocker2b_Standard",
+        "JDP_Radiator 002R": "module_blocker2b_Standard",
+        "JDP_Radiator 003R": "module_blocker2b_Standard",
+        "JDP_Radiator 004R": "module_blocker2b_Standard"
+    }
+}

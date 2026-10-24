@@ -1,0 +1,23 @@
+{
+	"id":"jdp_unstableburn",
+	"type":"ENGINE_MOD",
+    "aiType":"CUSTOM",
+    "aiScript":"Jaydee8652.JaydeePiracy.scripts.systems.jdp_UnstableBurnAI",
+	
+	"statsScript":"Jaydee8652.JaydeePiracy.scripts.systems.jdp_UnstableBurnStats",
+	
+	"engineGlowLengthMult":2.5,
+	"engineGlowWidthMult":3,
+	"engineGlowGlowMult":2,
+	
+	"flameoutOnImpactChance":0.25,
+
+	"clampTurnRateAfter":true,
+	"clampMaxSpeedAfter":true,
+	"alwaysAccelerate":true,
+
+	"useSound":"system_burn_drive_activate",
+	"loopSound":"system_burn_drive_loop",
+	"deactivateSound":"system_burn_drive_deactivate",
+	"outOfUsesSound":"engine_disabled",
+}

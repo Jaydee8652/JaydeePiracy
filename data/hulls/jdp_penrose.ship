@@ -1,0 +1,498 @@
+{
+    "hullName": "Penrose",
+    "hullId": "jdp_penrose",
+    "hullSize": "CAPITAL_SHIP",
+    "style": "OMEGA",
+    "spriteName": "graphics/ships/jdp_penrose/jdp_penrose.png",
+    "height": 660,
+    "width": 290,
+    "center": [
+        139, 460
+    ],
+    "collisionRadius": 500,
+    "coversColor": "",
+    "shieldCenter": [
+        0, 0
+    ],
+    "shieldRadius": 510,
+    "viewOffset": 0,
+    "builtInMods": [
+        "automated",
+        "jdp_mirrorShield",
+        "shared_flux_sink",
+        "fluxbreakers",
+        "shard_spawner",
+        "do_not_back_off"
+    ],
+    "builtInWings": [],
+    "builtInModules": null,
+    "weaponSlots": [
+        {
+            "id": "WS 000",
+            "size": "LARGE",
+            "type": "STATION_MODULE",
+            "mount": "HARDPOINT",
+            "arc": 0,
+            "angle": 0,
+            "locations": [
+                     -11,      -37
+            ]
+        },
+        {
+            "id": "WS 001",
+            "size": "LARGE",
+            "type": "STATION_MODULE",
+            "mount": "HARDPOINT",
+            "arc": 0,
+            "angle": 0,
+            "locations": [
+                   -68.5,       47
+            ]
+        },
+        {
+            "id": "WS 002",
+            "size": "LARGE",
+            "type": "STATION_MODULE",
+            "mount": "HARDPOINT",
+            "arc": 0,
+            "angle": 0,
+            "locations": [
+                      17,      -16
+            ]
+        },
+        {
+            "id": "WS 003",
+            "size": "LARGE",
+            "type": "STATION_MODULE",
+            "mount": "HARDPOINT",
+            "arc": 0,
+            "angle": 0,
+            "locations": [
+                     -78,      -10
+            ]
+        },
+        {
+            "id": "WS 004",
+            "size": "LARGE",
+            "type": "STATION_MODULE",
+            "mount": "HARDPOINT",
+            "arc": 0,
+            "angle": 0,
+            "locations": [
+                      56,       50
+            ]
+        },
+        {
+            "id": "WS 005",
+            "size": "LARGE",
+            "type": "STATION_MODULE",
+            "mount": "HARDPOINT",
+            "arc": 0,
+            "angle": 0,
+            "locations": [
+                      62,      -66
+            ]
+        },
+        {
+            "id": "WS 006",
+            "size": "LARGE",
+            "type": "UNIVERSAL",
+            "mount": "HARDPOINT",
+            "arc": 8,
+            "angle": -50,
+            "locations": [
+                   131.5,   -124.5
+            ]
+        },
+        {
+            "id": "WS 007",
+            "size": "LARGE",
+            "type": "UNIVERSAL",
+            "mount": "HARDPOINT",
+            "arc": 8,
+            "angle": 50,
+            "locations": [
+                    99.5,    108.5
+            ]
+        },
+        {
+            "id": "WS 008",
+            "size": "LARGE",
+            "type": "UNIVERSAL",
+            "mount": "TURRET",
+            "arc": 149,
+            "angle": 27,
+            "locations": [
+                     148,      -31
+            ]
+        },
+        {
+            "id": "WS 009",
+            "size": "LARGE",
+            "type": "UNIVERSAL",
+            "mount": "TURRET",
+            "arc": 215,
+            "angle": 14.5,
+            "locations": [
+                     101,      -12
+            ]
+        },
+        {
+            "id": "WS 010",
+            "size": "LARGE",
+            "type": "UNIVERSAL",
+            "mount": "TURRET",
+            "arc": 199,
+            "angle": 352.5,
+            "locations": [
+                     136,       41
+            ]
+        },
+        {
+            "id": "WS 011",
+            "size": "LARGE",
+            "type": "UNIVERSAL",
+            "mount": "TURRET",
+            "arc": 124,
+            "angle": 285.5,
+            "locations": [
+                      32,      -62
+            ]
+        },
+        {
+            "id": "WS 012",
+            "size": "LARGE",
+            "type": "UNIVERSAL",
+            "mount": "TURRET",
+            "arc": 199,
+            "angle": 58.5,
+            "locations": [
+                      43,       74
+            ]
+        },
+        {
+            "id": "WS 013",
+            "size": "LARGE",
+            "type": "UNIVERSAL",
+            "mount": "TURRET",
+            "arc": 360,
+            "angle": 0,
+            "locations": [
+                    -103,       -9
+            ]
+        },
+        {
+            "id": "WS 014",
+            "size": "LARGE",
+            "type": "UNIVERSAL",
+            "mount": "TURRET",
+            "arc": 111,
+            "angle": 200.5,
+            "locations": [
+                    -203,      -21
+            ]
+        },
+        {
+            "id": "WS 017",
+            "size": "MEDIUM",
+            "type": "UNIVERSAL",
+            "mount": "TURRET",
+            "arc": 124,
+            "angle": 284,
+            "locations": [
+                       8,      -78
+            ]
+        },
+        {
+            "id": "WS 018",
+            "size": "MEDIUM",
+            "type": "UNIVERSAL",
+            "mount": "TURRET",
+            "arc": 146,
+            "angle": 292.5,
+            "locations": [
+                     -15,      -42
+            ]
+        },
+        {
+            "id": "WS 019",
+            "size": "MEDIUM",
+            "type": "UNIVERSAL",
+            "mount": "TURRET",
+            "arc": 224,
+            "angle": 316,
+            "locations": [
+                     134,      -61
+            ]
+        },
+        {
+            "id": "WS 020",
+            "size": "MEDIUM",
+            "type": "UNIVERSAL",
+            "mount": "TURRET",
+            "arc": 214,
+            "angle": 71.5,
+            "locations": [
+                     -38,       78
+            ]
+        },
+        {
+            "id": "WS 021",
+            "size": "MEDIUM",
+            "type": "UNIVERSAL",
+            "mount": "TURRET",
+            "arc": 360,
+            "angle": 0,
+            "locations": [
+                     -67,        1
+            ]
+        },
+        {
+            "id": "WS 022",
+            "size": "MEDIUM",
+            "type": "UNIVERSAL",
+            "mount": "TURRET",
+            "arc": 122,
+            "angle": 223,
+            "locations": [
+                    -236,        5
+            ]
+        },
+        {
+            "id": "WS 023",
+            "size": "MEDIUM",
+            "type": "UNIVERSAL",
+            "mount": "TURRET",
+            "arc": 124,
+            "angle": 222.5,
+            "locations": [
+                    -187,      -75
+            ]
+        },
+        {
+            "id": "WS 024",
+            "size": "MEDIUM",
+            "type": "UNIVERSAL",
+            "mount": "TURRET",
+            "arc": 149,
+            "angle": 291.5,
+            "locations": [
+                     -77,      -86
+            ]
+        },
+        {
+            "id": "WS 025",
+            "size": "SMALL",
+            "type": "UNIVERSAL",
+            "mount": "TURRET",
+            "arc": 227,
+            "angle": 310,
+            "locations": [
+                      95,      -82
+            ]
+        },
+        {
+            "id": "WS 026",
+            "size": "SMALL",
+            "type": "UNIVERSAL",
+            "mount": "TURRET",
+            "arc": 169,
+            "angle": 277.5,
+            "locations": [
+                     -21,      -98
+            ]
+        },
+        {
+            "id": "WS 027",
+            "size": "SMALL",
+            "type": "UNIVERSAL",
+            "mount": "TURRET",
+            "arc": 117,
+            "angle": 211.5,
+            "locations": [
+                    -156,      -62
+            ]
+        },
+        {
+            "id": "WS 028",
+            "size": "SMALL",
+            "type": "UNIVERSAL",
+            "mount": "TURRET",
+            "arc": 87,
+            "angle": 204.5,
+            "locations": [
+                    -194,      -48
+            ]
+        },
+        {
+            "id": "WS 029",
+            "size": "SMALL",
+            "type": "UNIVERSAL",
+            "mount": "TURRET",
+            "arc": 220,
+            "angle": 203.5,
+            "locations": [
+                    -274,     -108
+            ]
+        },
+        {
+            "id": "WS 030",
+            "size": "SMALL",
+            "type": "UNIVERSAL",
+            "mount": "TURRET",
+            "arc": 226,
+            "angle": 202,
+            "locations": [
+                    -363,      -44
+            ]
+        },
+        {
+            "id": "WS 031",
+            "size": "LARGE",
+            "type": "UNIVERSAL",
+            "mount": "TURRET",
+            "arc": 222,
+            "angle": 203,
+            "locations": [
+                    -272,       -5
+            ]
+        },
+        {
+            "id": "WS 032",
+            "size": "SMALL",
+            "type": "UNIVERSAL",
+            "mount": "TURRET",
+            "arc": 107,
+            "angle": 228.5,
+            "locations": [
+                    -162,       -4
+            ]
+        },
+        {
+            "id": "WS 033",
+            "size": "SMALL",
+            "type": "UNIVERSAL",
+            "mount": "TURRET",
+            "arc": 134,
+            "angle": 65.5,
+            "locations": [
+                      -6,       90
+            ]
+        },
+        {
+            "id": "WS 034",
+            "size": "SMALL",
+            "type": "UNIVERSAL",
+            "mount": "TURRET",
+            "arc": 156,
+            "angle": 70.5,
+            "locations": [
+                      20,       67
+            ]
+        }
+    ],
+    "engineSlots": [
+        {
+            "location": [
+                -306, -104
+            ],
+            "length": 78,
+            "width": 16,
+            "angle": 180,
+            "contrailSize": 12,
+            "style": "OMEGA"
+        },
+        {
+            "location": [
+                -285.5, -83
+            ],
+            "length": 51,
+            "width": 15,
+            "angle": 180,
+            "contrailSize": 12,
+            "style": "OMEGA"
+        },
+        {
+            "location": [
+                -273.5, -67.5
+            ],
+            "length": 40.5,
+            "width": 17,
+            "angle": 180,
+            "contrailSize": 12,
+            "style": "OMEGA"
+        },
+        {
+            "location": [
+                -334, -9
+            ],
+            "length": 224,
+            "width": 70,
+            "angle": 180,
+            "contrailSize": 12,
+            "style": "OMEGA"
+        }
+    ],
+    "bounds": [
+          -454.5,      -59,
+            -266,    -62.5,
+            -315,     -114,
+          -261.5,     -113,
+            -237,   -107.5,
+        
+            -205,     -114,
+            -193,   -120.5,
+            -122,     -101,
+          -101.5,     -112,
+             -93,   -113.5,
+        
+             -82,     -120,
+             -57,     -121,
+            -0.5,     -103,
+            53.5,      -89,
+              95,   -102.5,
+        
+              95,     -107,
+             132,     -146,
+             139,   -131.5,
+           147.5,   -128.5,
+             166,   -129.5,
+        
+           147.5,   -107.5,
+           147.5,    -82.5,
+           167.5,      -66,
+           158.5,      -58,
+             180,      -37,
+        
+             194,    -35.5,
+             179,       -7,
+           189.5,      0.5,
+             163,     21.5,
+             156,       38,
+        
+             163,     57.5,
+             141,       77,
+             121,     98.5,
+           132.5,      115,
+           118.5,      106,
+        
+              99,      130,
+            86.5,      121,
+            49.5,    101.5,
+              35,     97.5,
+           -68.5,    102.5,
+        
+           -81.5,      111,
+            -112,       96,
+            -141,     88.5,
+            -170,       55,
+            -185,     50.5,
+        
+          -285.5,     48.5,
+          -348.5,       18,
+          -398.5,       -3,
+            -442,      -28,
+            -454,    -40.5
+    # 50 points total.
+    ]
+}

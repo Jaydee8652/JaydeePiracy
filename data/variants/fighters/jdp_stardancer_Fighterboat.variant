@@ -1,0 +1,35 @@
+{
+    "displayName": "Fighterboat",
+    "fluxCapacitors": 0,
+    "fluxVents": 0,
+    "goalVariant": false,
+    "hullId": "jdp_stardancer",
+    "hullMods": [],
+    "quality": 0.0,
+    "variantId": "jdp_stardancer_Fighterboat",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 005": "swarmer_fighter"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "lightac",
+                "WS 000": "lightac"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 004": "vulcan",
+                "WS 003": "vulcan"
+            }
+        }
+    ]
+}

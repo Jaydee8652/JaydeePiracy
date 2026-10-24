@@ -1,0 +1,16 @@
+{
+	"id":"jdp_atmosphagedispersal",
+	"governingAptitude":"industry", # why not
+	"compressHullmods":false,
+	"scope":"CUSTOM",
+	"scopeStr":"governed colony (not gas giants or standalone stations)",
+	"effectGroups":[
+		{
+			"requiredSkillLevel":1,
+			"effectBasedOnLevel":false,
+			"effects":[
+				{"type":"GOVERNED_OUTPOST", "script":"Jaydee8652.JaydeePiracy.scripts.skills.jdp_atmosphagedispersal$Level1"},
+			]
+		},
+	],
+}

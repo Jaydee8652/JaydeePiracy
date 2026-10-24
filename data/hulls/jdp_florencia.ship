@@ -1,0 +1,232 @@
+{
+    "hullName": "Florencia",
+    "hullId": "jdp_florencia",
+    "hullSize": "DESTROYER",
+    "style": "LOW_TECH",
+    "spriteName": "graphics/ships/jdp_florencia.png",
+    "height": 145,
+    "width": 146,
+    "center": [
+        73, 72.5
+    ],
+    "collisionRadius": 105,
+    "coversColor": "",
+    "shieldCenter": [
+        0, 0
+    ],
+    "shieldRadius": 105,
+    "viewOffset": 0,
+    "builtInMods": [
+        "civgrade",
+        "jdp_boardingNets"
+    ],
+    "builtInWings": [],
+    "builtInModules": null,
+    "weaponSlots": [
+        {
+            "id": "WS 000",
+            "size": "MEDIUM",
+            "type": "COMPOSITE",
+            "mount": "TURRET",
+            "arc": 210,
+            "angle": 284.5,
+            "locations": [
+                     -17,      -45
+            ]
+        },
+        {
+            "id": "WS 001",
+            "size": "MEDIUM",
+            "type": "COMPOSITE",
+            "mount": "TURRET",
+            "arc": 210,
+            "angle": 75.5,
+            "locations": [
+                     -17,       45
+            ]
+        },
+        {
+            "id": "WS 002",
+            "size": "SMALL",
+            "type": "BALLISTIC",
+            "mount": "TURRET",
+            "arc": 225,
+            "angle": 0,
+            "locations": [
+                      56,      -45
+            ]
+        },
+        {
+            "id": "WS 003",
+            "size": "SMALL",
+            "type": "BALLISTIC",
+            "mount": "TURRET",
+            "arc": 225,
+            "angle": 0,
+            "locations": [
+                      56,       45
+            ]
+        },
+        {
+            "id": "WS 005",
+            "size": "SMALL",
+            "type": "BALLISTIC",
+            "mount": "TURRET",
+            "arc": 205,
+            "angle": 180,
+            "locations": [
+                     -50,        0
+            ]
+        },
+        {
+            "id": "WS 004",
+            "size": "SMALL",
+            "type": "SYSTEM",
+            "mount": "HIDDEN",
+            "arc": 0,
+            "angle": 104.5,
+            "locations": [
+                     -35,     65.5
+            ]
+        },
+        {
+            "id": "WS 006",
+            "size": "SMALL",
+            "type": "SYSTEM",
+            "mount": "HIDDEN",
+            "arc": 0,
+            "angle": 255.5,
+            "locations": [
+                     -35,    -65.5
+            ]
+        },
+        {
+            "id": "WS 007",
+            "size": "SMALL",
+            "type": "SYSTEM",
+            "mount": "HIDDEN",
+            "arc": 0,
+            "angle": 315,
+            "locations": [
+                    41.5,    -65.5
+            ]
+        },
+        {
+            "id": "WS 008",
+            "size": "SMALL",
+            "type": "SYSTEM",
+            "mount": "HIDDEN",
+            "arc": 0,
+            "angle": 45,
+            "locations": [
+                    41.5,     65.5
+            ]
+        }
+    ],
+    "engineSlots": [
+        {
+            "location": [
+                -67, 47.5
+            ],
+            "length": 95,
+            "width": 27,
+            "angle": 180,
+            "contrailSize": 64,
+            "style": "LOW_TECH"
+        },
+        {
+            "location": [
+                -67, -47.5
+            ],
+            "length": 95,
+            "width": 27,
+            "angle": 180,
+            "contrailSize": 64,
+            "style": "LOW_TECH"
+        },
+        {
+            "location": [
+                -68, -11.5
+            ],
+            "length": 47,
+            "width": 16,
+            "angle": 180,
+            "contrailSize": 64,
+            "style": "LOW_TECH"
+        },
+        {
+            "location": [
+                -68, 11.5
+            ],
+            "length": 47,
+            "width": 16,
+            "angle": 180,
+            "contrailSize": 64,
+            "style": "LOW_TECH"
+        }
+    ],
+    "bounds": [
+              26,      5.5,
+              40,      7.5,
+              24,       10,
+            19.5,     15.5,
+            -5.5,     21.5,
+        
+            -2.5,       35,
+            10.5,     32.5,
+              63,       34,
+              68,       49,
+            56.5,       60,
+        
+              47,       62,
+            40.5,     67.5,
+            -1.5,     71.5,
+           -30.5,     72.5,
+           -33.5,       67,
+        
+           -48.5,     67.5,
+           -52.5,     63.5,
+             -65,       63,
+             -71,       53,
+             -71,       42,
+        
+             -67,       34,
+             -51,       34,
+             -40,     26.5,
+             -70,       24,
+             -70,        7,
+        
+             -66,        7,
+             -66,       -7,
+             -70,       -7,
+             -70,      -24,
+             -40,    -26.5,
+        
+             -51,      -34,
+             -67,      -34,
+             -71,      -42,
+             -71,      -53,
+             -65,      -63,
+        
+           -52.5,    -63.5,
+           -48.5,    -67.5,
+           -33.5,      -67,
+           -30.5,    -72.5,
+            -1.5,    -71.5,
+        
+             1.5,      -68,
+            40.5,    -67.5,
+              47,      -62,
+            56.5,      -60,
+              68,      -49,
+        
+              63,      -34,
+            10.5,    -32.5,
+            -2.5,      -35,
+            -5.5,    -21.5,
+            19.5,    -15.5,
+        
+              28,        0
+    # 51 points total.
+    ]
+}

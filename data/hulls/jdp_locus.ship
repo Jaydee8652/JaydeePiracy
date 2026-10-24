@@ -1,0 +1,182 @@
+{
+    "hullName": "Remnant Locus",
+    "hullId": "jdp_locus",
+    "hullSize": "CAPITAL_SHIP",
+    "style": "HIGH_TECH",
+    "spriteName": "graphics/ships/jdp_locus/jdp_locus.png",
+    "height": 510,
+    "width": 518,
+    "center": [
+        259.5, 214
+    ],
+    "collisionRadius": 425,
+    "coversColor": "",
+    "shieldCenter": [
+        0, 0
+    ],
+    "shieldRadius": 460,
+    "viewOffset": 0,
+    "builtInMods": [
+        "vastbulk",
+        "axialrotation",
+        "supercomputer",
+        "shared_flux_sink"
+    ],
+    "builtInWings": [],
+    "builtInModules": null,
+    "weaponSlots": [
+        {
+            "id": "WS 001",
+            "size": "LARGE",
+            "type": "STATION_MODULE",
+            "mount": "HARDPOINT",
+            "arc": 8,
+            "angle": 0,
+            "locations": [
+                   228.5,       -1
+            ]
+        },
+        {
+            "id": "WS 027",
+            "size": "LARGE",
+            "type": "STATION_MODULE",
+            "mount": "HARDPOINT",
+            "arc": 8,
+            "angle": 120,
+            "locations": [
+                    -118,      203
+            ]
+        },
+        {
+            "id": "WS 030",
+            "size": "LARGE",
+            "type": "STATION_MODULE",
+            "mount": "HARDPOINT",
+            "arc": 8,
+            "angle": -120,
+            "locations": [
+                    -123,     -205
+            ]
+        },
+        {
+            "id": "WS 032",
+            "size": "LARGE",
+            "type": "STATION_MODULE",
+            "mount": "HARDPOINT",
+            "arc": 8,
+            "angle": 180,
+            "locations": [
+                  -121.5,        1
+            ]
+        },
+        {
+            "id": "WS 033",
+            "size": "LARGE",
+            "type": "STATION_MODULE",
+            "mount": "HARDPOINT",
+            "arc": 8,
+            "angle": 60,
+            "locations": [
+                    56.5,    102.5
+            ]
+        },
+        {
+            "id": "WS 035",
+            "size": "LARGE",
+            "type": "STATION_MODULE",
+            "mount": "HARDPOINT",
+            "arc": 8,
+            "angle": 60,
+            "locations": [
+                     -71,    207.5
+            ]
+        },
+        {
+            "id": "WS 037",
+            "size": "LARGE",
+            "type": "STATION_MODULE",
+            "mount": "HARDPOINT",
+            "arc": 8,
+            "angle": -60,
+            "locations": [
+                   205.5,      -39
+            ]
+        },
+        {
+            "id": "WS 038",
+            "size": "LARGE",
+            "type": "STATION_MODULE",
+            "mount": "HARDPOINT",
+            "arc": 8,
+            "angle": -60,
+            "locations": [
+                    56.5,     -106
+            ]
+        },
+        {
+            "id": "WS 040",
+            "size": "LARGE",
+            "type": "STATION_MODULE",
+            "mount": "HARDPOINT",
+            "arc": 8,
+            "angle": 180,
+            "locations": [
+                  -151.5,     -161
+            ]
+        }
+    ],
+    "engineSlots": [],
+    "bounds": [
+             237,       26,
+           166.5,       39,
+           198.5,     94.5,
+             180,      114,
+           124.5,       82,
+        
+              80,     73.5,
+              79,      135,
+             3.5,      157,
+            19.5,      217,
+              -6,    229.5,
+        
+             -41,    189.5,
+             -85,    227.5,
+            -150,    236.5,
+          -157.5,    157.5,
+            -134,    131.5,
+        
+            -213,    119.5,
+            -213,     78.5,
+            -144,       74,
+          -166.5,       66,
+          -121.5,       29,
+        
+            -179,     14.5,
+            -179,    -14.5,
+          -121.5,      -29,
+          -166.5,      -66,
+            -144,      -74,
+        
+            -213,    -78.5,
+            -213,   -119.5,
+            -134,   -131.5,
+          -157.5,   -157.5,
+            -150,   -236.5,
+        
+             -85,   -227.5,
+             -41,   -189.5,
+              -6,   -229.5,
+            19.5,     -217,
+             3.5,     -157,
+        
+              79,     -135,
+              80,    -73.5,
+           124.5,      -82,
+             180,     -114,
+           198.5,    -94.5,
+        
+           166.5,      -39,
+             237,      -26
+    # 42 points total.
+    ]
+}

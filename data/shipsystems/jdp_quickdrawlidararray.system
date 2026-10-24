@@ -1,0 +1,23 @@
+{
+	"id":"jdp_quickdrawlidararray",
+	"type":"STAT_MOD",
+	"aiType":"LIDAR_ARRAY",
+	
+	"statsScript":"Jaydee8652.JaydeePiracy.scripts.systems.jdp_QuickdrawLidarArrayStats",
+
+	#"runScriptWhilePaused":true, # only for the player's ship
+	"runScriptWhileIdle":true, # unapply() never gets called
+		
+	"fadeActivationSoundOnChargedown":true,
+	#"useSound":"system_entropy",
+	#"loopSound":"system_entropy_loop",
+	#"deactivateSound":"system_entropy_off",
+	"outOfUsesSound":"gun_out_of_ammo",
+	
+	"aiHints":{
+	}
+}
+
+
+
+

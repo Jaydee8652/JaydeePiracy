@@ -1,0 +1,22 @@
+{
+	"quality":0.0,
+	"displayName":"Arc",
+	"hullId":"jdp_vertex",
+	"variantId":"jdp_vertex_Arc",
+	"fluxVents":0,
+	"fluxCapacitors":0,
+	"hullMods":["no_weapon_flux"], # array of strings
+	
+	# mode is either LINKED or ALTERNATING
+	# slot ids (WS ***) must match what's in the .ship file
+	"weaponGroups":[
+		        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "pdburst"
+			}
+        }
+	],
+
+}

@@ -1,0 +1,33 @@
+{
+    "displayName": "Omega",
+    "fluxCapacitors": 30,
+    "fluxVents": 30,
+    "goalVariant": true,
+    "hullId": "jdp_penrose_leftengine",
+    "hullMods": [
+        "armoredweapons",
+        "heavyarmor",
+        "pointdefenseai",
+        "reinforcedhull",
+        "safetyoverrides",
+        "targetingunit",
+        "turretgyros",
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "suppressedMods": [],
+    "variantId": "jdp_penrose_leftengine_Omega",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 000": "shockrepeater",
+                "WS 001": "shockrepeater",
+                "WS 002": "shockrepeater",
+            }
+        },
+    ],
+    "wings": [],
+    "modules": [],
+}

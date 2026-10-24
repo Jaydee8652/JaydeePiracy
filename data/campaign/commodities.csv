@@ -1,0 +1,2 @@
+name,id,demand class,base price,export value,price variability,utility,origin,tags,stack size,cargo space,icon,sound id,sound id drop,order,economyTier,econUnit,iconWidthMult,plugin,desc
+Omega Core,jdp_omega_core,ai_cores,,,,50,,"nonecon, no_loss_from_combat, codex_unlockable",1000,0,graphics/icons/cargo/jdp_omega_core.png,ai_core_pickup,ui_beta_core_drop,41,,,1,,

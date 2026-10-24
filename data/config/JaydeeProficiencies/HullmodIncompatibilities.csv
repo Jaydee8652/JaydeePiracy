@@ -1,0 +1,11 @@
+id,incompatibilities
+"#id of the target hullmod
+
+Should always be the id of the modded hullmod if making it incompatible with a vanilla hullmod","#List of ids for incompatible hullmods, 
+
+When the spec is loaded, all relationships are made reciprocal. Incompatibility only needs to be defined for one hullmod in the pair"
+jdp_maerulanPhaseCoils,adaptive_coils
+jdp_magneticAccelerator,"targetingunit, dedicated_targeting_core, DEX_targetcomp"
+jdp_missileSpeedloader,missleracks
+jdp_modularShip,"escort_package, frontshield, jdp_mercenaryRelay, converted_fighterbay, converted_hangar"
+jdp_mercenaryRelay,converted_fighterbay

@@ -1,0 +1,16 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 8,
+    "fluxVents": 8,
+    "goalVariant": true,
+    "hullId": "jdp_buffalo_pmmm",
+    "hullMods": ["auxiliarythrusters"],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "jdp_buffalo_pmmm_Standard",
+    "weaponGroups": [{
+        "autofire": true,
+        "mode": "LINKED",
+        "weapons": {"WS 001": "pdlaser"}
+    }]
+}

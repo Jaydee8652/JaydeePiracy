@@ -1,0 +1,59 @@
+{
+    "displayName": "Demon",
+    "fluxCapacitors": 0,
+    "fluxVents": 11,
+    "goalVariant": true,
+    "hullId": "jdp_laplacian",
+    "hullMods": [
+        "advancedshieldemitter",
+        "hardened_subsystems",
+        "hardenedshieldemitter",
+        "stabilizedshieldemitter",
+        "targetingunit",
+        "turretgyros",
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "suppressedMods": [],
+    "variantId": "jdp_laplacian_Demon",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 005": "resonatormrm",
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 002": "amsrm",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 000": "cryoblaster",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "minipulser",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 003": "riftlance",
+                "WS 004": "riftlance",
+            }
+        },
+    ],
+    "wings": [],
+    "modules": [],
+}

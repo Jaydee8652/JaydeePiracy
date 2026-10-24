@@ -1,0 +1,157 @@
+{
+    "hullName": "Lorica",
+    "hullId": "jdp_lorica",
+    "hullSize": "DESTROYER",
+    "style": "LOW_TECH",
+    "spriteName": "graphics/ships/jdp_lorica.png",
+    "height": 115,
+    "width": 136,
+    "center": [
+        68, 57.5
+    ],
+    "collisionRadius": 130,
+    "coversColor": "",
+    "shieldCenter": [
+        0, 0
+    ],
+    "shieldRadius": 100,
+    "viewOffset": 0,
+    "builtInMods": [
+        "reinforcedhull"
+    ],
+    "builtInWings": [],
+    "builtInModules": null,
+    "weaponSlots": [
+        {
+            "id": "WS 001",
+            "size": "MEDIUM",
+            "type": "BALLISTIC",
+            "mount": "TURRET",
+            "arc": 235,
+            "angle": 80,
+            "locations": [
+                    16.5,       49
+            ]
+        },
+        {
+            "id": "WS 002",
+            "size": "SMALL",
+            "type": "BALLISTIC",
+            "mount": "TURRET",
+            "arc": 235,
+            "angle": 0,
+            "locations": [
+                    36.5,       40
+            ]
+        },
+        {
+            "id": "WS 003",
+            "size": "SMALL",
+            "type": "BALLISTIC",
+            "mount": "TURRET",
+            "arc": 221,
+            "angle": 240,
+            "locations": [
+                   -23.5,      -42
+            ]
+        },
+        {
+            "id": "WS 004",
+            "size": "MEDIUM",
+            "type": "COMPOSITE",
+            "mount": "HARDPOINT",
+            "arc": 5,
+            "angle": 0,
+            "locations": [
+                    34.5,      -16
+            ]
+        },
+        {
+            "id": "WS 005",
+            "size": "MEDIUM",
+            "type": "COMPOSITE",
+            "mount": "HARDPOINT",
+            "arc": 5,
+            "angle": 0,
+            "locations": [
+                    34.5,      -44
+            ]
+        }
+    ],
+    "engineSlots": [
+        {
+            "location": [
+                -54.5, 16.5
+            ],
+            "length": 64,
+            "width": 20,
+            "angle": 180,
+            "contrailSize": 64,
+            "style": "LOW_TECH"
+        },
+        {
+            "location": [
+                -51.5, 0
+            ],
+            "length": 48,
+            "width": 20,
+            "angle": 180,
+            "contrailSize": 64,
+            "style": "LOW_TECH"
+        },
+        {
+            "location": [
+                -54.5, -16.5
+            ],
+            "length": 64,
+            "width": 20,
+            "angle": 180,
+            "contrailSize": 64,
+            "style": "LOW_TECH"
+        },
+        {
+            "location": [
+                -50.5, 30
+            ],
+            "length": 32,
+            "width": 12,
+            "angle": 180,
+            "contrailSize": 64,
+            "style": "LOW_TECH"
+        },
+        {
+            "location": [
+                -50.5, -30
+            ],
+            "length": 32,
+            "width": 12,
+            "angle": 180,
+            "contrailSize": 64,
+            "style": "LOW_TECH"
+        }
+    ],
+    "bounds": [
+            53.5,      0.5,
+            52.5,     29.5,
+              46,       35,
+            39.5,     61.5,
+            29.5,       62,
+        
+             1.5,     64.5,
+             0.5,       58,
+             -30,     43.5,
+             -51,       35,
+             -52,        0,
+        
+             -51,      -35,
+           -35.5,    -38.5,
+             -22,    -52.5,
+              -4,    -53.5,
+             0.5,      -63,
+        
+              40,      -61,
+              44,      -56,
+              44,     -8.5
+    # 18 points total.
+    ]
+}

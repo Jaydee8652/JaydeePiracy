@@ -1,0 +1,30 @@
+{
+	id:"jdp_eridaniutopia",
+
+	"color":[35,160,160,255],	
+	"baseUIColor":[35,160,160,255],
+
+	"displayName":"Eridani Utopia Terraforming",
+	"displayNameWithArticle":"Eridani Utopia Terraforming",
+	"logo":"graphics/factions/eridani_utopia.png",
+	"crest": "graphics/factions/eridani_utopia.png",
+	"showInIntelTab":false,
+	"names":{
+	},
+	"portraits":{
+	},
+	"music":{
+		"theme":"music_none",
+		"market_neutral":"music_none",
+		"market_hostile":"music_none",
+		"market_friendly":"music_none",
+		"encounter_neutral":"music_none",
+		"encounter_hostile":"music_none",
+		"encounter_friendly":"music_none",
+	},
+	"custom":{
+		"engageWhenEvenStrength":true,
+		"postsNoBounties":true,
+		"fightToTheLast":true, # order a full assault instead of retreating, in most cases
+	},	
+},

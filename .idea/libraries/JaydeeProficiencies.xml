@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="JaydeeProficiencies">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../JaydeeProficiencies/jars/JaydeeProficiencies.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

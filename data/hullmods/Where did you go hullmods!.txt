@@ -1,0 +1,3 @@
+Hullmods are now stored within the jar, the reasons for this are multifaceted, it provides a very minor performance boost for one. 
+
+The main thing however is that more complicated hullmods cannot run outside the jar, hence they have been moved for the convenience of having them all in one place.

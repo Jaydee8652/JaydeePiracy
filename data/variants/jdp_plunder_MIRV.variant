@@ -1,0 +1,34 @@
+{
+    "displayName": "MIRV",
+    "fluxCapacitors": 0,
+    "fluxVents": 0,
+    "goalVariant": true,
+    "hullId": "jdp_plunder",
+    "hullMods": [
+        "autorepair",
+        "hardened_subsystems",
+        "missleracks"
+    ],
+    "variantId": "jdp_plunder_MIRV",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 008": "vulcan",
+                "WS 007": "vulcan",
+                "WS 006": "vulcan"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 003": "hurricane"
+            }
+        }
+    ],
+    "modules": {
+        "WS 000": "jdp_plunder_cargo_Standard"
+    }
+}

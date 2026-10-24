@@ -1,0 +1,84 @@
+{
+    "displayName": "Artillery",
+    "fluxCapacitors": 0,
+    "fluxVents": 2,
+    "goalVariant": true,
+    "hullId": "jdp_cassius",
+    "hullMods": [
+        "eccm",
+        "missleracks",
+        "reinforcedhull",
+        "targetingunit",
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "suppressedMods": [],
+    "variantId": "jdp_cassius_Artillery",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 016": "gauss",
+                "WS 013": "gauss",
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 010": "pilum",
+                "WS 012": "pilum",
+                "WS 011": "pilum",
+                "WS 006": "pilum",
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 005": "hurricane",
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 000": "pilum",
+                "WS 001": "pilum",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 002": "hveldriver",
+                "WS 003": "hveldriver",
+                "WS 004": "hveldriver",
+                "WS 007": "hveldriver",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 018": "railgun",
+                "WS 019": "railgun",
+                "WS 021": "railgun",
+                "WS 020": "railgun",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 015": "vulcan",
+                "WS 009": "vulcan",
+                "WS 008": "vulcan",
+                "WS 014": "vulcan",
+            }
+        },
+    ],
+    "wings": [],
+    "modules": [],
+}

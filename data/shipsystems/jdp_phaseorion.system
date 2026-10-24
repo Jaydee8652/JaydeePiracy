@@ -1,0 +1,26 @@
+{
+	"id":"jdp_phaseorion",
+	"type":"STAT_MOD",
+	#"aiType":"NONE",
+	"aiType":"BURN_DRIVE",
+	
+	"statsScript":"Jaydee8652.JaydeePiracy.scripts.systems.jdp_PhaseOrionDeviceStats",
+
+	"runScriptWhileIdle":true, # unapply() never gets called
+
+	#"fadeActivationSoundOnChargedown":true,
+	
+	"useSound":"system_orion_device_fire",
+	"outOfUsesSound":"gun_out_of_ammo",
+	
+	"aiHints":{
+		"activeSpeedIncrease":0,
+		"burstMovementPotential":400,
+		"averageSpeedIncrease":100,
+	}
+	
+}
+
+
+
+

@@ -1,0 +1,102 @@
+{
+    "hullName": "Penrose Left Spire",
+    "hullId": "jdp_penrose_leftspire",
+    "hullSize": "DESTROYER",
+    "style": "OMEGA",
+    "spriteName": "graphics/ships/jdp_penrose/jdp_penrose_leftspire.png",
+    "height": 270,
+    "width": 120,
+    "center": [
+        60, 135
+    ],
+    "moduleAnchor": [
+        -200, 0
+    ],
+    "collisionRadius": 150,
+    "coversColor": "",
+    "shieldCenter": [
+        0, 0
+    ],
+    "shieldRadius": 155,
+    "viewOffset": 0,
+    "builtInMods": [
+        "automated",
+        "fluxbreakers",
+        "always_detaches",
+        "reduced_explosion",
+        "jdp_modularShip",
+        "shard_spawner"
+    ],
+    "builtInWings": [],
+    "builtInModules": null,
+    "weaponSlots": [
+        {
+            "id": "WS 000",
+            "size": "SMALL",
+            "type": "UNIVERSAL",
+            "mount": "TURRET",
+            "arc": 149,
+            "angle": 0,
+            "locations": [
+                     -19,      -42
+            ]
+        },
+        {
+            "id": "WS 001",
+            "size": "SMALL",
+            "type": "UNIVERSAL",
+            "mount": "TURRET",
+            "arc": 218,
+            "angle": 50.5,
+            "locations": [
+                     -53,        4
+            ]
+        },
+        {
+            "id": "WS 002",
+            "size": "MEDIUM",
+            "type": "UNIVERSAL",
+            "mount": "TURRET",
+            "arc": 223,
+            "angle": 0,
+            "locations": [
+                     -27,      -19
+            ]
+        },
+        {
+            "id": "WS 003",
+            "size": "LARGE",
+            "type": "UNIVERSAL",
+            "mount": "HARDPOINT",
+            "arc": 8,
+            "angle": 0,
+            "locations": [
+                      29,      -22
+            ]
+        }
+    ],
+    "engineSlots": [],
+    "bounds": [
+             131,     -4.5,
+              40,       10,
+          -106.5,     40.5,
+            -131,     54.5,
+          -135.5,       49,
+        
+           -92.5,        9,
+            -104,     -5.5,
+             -98,    -25.5,
+             -68,      -48,
+           -29.5,      -44,
+        
+           -17.5,      -52,
+           -11.5,      -47,
+              13,      -44,
+            48.5,      -34,
+              42,    -31.5,
+        
+              40,    -13.5,
+             120,    -13.5
+    # 17 points total.
+    ]
+}

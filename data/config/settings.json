@@ -1,0 +1,86 @@
+{
+	"plugins":{
+		"jdp_flowerfishPerpetualPursuitScript":"Jaydee8652.JaydeePiracy.scripts.skills.flowerfish.scripts.jdp_flowerfishPerpetualPursuitScript"
+	},  
+	"ruleCommandPackages":[
+        "Jaydee8652.JaydeePiracy.utils.rulecmd"
+    ],
+	"designTypeColors":{
+		"Consolidated Mysore-Congreve":[155,155,155,255],
+		"Kalafina Larme":[64,125,168,255],
+		"Aquamesh Biogenics":[24,24,119,255],
+		"Flowerfish Network":[187,36,55,255],
+		"Novel Technology":[70,36,115,255],
+		"VI Battlegroup":[130,104,149,255]
+	},
+	"graphics":{
+		"misc":{
+			"jdp_lunaSettingsIcon":"graphics/icons/jdp_icon.png",
+			"jdp_showOfForceAlpha":"graphics/icons/markets/jdp_showOfForceAlpha.png"
+	  	},
+		"campaignEntities":{
+			"jdp_missile":"graphics/stations/jdp_missile.png",
+			"jdp_missile_glow":"graphics/stations/jdp_missile_glow.png"
+		},
+		"glows":{
+            "jdp_laplacian_glow1":"graphics/ships/jdp_laplacian_glow1.png",
+            "jdp_laplacian_glow2":"graphics/ships/jdp_laplacian_glow2.png",
+			"jdp_lampstar":"graphics/planets/star_yellow-orange.jpg"
+        },
+		"illustrations":{
+			"jdp_grinhangar":"graphics/illustrations/jdp_grinhangar.png",
+			"jdp_station1":"graphics/illustrations/jdp_station1.png",
+			"jdp_station2":"graphics/illustrations/jdp_station2.png",
+			"jdp_station3":"graphics/illustrations/jdp_station3.png",
+			"jdp_comm_relay":"graphics/illustrations/jdp_comm_relay.png",
+			"jdp_sensor_array":"graphics/illustrations/jdp_sensor_array.png",
+			"jdp_missile":"graphics/illustrations/jdp_missile.png",
+			"jdp_derelictmissile":"graphics/illustrations/jdp_derelictmissile.png",
+			"jdp_derelictservers":"graphics/illustrations/jdp_derelictservers.png",
+			"jdp_derelictpenrose":"graphics/illustrations/jdp_derelictpenrose.png",
+			"jdp_gatehome":"graphics/illustrations/jdp_gatehome.png"
+		},
+		"ui":{
+			"jdp_icon_time":"graphics/warroom/jdp_icon_time.png",
+			"jdp_icon_ballistic":"graphics/warroom/jdp_icon_ballistic.png",
+			"jdp_icon_reticle":"graphics/warroom/jdp_icon_reticle.png",
+			"jdp_icon_energy":"graphics/warroom/jdp_icon_energy.png",
+			"jdp_icon_shield":"graphics/warroom/jdp_icon_shield.png",
+			"jdp_icon_armor":"graphics/warroom/jdp_icon_armor.png",
+			"jdp_icon_link":"graphics/warroom/jdp_icon_link.png",
+			"jdp_icon_relay":"graphics/warroom/jdp_icon_relay.png",
+			"jdp_icon_cuttlefish":"graphics/warroom/jdp_icon_cuttlefish.png",
+			"jdp_icon_true":"graphics/warroom/jdp_icon_true.png",
+			"jdp_icon_dual":"graphics/warroom/jdp_icon_dual.png",
+		},
+		
+		"characters":{
+			"jdp_calhoum":"graphics/portraits/jdp_calhoum.png",
+			"jdp_rulison":"graphics/portraits/jdp_rulison.png",
+			"jdp_demon":"graphics/portraits/jdp_demon.png",
+			"jdp_rampant":"graphics/portraits/jdp_rampant.png",
+			"jdp_paolo":"graphics/portraits/jdp_paolo.png",
+			"jdp_omega":"graphics/portraits/characters/omega.png",
+			"jdp_pendragon":"graphics/portraits/portrait_ai2b.png",
+			"jdp_pendragon2":"graphics/portraits/jdp_pendragon2.png",
+			"jdp_pendragon3":"graphics/portraits/jdp_pendragon3.png",
+			"jdp_deadcomm":"graphics/portraits/jdp_deadcomm.png",
+			"jdp_maerula":"graphics/portraits/jdp_maerula.png",
+			"jdp_wasabi":"graphics/portraits/jdp_wasabi.png",
+			"jdp_kabayaki":"graphics/portraits/jdp_kabayaki.png",
+			"jdp_dzintra":"graphics/portraits/jdp_dzintra.png",
+			"jdp_agyala":"graphics/portraits/jdp_agyala.png",
+			"jdp_marta":"graphics/portraits/jdp_marta.png",
+			"jdp_klaes":"graphics/portraits/jdp_klaes.png"
+		},
+		"hab_glows":{
+			"jdp_lightning":"graphics/planets/jdp_lightning.png"
+		}
+	}
+}
+
+
+
+
+
+

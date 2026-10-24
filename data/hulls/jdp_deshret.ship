@@ -1,0 +1,218 @@
+{
+    "hullName": "Deshret",
+    "hullId": "jdp_deshret",
+    "hullSize": "CRUISER",
+    "style": "LOW_TECH",
+    "spriteName": "graphics/ships/jdp_deshret.png",
+    "height": 208,
+    "width": 208,
+    "center": [
+        106, 104
+    ],
+    "collisionRadius": 125,
+    "coversColor": "",
+    "shieldCenter": [
+        0, 0
+    ],
+    "shieldRadius": 140,
+    "viewOffset": 0,
+    "builtInMods": [
+        "jdp_ancientTestbed",
+        "jdp_slatArmor",
+        "missile_autoloader"
+    ],
+    "builtInWeapons": {
+        "WS 007": "jdp_deshretlidar"
+    },
+    "builtInWings": [],
+    "builtInModules": null,
+    "weaponSlots": [
+        {
+            "id": "WS 000",
+            "size": "LARGE",
+            "type": "BALLISTIC",
+            "mount": "TURRET",
+            "arc": 210,
+            "angle": 90,
+            "locations": [
+                       7,       53
+            ]
+        },
+        {
+            "id": "WS 001",
+            "size": "LARGE",
+            "type": "BALLISTIC",
+            "mount": "TURRET",
+            "arc": 210,
+            "angle": 0,
+            "locations": [
+                      64,      -17
+            ]
+        },
+        {
+            "id": "WS 002",
+            "size": "LARGE",
+            "type": "BALLISTIC",
+            "mount": "TURRET",
+            "arc": 210,
+            "angle": -90,
+            "locations": [
+                     -23,      -65
+            ]
+        },
+        {
+            "id": "WS 004",
+            "size": "MEDIUM",
+            "type": "UNIVERSAL",
+            "mount": "HARDPOINT",
+            "arc": 5,
+            "angle": 0,
+            "locations": [
+                      64,       28
+            ]
+        },
+        {
+            "id": "WS 003",
+            "size": "SMALL",
+            "type": "MISSILE",
+            "mount": "HARDPOINT",
+            "arc": 5,
+            "angle": 90,
+            "locations": [
+                      -9,       99
+            ]
+        },
+        {
+            "id": "WS 006",
+            "size": "SMALL",
+            "type": "MISSILE",
+            "mount": "HARDPOINT",
+            "arc": 5,
+            "angle": 90,
+            "locations": [
+                     -29,       94
+            ]
+        },
+        {
+            "id": "WS 007",
+            "size": "SMALL",
+            "type": "DECORATIVE",
+            "mount": "TURRET",
+            "arc": 240,
+            "angle": 360,
+            "locations": [
+                      17,        0
+            ]
+        },
+        {
+            "id": "WS 005",
+            "size": "SMALL",
+            "type": "LAUNCH_BAY",
+            "mount": "HIDDEN",
+            "arc": 90,
+            "angle": 0,
+            "locations": [
+                      24,      -63,
+                      51,      -63,
+                      38,      -63
+            ]
+        }
+    ],
+    "engineSlots": [
+        {
+            "location": [
+                -89.5, 34.5
+            ],
+            "length": 64,
+            "width": 16,
+            "angle": 180,
+            "contrailSize": 64,
+            "style": "LOW_TECH"
+        },
+        {
+            "location": [
+                -88.5, 16
+            ],
+            "length": 74,
+            "width": 20,
+            "angle": 180,
+            "contrailSize": 64,
+            "style": "LOW_TECH"
+        },
+        {
+            "location": [
+                -88.5, -16
+            ],
+            "length": 74,
+            "width": 20,
+            "angle": 180,
+            "contrailSize": 64,
+            "style": "LOW_TECH"
+        },
+        {
+            "location": [
+                -89.5, -34.5
+            ],
+            "length": 64,
+            "width": 16,
+            "angle": 180,
+            "contrailSize": 64,
+            "style": "LOW_TECH"
+        },
+        {
+            "location": [
+                -100.5, 48.5
+            ],
+            "length": 60,
+            "width": 14,
+            "angle": 180,
+            "contrailSize": 64,
+            "style": "LOW_TECH"
+        },
+        {
+            "location": [
+                -100.5, -48.5
+            ],
+            "length": 60,
+            "width": 14,
+            "angle": 180,
+            "contrailSize": 64,
+            "style": "LOW_TECH"
+        }
+    ],
+    "bounds": [
+            92.5,    -10.5,
+              86,       -6,
+              86,     37.5,
+             102,       38,
+              98,     62.5,
+        
+            41.5,       73,
+              47,       90,
+            36.5,    100.5,
+             -11,    104.5,
+           -49.5,       91,
+        
+             -91,     77.5,
+          -102.5,       44,
+           -91.5,     40.5,
+             -90,        8,
+            -103,        0,
+        
+             -90,       -8,
+           -91.5,    -40.5,
+          -102.5,      -44,
+             -91,    -77.5,
+           -49.5,      -91,
+        
+           -11.5,   -100.5,
+              22,    -98.5,
+              39,      -89,
+              40,      -79,
+              97,      -62,
+        
+             100,      -40,
+            92.5,      -33
+    # 27 points total.
+    ]
+}

@@ -1,0 +1,47 @@
+{
+    "displayName": "Escort",
+    "fluxCapacitors": 0,
+    "fluxVents": 0,
+    "goalVariant": true,
+    "hullId": "jdp_pup",
+    "hullMods": [
+        "do_not_fire_through",
+        "advancedcore",
+        "missleracks"
+    ],
+    "quality": 0.0,
+    "variantId": "jdp_pup_Escort",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 004": "phasebeam",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "swarmer_fighter",
+                "WS 000": "swarmer_fighter"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 005": "atropos_single",
+                "WS 006": "atropos_single",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 003": "pdburst",
+                "WS 002": "pdburst"
+            }
+        }
+    ]
+}

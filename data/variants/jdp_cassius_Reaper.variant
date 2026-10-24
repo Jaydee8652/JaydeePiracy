@@ -1,0 +1,64 @@
+{
+    "displayName": "Reaper",
+    "fluxCapacitors": 0,
+    "fluxVents": 7,
+    "goalVariant": true,
+    "hullId": "jdp_cassius",
+    "hullMods": [
+        "eccm",
+        "missleracks",
+        "reinforcedhull",
+        "targetingunit",
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "suppressedMods": [],
+    "variantId": "jdp_cassius_Reaper",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 016": "devastator",
+                "WS 013": "devastator",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 000": "typhoon",
+                "WS 001": "typhoon",
+                "WS 002": "hveldriver",
+                "WS 003": "hveldriver",
+                "WS 010": "typhoon",
+                "WS 012": "typhoon",
+                "WS 011": "typhoon",
+                "WS 006": "typhoon",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 005": "cyclone",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 015": "vulcan",
+                "WS 021": "railgun",
+                "WS 009": "vulcan",
+                "WS 020": "railgun",
+                "WS 008": "vulcan",
+                "WS 004": "hveldriver",
+                "WS 014": "vulcan",
+                "WS 007": "hveldriver",
+            }
+        },
+    ],
+    "wings": [],
+    "modules": [],
+}

@@ -1,0 +1,130 @@
+{
+    "hullName": "Remnant Weapon Spire",
+    "hullId": "jdp_locus_spire",
+    "hullSize": "FRIGATE",
+    "style": "HIGH_TECH",
+    "spriteName": "graphics/ships/jdp_locus/jdp_locus_spire.png",
+    "height": 270,
+    "width": 154,
+    "center": [
+        77, 135
+    ],
+    "moduleAnchor": [
+        -115, 0
+    ],
+    "collisionRadius": 160,
+    "coversColor": "",
+    "shieldCenter": [
+        -233, 0
+    ],
+    "shieldRadius": 425,
+    "viewOffset": 0,
+    "builtInMods": [
+        "supercomputer",
+        "reduced_explosion"
+    ],
+    "builtInWings": [],
+    "builtInModules": null,
+    "weaponSlots": [
+        {
+            "id": "WS 001",
+            "size": "LARGE",
+            "type": "UNIVERSAL",
+            "mount": "TURRET",
+            "arc": 150,
+            "angle": 0,
+            "locations": [
+                   -16.5,    -26.5
+            ]
+        },
+        {
+            "id": "WS 002",
+            "size": "LARGE",
+            "type": "UNIVERSAL",
+            "mount": "TURRET",
+            "arc": 200,
+            "angle": 0,
+            "locations": [
+                    37.5,    -26.5
+            ]
+        },
+        {
+            "id": "WS 004",
+            "size": "LARGE",
+            "type": "MISSILE",
+            "mount": "HARDPOINT",
+            "arc": 6,
+            "angle": 0,
+            "locations": [
+                    95.5,    -26.5
+            ]
+        },
+        {
+            "id": "WS 000",
+            "size": "LARGE",
+            "type": "UNIVERSAL",
+            "mount": "TURRET",
+            "arc": 150,
+            "angle": 0,
+            "locations": [
+                     -50,      7.5
+            ]
+        },
+        {
+            "id": "WS 003",
+            "size": "MEDIUM",
+            "type": "UNIVERSAL",
+            "mount": "TURRET",
+            "arc": 120,
+            "angle": 60,
+            "locations": [
+                      11,        9
+            ]
+        },
+        {
+            "id": "WS 005",
+            "size": "SMALL",
+            "type": "ENERGY",
+            "mount": "TURRET",
+            "arc": 130,
+            "angle": 310,
+            "locations": [
+                      56,    -49.5
+            ]
+        },
+        {
+            "id": "WS 006",
+            "size": "SMALL",
+            "type": "ENERGY",
+            "mount": "TURRET",
+            "arc": 140,
+            "angle": 55,
+            "locations": [
+                     -16,        0
+            ]
+        }
+    ],
+    "engineSlots": [],
+    "bounds": [
+           -50.5,      -74,
+             -91,      -41,
+           -93.5,       26,
+             -65,     47.5,
+           -34.5,       37,
+        
+           -28.5,       43,
+              -5,     42.5,
+              37,     22.5,
+            83.5,     21.5,
+            83.5,     -9.5,
+        
+             110,    -11.5,
+             110,      -42,
+             132,      -47,
+             135,    -57.5,
+              44,      -66,
+        
+            22.5,      -50
+    # 16 points total.
+    ]
+}

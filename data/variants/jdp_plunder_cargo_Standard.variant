@@ -1,0 +1,11 @@
+{
+    "displayName": "Erroneous",
+    "fluxCapacitors": 0,
+    "fluxVents": 0,
+    "hullId": "jdp_plunder_cargo",
+    "hullMods": [
+    ],
+    "quality": 0.5,
+    "variantId": "jdp_plunder_cargo_Standard",
+    "weaponGroups": []
+}

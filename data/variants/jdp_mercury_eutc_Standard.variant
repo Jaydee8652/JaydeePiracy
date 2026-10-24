@@ -1,0 +1,17 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 10,
+    "fluxVents": 8,
+    "goalVariant": true,
+    "hullId": "jdp_mercury_eutc",
+    "hullMods": [],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "jdp_mercury_eutc_Standard",
+    "weaponGroups": [{
+        "autofire": true,
+        "mode": "LINKED",
+        "weapons": {
+        }
+    }]
+}

@@ -1,0 +1,29 @@
+{
+	"id":"jdp_antimatter_injector",  # this id must match what's in the spreadsheet
+	"specClass":"projectile",
+	"type":"DECORATIVE",
+	"size":"MEDIUM",
+	"everyFrameEffect":"Jaydee8652.JaydeePiracy.scripts.weapons.jdp_AntimatterInjectorEffect",
+	"turretSprite":"graphics/weapons/jdp_antimatter_injector.png",
+	"turretGlowSprite":"graphics/weapons/pseudoparticle_turret_glow.png",
+	"hardpointSprite":"graphics/weapons/jdp_antimatter_injector.png",
+	"hardpointGlowSprite":"graphics/weapons/pseudoparticle_hardpoint_glow.png",
+	"glowColor":[255,128,51,150],
+	"turretOffsets":[6, 0], #15
+	"turretAngleOffsets":[0],
+	"hardpointOffsets":[8, 0],#15
+	"hardpointAngleOffsets":[0],
+	"barrelMode":"ALTERNATING", # or LINKED.  whether barrels fire at the same time or alternate.
+	"unaffectedByProjectileSpeedBonuses":true,
+	"animationType":"GLOW_AND_FLASH",
+	"muzzleFlashSpec":{"length":12.0,   # only used if animationType = MUZZLE_FLASH or GLOW_AND_FLASH
+					   "spread":4.0,
+					   "particleSizeMin":8.0,
+					   "particleSizeRange":5.0,
+					   "particleDuration":0.3,
+					   "particleCount":8,
+					   "particleColor":[120,10,45,255]},
+	"autocharge":true,  # whether the weapon will continue charging and fire if the LMB is tapped instead of held
+	"projectileSpecId":"jdp_antimatter_injector_shot",  # projectile that will be fired
+	"noImpactSounds":true,
+}

@@ -1,0 +1,44 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 0,
+    "fluxVents": 4,
+    "goalVariant": true,
+    "hullId": "jdp_tripathia",
+    "hullMods": [
+        "armoredweapons",
+        "autorepair",
+        "auxiliarythrusters",
+        "blast_doors",
+        "heavyarmor",
+        "reinforcedhull",
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "suppressedMods": [],
+    "variantId": "jdp_tripathia_Standard",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 005": "jdp_broadhead_he",
+                "WS 003": "jdp_broadhead_he",
+                "WS 001": "jdp_broadhead_he",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 000": "jdp_broadhead_he",
+                "WS 002": "jdp_broadhead_he",
+                "WS 004": "jdp_broadhead_he",
+            }
+        },
+    ],
+    "wings": [
+        "jdp_stardancer_wing",
+        "jdp_stardancer_wing",
+    ],
+    "modules": [],
+}

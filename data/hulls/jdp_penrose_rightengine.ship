@@ -1,0 +1,103 @@
+{
+    "hullName": "Penrose Right Engine",
+    "hullId": "jdp_penrose_rightengine",
+    "hullSize": "DESTROYER",
+    "style": "OMEGA",
+    "spriteName": "graphics/ships/jdp_penrose/jdp_penrose_rightengine.png",
+    "height": 240,
+    "width": 90,
+    "center": [
+        45, 120
+    ],
+    "moduleAnchor": [
+        150, 100
+    ],
+    "collisionRadius": 120,
+    "coversColor": "",
+    "shieldCenter": [
+        0, 0
+    ],
+    "shieldRadius": 120,
+    "viewOffset": 0,
+    "builtInMods": [
+        "automated",
+        "fluxbreakers",
+        "always_detaches",
+        "reduced_explosion",
+        "jdp_linkedEngines",
+        "jdp_modularShip",
+        "shard_spawner"
+    ],
+    "builtInWings": [],
+    "builtInModules": null,
+    "weaponSlots": [
+        {
+            "id": "WS 000",
+            "size": "MEDIUM",
+            "type": "UNIVERSAL",
+            "mount": "TURRET",
+            "arc": 139,
+            "angle": 299,
+            "locations": [
+                      12,       10
+            ]
+        },
+        {
+            "id": "WS 001",
+            "size": "SMALL",
+            "type": "UNIVERSAL",
+            "mount": "TURRET",
+            "arc": 273,
+            "angle": 205.5,
+            "locations": [
+                     -45,      -17
+            ]
+        }
+    ],
+    "engineSlots": [
+        {
+            "location": [
+                -94.5, -23
+            ],
+            "length": 50,
+            "width": 18,
+            "angle": 180,
+            "contrailSize": 12,
+            "style": "OMEGA"
+        },
+        {
+            "location": [
+                -80, 9.5
+            ],
+            "length": 61,
+            "width": 20,
+            "angle": 180,
+            "contrailSize": 12,
+            "style": "OMEGA"
+        }
+    ],
+    "bounds": [
+           -94.5,    -40.5,
+             -26,      -24,
+            50.5,       -2,
+            29.5,    -24.5,
+              90,     -6.5,
+        
+             113,     18.5,
+            77.5,       17,
+              69,       25,
+            54.5,       28,
+            36.5,       38,
+        
+             -25,     18.5,
+             -35,       18,
+           -63.5,     29.5,
+             -92,     28.5,
+           -83.5,     18.5,
+        
+           -92.5,       11,
+             -83,        1,
+          -104.5,      -32
+    # 18 points total.
+    ]
+}

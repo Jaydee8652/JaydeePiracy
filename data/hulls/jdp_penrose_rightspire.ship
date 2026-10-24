@@ -1,0 +1,115 @@
+{
+    "hullName": "Penrose Right Spire",
+    "hullId": "jdp_penrose_rightspire",
+    "hullSize": "CRUISER",
+    "style": "OMEGA",
+    "spriteName": "graphics/ships/jdp_penrose/jdp_penrose_rightspire.png",
+    "height": 340,
+    "width": 140,
+    "center": [
+        70, 170
+    ],
+    "moduleAnchor": [
+        -250, 0
+    ],
+    "collisionRadius": 170,
+    "coversColor": "",
+    "shieldCenter": [
+        0, 0
+    ],
+    "shieldRadius": 180,
+    "viewOffset": 0,
+    "builtInMods": [
+        "automated",
+        "fluxbreakers",
+        "always_detaches",
+        "reduced_explosion",
+        "jdp_modularShip",
+        "shard_spawner"
+    ],
+    "builtInWings": [],
+    "builtInModules": null,
+    "weaponSlots": [
+        {
+            "id": "WS 000",
+            "size": "MEDIUM",
+            "type": "UNIVERSAL",
+            "mount": "TURRET",
+            "arc": 137,
+            "angle": 302.5,
+            "locations": [
+                    -147,      -23
+            ]
+        },
+        {
+            "id": "WS 001",
+            "size": "MEDIUM",
+            "type": "UNIVERSAL",
+            "mount": "TURRET",
+            "arc": 154,
+            "angle": 304,
+            "locations": [
+                    -129,        2
+            ]
+        },
+        {
+            "id": "WS 002",
+            "size": "MEDIUM",
+            "type": "UNIVERSAL",
+            "mount": "TURRET",
+            "arc": 233,
+            "angle": 0,
+            "locations": [
+                     -33,       25
+            ]
+        },
+        {
+            "id": "WS 004",
+            "size": "SMALL",
+            "type": "UNIVERSAL",
+            "mount": "TURRET",
+            "arc": 246,
+            "angle": 0,
+            "locations": [
+                     115,       14
+            ]
+        },
+        {
+            "id": "WS 003",
+            "size": "SMALL",
+            "type": "UNIVERSAL",
+            "mount": "TURRET",
+            "arc": 195,
+            "angle": 48,
+            "locations": [
+                       0,       20
+            ]
+        }
+    ],
+    "engineSlots": [],
+    "bounds": [
+          -137.5,      -57,
+          -100.5,    -35.5,
+             162,        1,
+           160.5,      9.5,
+           138.5,        9,
+        
+             146,     13.5,
+            97.5,       33,
+              96,       44,
+             9.5,       41,
+           -12.5,       50,
+        
+             -66,       48,
+             -89,       57,
+            -116,       59,
+            -132,       65,
+          -118.5,     33.5,
+        
+            -151,     13.5,
+            -145,        1,
+          -164.5,      -16,
+          -164.5,      -41
+    # 19 points total.
+    ]
+}

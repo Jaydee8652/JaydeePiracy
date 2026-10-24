@@ -1,0 +1,21 @@
+{
+	"id":"jdp_grapple_shot",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC",
+	"onHitEffect":"Jaydee8652.JaydeePiracy.scripts.weapons.jdp_Grapple",
+	"onFireEffect":"Jaydee8652.JaydeePiracy.scripts.weapons.jdp_Grapple",
+	"collisionClass":"PROJECTILE_FF",
+	"collisionClassByFighter":"PROJECTILE_FIGHTER",	
+	"length":180.0,
+	"width":9.5,
+	"fadeTime":0.3,
+	"fringeColor":[70,186,221,150],
+	"coreColor":[235,255,235,255],
+	"behaviorSpec":{"behavior":"CUSTOM",
+		"lineColor":[0,255,0,255],
+	},
+	"hitGlowRadius":100,
+	"textureScrollSpeed":64.0,
+	"pixelsPerTexel":5.0,
+	"bulletSprite":"graphics/proj/jdp_icebreaker_shot.png"
+}

@@ -1,0 +1,10 @@
+{
+	"posts":{
+		"executive_officer_jdp_flowerfish": {"name":"Executive Officer (Flowerfish)"},
+		"specialist_terraformer": {"name":"Specialist (Terraformer)"},
+		"specialist_instrument": {"name":"Specialist (Instrument)"}
+	},
+	"ranks":{
+		"jdp_engineer":{"name":"Engineer-Executive"}
+	}
+}

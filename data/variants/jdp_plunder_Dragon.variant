@@ -1,0 +1,34 @@
+{
+    "displayName": "Dragon",
+    "fluxCapacitors": 0,
+    "fluxVents": 1,
+    "goalVariant": true,
+    "hullId": "jdp_plunder",
+    "hullMods": [
+        "autorepair",
+        "missleracks",
+        "pointdefenseai"
+    ],
+    "variantId": "jdp_plunder_Dragon",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 006": "vulcan",
+                "WS 007": "vulcan",
+                "WS 008": "vulcan"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 003": "dragonpod"
+            }
+        }
+    ],
+    "modules": {
+        "WS 000": "jdp_plunder_cargo_Standard"
+    }
+}

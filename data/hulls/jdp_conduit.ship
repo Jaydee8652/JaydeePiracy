@@ -1,0 +1,207 @@
+{
+    "hullName": "Conduit",
+    "hullId": "jdp_conduit",
+    "hullSize": "CRUISER",
+    "style": "HIGH_TECH",
+    "spriteName": "graphics/ships/jdp_conduit.png",
+    "height": 312,
+    "width": 150,
+    "center": [
+        75, 152
+    ],
+    "collisionRadius": 185,
+    "coversColor": "255,255,255,255",
+    "shieldCenter": [
+        0, 0
+    ],
+    "shieldRadius": 175,
+    "viewOffset": 0,
+    "builtInMods": [
+        "jdp_throughdeckBays"
+    ],
+    "builtInWings": [],
+    "builtInModules": null,
+    "weaponSlots": [
+        {
+            "id": "WS 001",
+            "size": "SMALL",
+            "type": "ENERGY",
+            "mount": "TURRET",
+            "arc": 155,
+            "angle": 256.5,
+            "locations": [
+                     -52,      -48
+            ]
+        },
+        {
+            "id": "WS 002",
+            "size": "MEDIUM",
+            "type": "ENERGY",
+            "mount": "TURRET",
+            "arc": 210,
+            "angle": 286.5,
+            "locations": [
+                      39,      -56
+            ]
+        },
+        {
+            "id": "WS 003",
+            "size": "SMALL",
+            "type": "ENERGY",
+            "mount": "TURRET",
+            "arc": 210,
+            "angle": 70,
+            "locations": [
+                      31,       61
+            ]
+        },
+        {
+            "id": "WS 004",
+            "size": "LARGE",
+            "type": "SYNERGY",
+            "mount": "TURRET",
+            "arc": 165,
+            "angle": 55,
+            "locations": [
+                     -26,       41
+            ]
+        },
+        {
+            "id": "WS 005",
+            "size": "MEDIUM",
+            "type": "UNIVERSAL",
+            "mount": "HARDPOINT",
+            "arc": 5,
+            "angle": 0,
+            "locations": [
+                      68,       46
+            ]
+        },
+        {
+            "id": "LB 000",
+            "size": "SMALL",
+            "type": "LAUNCH_BAY",
+            "mount": "HIDDEN",
+            "arc": 0,
+            "angle": 0,
+            "locations": [
+                     -94,       10,
+                     -94,      -21,
+                   -77.5,      -21,
+                   -59.5,      -21
+            ]
+        },
+        {
+            "id": "LB 001",
+            "size": "SMALL",
+            "type": "LAUNCH_BAY",
+            "mount": "HIDDEN",
+            "arc": 0,
+            "angle": 0,
+            "locations": [
+                      21,       13,
+                    46.5,       13,
+                    72.5,       13,
+                    72.5,    -16.5,
+                    46.5,    -16.5
+            ]
+        }
+    ],
+    "engineSlots": [
+        {
+            "location": [
+                -150.5, -39
+            ],
+            "length": 80,
+            "width": 16,
+            "angle": 180,
+            "contrailSize": 64,
+            "style": "HIGH_TECH"
+        },
+        {
+            "location": [
+                -143.5, -58
+            ],
+            "length": 80,
+            "width": 16,
+            "angle": 180,
+            "contrailSize": 64,
+            "style": "HIGH_TECH"
+        },
+        {
+            "location": [
+                -150.5, 31
+            ],
+            "length": 80,
+            "width": 16,
+            "angle": 180,
+            "contrailSize": 64,
+            "style": "HIGH_TECH"
+        },
+        {
+            "location": [
+                -143.5, 50
+            ],
+            "length": 80,
+            "width": 16,
+            "angle": 180,
+            "contrailSize": 64,
+            "style": "HIGH_TECH"
+        }
+    ],
+    "bounds": [
+            -151,      -33,
+            -143,    -28.5,
+          -114.5,      -28,
+          -130.5,     -5.5,
+          -114.5,     18.5,
+        
+          -142.5,       19,
+            -151,       25,
+            -151,       36,
+            -144,       44,
+            -144,     55.5,
+        
+          -103.5,     66.5,
+           -63.5,       56,
+             -35,     74.5,
+            -9.5,     73.5,
+              -1,     67.5,
+        
+            34.5,     72.5,
+              50,     58.5,
+              77,     55.5,
+            77.5,       43,
+             112,     38.5,
+        
+             112,       35,
+           143.5,     34.5,
+           143.5,     25.5,
+             130,       25,
+           129.5,        8,
+        
+           135.5,      2.5,
+             136,    -13.5,
+           128.5,      -19,
+           127.5,      -31,
+           157.5,    -31.5,
+        
+           157.5,      -43,
+             128,      -43,
+             105,    -57.5,
+              84,      -58,
+            50.5,    -69.5,
+        
+              16,      -74,
+               9,      -64,
+              -6,    -68.5,
+             -42,      -61,
+           -60.5,    -66.5,
+        
+             -99,    -73.5,
+          -143.5,    -64.5,
+          -143.5,    -51.5,
+            -151,    -44.5
+    # 44 points total.
+    ]
+}

@@ -1,0 +1,45 @@
+JaydeePiracy hereby humbly wishes to thank the following people for their contributions, without which this mod would not exist.
+
+In keeping with the Tartiflette Accords, all assets in this mod are free to use for Starsector Modding. I have only one condition for using these assets, 
+tell me about it! I want to know what you are up to!
+
+(I have no power to stop you, but I would wag my finger disapprovingly if you fed my work into a generative AI, my official stance is don't) 
+
+*Currently unused
+
+Lukas04 - Without which I probably wouldn't know Java at all
+El Jojo - Valued collaborator
+NEON - Valued collaborator
+MiniDeth - Created the Omega Flag for me 
+Pathman - Inspired the Interfector
+niko - I stole the character of the Electronics Officer for a cheap gag
+
+==Kitbash Fodder==
+Selkie - Deshret*
+Astarat - Marlin*  
+Tartiflette - Tripathia*    
+MesoTroniK - Beleagure (Very Large Mount)*
+Sparranova - Beleagure*
+
+kirbotheturbo - Iota
+Mae1strom - Penrose
+Sleepyfish - Penrose
+Sikair - Eider
+Magia Quartet - Feels weird to credit, but like, the Holy Quintets faces are in here and they did those character designs.
+
+==Code==
+Nia Tahl - AI core officer code, Afterimage code*
+shoi - Ground assault fighter code*
+Rolfos - Reflection Knowledge
+
+Tartiflette - Assorted system and weapon AI
+Wisp - System generation code
+Crablobab - Custom skill descriptions
+TouchOfVanilla - Old system generation code (Depreciated, but I like them and they deserve the shoutout anyway)
+Nick XR - Fighter AI
+Sleepyfish - Module engine linkage code
+combustiblemon - Modular built-in fighter code
+
+
+
+This file also provides the version number at a glance! Neat Huh!

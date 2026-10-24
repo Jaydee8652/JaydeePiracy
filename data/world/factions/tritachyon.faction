@@ -1,0 +1,16 @@
+{
+    "hullFrequency":{
+        "hulls":{
+            "jdp_meridian":0.5,
+            "jdp_cydonia":0.05,
+            "jdp_thunderer":0.15,
+        },
+    },
+    "knownShips":{
+        "hulls":[
+            "jdp_meridian",
+            "jdp_cydonia",
+            "jdp_thunderer"
+        ],
+    },
+},

@@ -1,0 +1,86 @@
+{
+    "displayName": "Lion",
+    "fluxCapacitors": 0,
+    "fluxVents": 31,
+    "goalVariant": true,
+    "hullId": "jdp_supremator",
+    "hullMods": [
+        "targetingunit",
+        "turretgyros",
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "suppressedMods": [],
+    "variantId": "jdp_supremator_Lion",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 001": "squall",
+                "WS 002": "hurricane",
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 000": "pilum",
+                "WS 020": "pilum",
+                "WS 019": "pilum",
+                "WS 013": "pilum",
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 012": "gigacannon",
+                "WS 011": "gigacannon",
+                "WS 014": "gigacannon",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 008": "irpulse",
+                "WS 007": "irpulse",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 005": "irpulse",
+                "WS 006": "irpulse",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 023": "pulselaser",
+                "WS 022": "pulselaser",
+                "WS 015": "pulselaser",
+                "WS 016": "pulselaser",
+                "WS 017": "pulselaser",
+                "WS 018": "pulselaser",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 003": "pdburst",
+                "WS 021": "pdburst",
+                "WS 009": "pdburst",
+                "WS 024": "pdburst",
+                "WS 004": "pdburst",
+                "WS 010": "pdburst",
+            }
+        },
+    ],
+    "wings": [],
+    "modules": [],
+}

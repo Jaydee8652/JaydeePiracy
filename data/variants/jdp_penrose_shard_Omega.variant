@@ -1,0 +1,39 @@
+{
+    "displayName": "Omega",
+    "fluxCapacitors": 20,
+    "fluxVents": 20,
+    "goalVariant": true,
+    "hullId": "jdp_penrose_shard",
+    "hullMods": [
+        "armoredweapons",
+        "fluxdistributor",
+        "heavyarmor",
+        "pointdefenseai",
+        "reinforcedhull",
+        "safetyoverrides",
+        "targetingunit",
+        "turretgyros",
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "suppressedMods": [],
+    "variantId": "jdp_penrose_shard_Omega",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 000": "cryoblaster",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "shockrepeater",
+            }
+        },
+    ],
+    "wings": [],
+    "modules": [],
+}

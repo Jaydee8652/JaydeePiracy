@@ -1,0 +1,80 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 29,
+    "fluxVents": 50,
+    "goalVariant": true,
+    "hullId": "jdp_eider",
+    "hullMods": [
+        "autorepair",
+        "auxiliarythrusters",
+        "frontemitter",
+        "hardenedshieldemitter",
+        "targetingunit",
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "suppressedMods": [],
+    "variantId": "jdp_eider_Standard",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 026": "hydra",
+                "WS 012": "hydra",
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 018": "gorgonpod",
+                "WS 016": "gorgonpod",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 006": "hephag",
+                "WS 011": "hephag",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 005": "autopulse",
+                "WS 003": "autopulse",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 024": "railgun",
+                "WS 022": "railgun",
+                "WS 023": "railgun",
+                "WS 020": "railgun",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 019": "pdburst",
+                "WS 002": "pdburst",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 017": "dualflak",
+                "WS 015": "dualflak",
+            }
+        },
+    ],
+    "wings": [],
+    "modules": [],
+}

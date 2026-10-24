@@ -1,0 +1,24 @@
+{
+	"quality":1,
+	"displayName":"Bomber",
+	"hullId":"jdp_barbican",
+	"variantId":"jdp_barbican_Bomber",
+	"fluxVents":0,
+	"fluxCapacitors":0,
+	"mods":[], # array of strings
+	
+	# mode is either LINKED or ALTERNATING
+	# slot ids (WS ***) must match what's in the .ship file
+	"weaponGroups":[
+		{"mode":"ALTERNATING",
+		 "weapons":{
+		 			"WS 000":"jdp_heatseeker",
+		 		   },
+		},
+		{"mode":"ALTERNATING",
+		 "weapons":{
+		 			"WS 001":"jdp_heatseeker",
+		 		   },
+		},
+	],
+}

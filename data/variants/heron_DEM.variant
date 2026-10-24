@@ -1,0 +1,38 @@
+{
+    "displayName": "DEM",
+    "fluxCapacitors": 0,
+    "fluxVents": 6,
+    "goalVariant": true,
+    "hullId": "heron",
+    "hullMods": [
+        "expanded_deck_crew",
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "suppressedMods": [],
+    "variantId": "heron_DEM",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 002": "pdlaser",
+                "WS 003": "pdlaser",
+                "WS 004": "pdlaser",
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 005": "pilum",
+            }
+        },
+    ],
+    "wings": [
+        "jdp_trident_wing",
+        "jdp_trident_wing",
+        "thunder_wing",
+    ],
+    "modules": [],
+}

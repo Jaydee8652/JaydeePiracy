@@ -1,0 +1,42 @@
+{
+    "displayName": "Hammer",
+    "fluxCapacitors": 0,
+    "fluxVents": 0,
+    "goalVariant": true,
+    "hullId": "jdp_lorica",
+    "hullMods": [
+        "heavyarmor",
+        "safetyoverrides",
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "suppressedMods": [],
+    "variantId": "jdp_lorica_Hammer",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "chaingun",
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 005": "jackhammer",
+                "WS 004": "jackhammer",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 002": "vulcan",
+                "WS 003": "vulcan",
+            }
+        },
+    ],
+    "wings": [],
+    "modules": [],
+}

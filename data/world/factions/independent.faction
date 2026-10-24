@@ -1,0 +1,18 @@
+{
+    "hullFrequency":{
+        "hulls":{
+            "jdp_gretchen":0.25,
+            "jdp_lupara":3,
+            "jdp_cydonia":0.05,
+            "jdp_florencia":0.25,
+        },
+    },
+    "knownShips":{
+        "hulls":[
+            "jdp_gretchen",
+            "jdp_lupara",
+            "jdp_cydonia",
+            "jdp_florencia"
+        ],
+    },
+},

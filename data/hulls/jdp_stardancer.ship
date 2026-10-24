@@ -1,0 +1,212 @@
+{
+    "hullName": "Stardancer",
+    "hullId": "jdp_stardancer",
+    "hullSize": "FIGHTER",
+    "style": "HIGH_TECH",
+    "spriteName": "graphics/ships/jdp_stardancer.png",
+    "height": 44,
+    "width": 42,
+    "center": [
+        21, 22
+    ],
+    "collisionRadius": 35,
+    "coversColor": "",
+    "shieldCenter": [
+        0, 0
+    ],
+    "shieldRadius": 35,
+    "viewOffset": 50,
+    "builtInWeapons": {
+        "WS 002": "jdp_reactioncontrol"
+    },
+    "builtInWings": [],
+    "builtInModules": null,
+    "weaponSlots": [
+        {
+            "id": "WS 000",
+            "size": "SMALL",
+            "type": "BALLISTIC",
+            "mount": "HIDDEN",
+            "arc": 5,
+            "angle": 0,
+            "locations": [
+                     0.5,     -3.5
+            ]
+        },
+        {
+            "id": "WS 001",
+            "size": "SMALL",
+            "type": "BALLISTIC",
+            "mount": "HIDDEN",
+            "arc": 5,
+            "angle": 0,
+            "locations": [
+                     0.5,      3.5
+            ]
+        },
+        {
+            "id": "WS 002",
+            "size": "SMALL",
+            "type": "DECORATIVE",
+            "mount": "HARDPOINT",
+            "arc": 0,
+            "angle": 0,
+            "locations": [
+                       0,        0
+            ]
+        },
+        {
+            "id": "WS 003",
+            "size": "SMALL",
+            "type": "BALLISTIC",
+            "mount": "HIDDEN",
+            "arc": 180,
+            "angle": 55.5,
+            "locations": [
+                    -6.5,       14
+            ]
+        },
+        {
+            "id": "WS 004",
+            "size": "SMALL",
+            "type": "BALLISTIC",
+            "mount": "HIDDEN",
+            "arc": 180,
+            "angle": 304.5,
+            "locations": [
+                    -6.5,      -14
+            ]
+        },
+        {
+            "id": "WS 005",
+            "size": "SMALL",
+            "type": "MISSILE",
+            "mount": "HIDDEN",
+            "arc": 5,
+            "angle": 180,
+            "locations": [
+                     -12,        0
+            ]
+        },
+        {
+            "id": "WS 006",
+            "size": "SMALL",
+            "type": "SYSTEM",
+            "mount": "HIDDEN",
+            "arc": 5,
+            "angle": 295,
+            "locations": [
+                     2.5,      -17
+            ]
+        },
+        {
+            "id": "WS 007",
+            "size": "SMALL",
+            "type": "SYSTEM",
+            "mount": "HIDDEN",
+            "arc": 5,
+            "angle": 65,
+            "locations": [
+                     2.5,       17
+            ]
+        }
+    ],
+    "engineSlots": [
+        {
+            "location": [
+                -20.5, 12.5
+            ],
+            "length": 25,
+            "width": 7,
+            "angle": 180,
+            "contrailSize": 12,
+            "style": "JDP_KALAFINAN"
+        },
+        {
+            "location": [
+                -20.5, -12.5
+            ],
+            "length": 25,
+            "width": 7,
+            "angle": 180,
+            "contrailSize": 12,
+            "style": "JDP_KALAFINAN"
+        },
+        {
+            "location": [
+                20.5, 10
+            ],
+            "length": 17.5,
+            "width": 6,
+            "angle": 0,
+            "contrailSize": 2,
+            "style": "JDP_RCS_KALAFINAN"
+        },
+        {
+            "location": [
+                20.5, -10
+            ],
+            "length": 17.5,
+            "width": 6,
+            "angle": 0,
+            "contrailSize": 2,
+            "style": "JDP_RCS_KALAFINAN"
+        },
+        {
+            "location": [
+                -9, -19
+            ],
+            "length": 8,
+            "width": 3,
+            "angle": 270,
+            "contrailSize": 7,
+            "style": "JDP_RCS_KALAFINAN"
+        },
+        {
+            "location": [
+                -9, 19
+            ],
+            "length": 8,
+            "width": 3,
+            "angle": 90,
+            "contrailSize": 7,
+            "style": "JDP_RCS_KALAFINAN"
+        },
+        {
+            "location": [
+                15.5, -16
+            ],
+            "length": 8,
+            "width": 3,
+            "angle": 270,
+            "contrailSize": 7,
+            "style": "JDP_RCS_KALAFINAN"
+        },
+        {
+            "location": [
+                15.5, 16
+            ],
+            "length": 8,
+            "width": 3,
+            "angle": 90,
+            "contrailSize": 7,
+            "style": "JDP_RCS_KALAFINAN"
+        }
+    ],
+    "bounds": [
+               3,       -6,
+            20.5,     -6.5,
+            16.5,      -17,
+           -21.5,    -18.5,
+             -21,     -2.5,
+        
+             -21,      2.5,
+           -21.5,     18.5,
+            16.5,       17,
+            20.5,      6.5,
+               3,        6,
+        
+             9.5,        0
+    # 11 points total.
+    ]
+}

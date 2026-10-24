@@ -1,0 +1,32 @@
+{
+    "hullFrequency":{
+        "hulls":{
+            "jdp_shoebill":0.15, # Uncommon because it would be annoying to fight a lot of these
+            "jdp_eider":0.05, # Uncommon because it doesn't really fit their doctrine, so it would be weird to see a lot of them
+            "jdp_hummingbird":0.25, # Uncommon because it doesn't really fit their doctrine, so it would be weird to see a lot of them
+            "heron":3, #They have their own fighters, would be a shame if they did't use them
+        },
+    },
+    "knownShips":{
+        "hulls":[
+            "jdp_shoebill",
+            "jdp_hummingbird",
+            "jdp_eider",
+        ],
+    },
+	"knownFighters":{
+		"tags":["persean"],
+		"fighters":[
+			"jdp_trident_wing",
+		],
+	},
+	"variantOverrides":{
+		"heron_DEM":20,
+	},
+	"priorityFighters":{
+		"tags":[],
+		"fighters":[
+            "jdp_trident_wing",
+		],
+	},
+},

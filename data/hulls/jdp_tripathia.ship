@@ -1,0 +1,393 @@
+{
+    "hullName": "Tripathia",
+    "hullId": "jdp_tripathia",
+    "hullSize": "CAPITAL_SHIP",
+    "style": "MIDLINE",
+    "spriteName": "graphics/ships/jdp_tripathia.png",
+    "height": 520,
+    "width": 200,
+    "center": [
+        100, 260
+    ],
+    "collisionRadius": 300,
+    "coversColor": "255,255,255,255",
+    "shieldCenter": [
+        0, 0
+    ],
+    "shieldRadius": 290,
+    "viewOffset": 0,
+    "builtInMods": [
+        "hbi",
+        "defensive_targeting_array",
+        "advancedcore"
+    ],
+    "builtInWeapons": {
+        "WS 008": "jdp_tripathia_ring",
+        "WS 009": "jdp_tripathia_deco",
+        "WS 010": "jdp_reactioncontrol"
+    },
+    "builtInWings": [],
+    "builtInModules": null,
+    "weaponSlots": [
+        {
+            "id": "WS 000",
+            "size": "LARGE",
+            "type": "BALLISTIC",
+            "mount": "TURRET",
+            "renderOrderMod": 1000,
+            "arc": 65,
+            "angle": 270,
+            "locations": [
+                     155,      -41
+            ]
+        },
+        {
+            "id": "WS 001",
+            "size": "LARGE",
+            "type": "BALLISTIC",
+            "mount": "TURRET",
+            "renderOrderMod": 1000,
+            "arc": 65,
+            "angle": 90,
+            "locations": [
+                     155,       41
+            ]
+        },
+        {
+            "id": "WS 002",
+            "size": "LARGE",
+            "type": "BALLISTIC",
+            "mount": "TURRET",
+            "renderOrderMod": 1000,
+            "arc": 65,
+            "angle": 270,
+            "locations": [
+                      82,      -41
+            ]
+        },
+        {
+            "id": "WS 003",
+            "size": "LARGE",
+            "type": "BALLISTIC",
+            "mount": "TURRET",
+            "renderOrderMod": 1000,
+            "arc": 65,
+            "angle": 90,
+            "locations": [
+                      82,       41
+            ]
+        },
+        {
+            "id": "WS 004",
+            "size": "LARGE",
+            "type": "BALLISTIC",
+            "mount": "TURRET",
+            "renderOrderMod": 1000,
+            "arc": 65,
+            "angle": 270,
+            "locations": [
+                    -144,      -42
+            ]
+        },
+        {
+            "id": "WS 005",
+            "size": "LARGE",
+            "type": "BALLISTIC",
+            "mount": "TURRET",
+            "renderOrderMod": 1000,
+            "arc": 65,
+            "angle": 90,
+            "locations": [
+                    -144,       42
+            ]
+        },
+        {
+            "id": "WS 008",
+            "size": "SMALL",
+            "type": "DECORATIVE",
+            "mount": "TURRET",
+            "arc": 360,
+            "angle": 0,
+            "locations": [
+                   -23.5,        0
+            ]
+        },
+        {
+            "id": "WS 009",
+            "size": "SMALL",
+            "type": "DECORATIVE",
+            "mount": "TURRET",
+            "renderOrderMod": 100,
+            "arc": 0,
+            "angle": 0,
+            "locations": [
+                   -23.5,        0
+            ]
+        },
+        {
+            "id": "WS 010",
+            "size": "SMALL",
+            "type": "DECORATIVE",
+            "mount": "TURRET",
+            "arc": 0,
+            "angle": 0,
+            "locations": [
+                     137,     -0.5
+            ]
+        },
+        {
+            "id": "WS 011",
+            "size": "SMALL",
+            "type": "SYSTEM",
+            "mount": "HIDDEN",
+            "arc": 8,
+            "angle": 360,
+            "locations": [
+                     104,      -69
+            ]
+        },
+        {
+            "id": "WS 016",
+            "size": "SMALL",
+            "type": "SYSTEM",
+            "mount": "HIDDEN",
+            "arc": 8,
+            "angle": 0,
+            "locations": [
+                     104,       69
+            ]
+        },
+        {
+            "id": "WS 017",
+            "size": "SMALL",
+            "type": "SYSTEM",
+            "mount": "HIDDEN",
+            "arc": 8,
+            "angle": 360,
+            "locations": [
+                    -193,      -78
+            ]
+        },
+        {
+            "id": "WS 022",
+            "size": "SMALL",
+            "type": "SYSTEM",
+            "mount": "HIDDEN",
+            "arc": 8,
+            "angle": 0,
+            "locations": [
+                    -193,       78
+            ]
+        },
+        {
+            "id": "LB 000",
+            "size": "SMALL",
+            "type": "LAUNCH_BAY",
+            "mount": "HIDDEN",
+            "arc": 0,
+            "angle": 0,
+            "locations": [
+                   142.5,        0,
+                     128,        0,
+                     112,        0
+            ]
+        },
+        {
+            "id": "LB 001",
+            "size": "SMALL",
+            "type": "LAUNCH_BAY",
+            "mount": "HIDDEN",
+            "arc": 0,
+            "angle": 0,
+            "locations": [
+                  -149.5,     -0.5,
+                    -166,     -0.5,
+                  -181.5,     -0.5
+            ]
+        }
+    ],
+    "engineSlots": [
+        {
+            "location": [
+                -260, -49
+            ],
+            "length": 160,
+            "width": 40,
+            "angle": 180,
+            "contrailSize": 12,
+            "style": "JDP_KALAFINAN"
+        },
+        {
+            "location": [
+                -260, 49
+            ],
+            "length": 160,
+            "width": 40,
+            "angle": 180,
+            "contrailSize": 12,
+            "style": "JDP_KALAFINAN"
+        },
+        {
+            "location": [
+                -260, 0
+            ],
+            "length": 160,
+            "width": 40,
+            "angle": 180,
+            "contrailSize": 12,
+            "style": "JDP_KALAFINAN"
+        },
+        {
+            "location": [
+                255, -49
+            ],
+            "length": 160,
+            "width": 40,
+            "angle": 0,
+            "contrailSize": 12,
+            "style": "JDP_RCS_KALAFINAN"
+        },
+        {
+            "location": [
+                255, 49
+            ],
+            "length": 160,
+            "width": 40,
+            "angle": 0,
+            "contrailSize": 12,
+            "style": "JDP_RCS_KALAFINAN"
+        },
+        {
+            "location": [
+                -217.5, -80.5
+            ],
+            "length": 20,
+            "width": 5,
+            "angle": 270,
+            "contrailSize": 12,
+            "style": "JDP_RCS_KALAFINAN"
+        },
+        {
+            "location": [
+                -217.5, 80.5
+            ],
+            "length": 20,
+            "width": 5,
+            "angle": 90,
+            "contrailSize": 12,
+            "style": "JDP_RCS_KALAFINAN"
+        },
+        {
+            "location": [
+                -221.5, -81
+            ],
+            "length": 20,
+            "width": 5,
+            "angle": 270,
+            "contrailSize": 12,
+            "style": "JDP_RCS_KALAFINAN"
+        },
+        {
+            "location": [
+                -221.5, 81
+            ],
+            "length": 20,
+            "width": 5,
+            "angle": 90,
+            "contrailSize": 12,
+            "style": "JDP_RCS_KALAFINAN"
+        },
+        {
+            "location": [
+                221.5, -77.5
+            ],
+            "length": 20,
+            "width": 5,
+            "angle": 270,
+            "contrailSize": 12,
+            "style": "JDP_RCS_KALAFINAN"
+        },
+        {
+            "location": [
+                221.5, 77.5
+            ],
+            "length": 20,
+            "width": 5,
+            "angle": 90,
+            "contrailSize": 12,
+            "style": "JDP_RCS_KALAFINAN"
+        },
+        {
+            "location": [
+                217.5, 77.5
+            ],
+            "length": 20,
+            "width": 5,
+            "angle": 90,
+            "contrailSize": 12,
+            "style": "JDP_RCS_KALAFINAN"
+        },
+        {
+            "location": [
+                217.5, -77.5
+            ],
+            "length": 20,
+            "width": 5,
+            "angle": 270,
+            "contrailSize": 12,
+            "style": "JDP_RCS_KALAFINAN"
+        }
+    ],
+    "bounds": [
+           240.5,       10,
+             233,     14.5,
+           250.5,       34,
+             250,       66,
+             235,     81.5,
+        
+             203,     84.5,
+             186,       84,
+             179,     78.5,
+            50.5,       77,
+            40.5,       65,
+        
+              13,       86,
+           -25.5,       95,
+             -66,     84.5,
+           -94.5,     61.5,
+          -106.5,     77.5,
+        
+          -230.5,       81,
+          -247.5,     64.5,
+          -247.5,       33,
+            -232,       26,
+          -247.5,     16.5,
+        
+          -247.5,    -16.5,
+            -232,      -26,
+          -247.5,      -33,
+          -247.5,    -64.5,
+          -230.5,      -81,
+        
+          -106.5,    -77.5,
+           -94.5,    -61.5,
+             -66,    -84.5,
+           -25.5,      -95,
+              13,      -86,
+        
+            40.5,      -65,
+            50.5,      -77,
+             179,    -78.5,
+             186,      -84,
+             203,    -84.5,
+        
+           205.5,      -81,
+             235,    -81.5,
+             250,      -66,
+           250.5,      -34,
+             233,    -14.5,
+        
+           240.5,      -10
+    # 41 points total.
+    ]
+}

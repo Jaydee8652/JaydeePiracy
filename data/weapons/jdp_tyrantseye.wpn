@@ -1,0 +1,27 @@
+{
+	"specClass":"beam",
+	"id":"jdp_tyrantseye",
+	"type":"ENERGY",
+	"size":"LARGE",
+	"everyFrameEffect":"Jaydee8652.JaydeePiracy.scripts.weapons.jdp_TyrantsEyeEffect",
+	"turretSprite":"graphics/weapons/jdp_tyrantseye_turret_base.png",
+	"turretGlowSprite":"graphics/weapons/jdp_tyrantseye_turret_glow.png",
+	"hardpointSprite":"graphics/weapons/jdp_tyrantseye_hardpoint_base.png",
+	"hardpointGlowSprite":"graphics/weapons/jdp_tyrantseye_hardpoint_glow.png",
+	"turretOffsets":[6, 0],
+	"turretAngleOffsets":[0],
+	"hardpointOffsets":[0, 0],
+	"hardpointAngleOffsets":[0],
+
+	"fringeColor":[218,177,42,255],
+	"coreColor":[255,255,255,255],
+	"glowColor":[255,224,100,235],
+
+	"darkCore":false,
+	"width":35.0,
+	"textureType":ROUGH,
+	"textureScrollSpeed":292.0,
+	"pixelsPerTexel":5.0,
+	"pierceSet":[PROJECTILE_FF,PROJECTILE_NO_FF,PROJECTILE_FIGHTER,MISSILE_FF,MISSILE_NO_FF,ASTEROID],
+	"fireSoundTwo":"riftbeam_loop",
+}

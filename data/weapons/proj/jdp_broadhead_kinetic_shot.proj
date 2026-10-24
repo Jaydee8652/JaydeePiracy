@@ -1,0 +1,18 @@
+{
+	"id":"jdp_broadhead_kinetic_shot",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC_AS_BEAM",
+	"onHitEffect":"Jaydee8652.JaydeePiracy.scripts.weapons.jdp_BroadheadEffect",
+	"collisionClass":"RAY",
+	"collisionClassByFighter":"RAY_FIGHTER",
+	"length":80.0,
+	"width":16,
+	"fadeTime":0.2,
+	"coreColor":[155,155,255,255],
+	"fringeColor": [55,55,155,255],
+	"glowColor":[30,30,130,60],
+	"glowRadius":10,
+	"textureType":"SMOOTH",  # now also used for "BALLISTIC_AS_BEAM", if specified
+	"textureScrollSpeed":-64,
+	"pixelsPerTexel":1.0,
+}

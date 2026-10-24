@@ -1,0 +1,45 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 0,
+    "fluxVents": 38,
+    "goalVariant": true,
+    "hullId": "jdp_cydonia",
+    "hullMods": [
+        "hardenedshieldemitter",
+        "missleracks",
+        "targetingunit",
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "suppressedMods": [],
+    "variantId": "jdp_cydonia_Standard",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 007": "hil",
+                "WS 004": "ionbeam",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 009": "squall",
+                "WS 005": "squall",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 008": "guardian",
+            }
+        },
+    ],
+    "wings": [
+        "longbow_wing",
+    ],
+    "modules": [],
+}

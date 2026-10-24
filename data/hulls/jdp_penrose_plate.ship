@@ -1,0 +1,77 @@
+{
+    "hullName": "Penrose Plate",
+    "hullId": "jdp_penrose_plate",
+    "hullSize": "DESTROYER",
+    "style": "OMEGA",
+    "spriteName": "graphics/ships/jdp_penrose/jdp_penrose_plate.png",
+    "height": 190,
+    "width": 70,
+    "center": [
+        35, 95
+    ],
+    "moduleAnchor": [
+        0, 100
+    ],
+    "collisionRadius": 100,
+    "coversColor": "",
+    "shieldCenter": [
+        0, 0
+    ],
+    "shieldRadius": 90,
+    "viewOffset": 0,
+    "builtInMods": [
+        "automated",
+        "fluxbreakers",
+        "always_detaches",
+        "reduced_explosion",
+        "jdp_modularShip",
+        "shard_spawner"
+    ],
+    "builtInWings": [],
+    "builtInModules": null,
+    "weaponSlots": [
+        {
+            "id": "WS 000",
+            "size": "SMALL",
+            "type": "UNIVERSAL",
+            "mount": "TURRET",
+            "arc": 136,
+            "angle": 255,
+            "locations": [
+                      49,       14
+            ]
+        },
+        {
+            "id": "WS 001",
+            "size": "SMALL",
+            "type": "UNIVERSAL",
+            "mount": "TURRET",
+            "arc": 143,
+            "angle": 294,
+            "locations": [
+                      -3,        8
+            ]
+        },
+        {
+            "id": "WS 002",
+            "size": "SMALL",
+            "type": "UNIVERSAL",
+            "mount": "TURRET",
+            "arc": 139,
+            "angle": 294.5,
+            "locations": [
+                     -49,       -3
+            ]
+        }
+    ],
+    "engineSlots": [],
+    "bounds": [
+              79,      6.5,
+            10.5,      -14,
+             -82,      -23,
+           -64.5,       -1,
+              36,       28,
+        
+              76,     16.5
+    ]
+}

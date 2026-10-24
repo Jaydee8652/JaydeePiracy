@@ -1,0 +1,256 @@
+{
+    "hullName": "Lupara",
+    "hullId": "jdp_lupara",
+    "hullSize": "CRUISER",
+    "style": "MIDLINE",
+    "spriteName": "graphics/ships/jdp_lupara.png",
+    "height": 222,
+    "width": 164,
+    "center": [
+        81, 88
+    ],
+    "collisionRadius": 182,
+    "coversColor": "",
+    "shieldCenter": [
+        23, 0
+    ],
+    "shieldRadius": 155,
+    "viewOffset": 0,
+    "builtInMods": [
+        "rugged",
+        "jdp_dumbfireConversion"
+    ],
+    "builtInWeapons": {
+        "WS 003": "mininglaser"
+    },
+    "builtInWings": [
+        "mining_drone_wing"
+    ],
+    "builtInModules": null,
+    "weaponSlots": [
+        {
+            "id": "WS 001",
+            "size": "SMALL",
+            "type": "MISSILE",
+            "mount": "HARDPOINT",
+            "arc": 5,
+            "angle": 0,
+            "locations": [
+                     -17,       69
+            ]
+        },
+        {
+            "id": "WS 006",
+            "size": "MEDIUM",
+            "type": "UNIVERSAL",
+            "mount": "TURRET",
+            "arc": 170,
+            "angle": -60,
+            "locations": [
+                      14,      -38
+            ]
+        },
+        {
+            "id": "WS 007",
+            "size": "MEDIUM",
+            "type": "COMPOSITE",
+            "mount": "HARDPOINT",
+            "arc": 5,
+            "angle": 0,
+            "locations": [
+                     117,       22
+            ]
+        },
+        {
+            "id": "WS 009",
+            "size": "SMALL",
+            "type": "ENERGY",
+            "mount": "TURRET",
+            "arc": 180,
+            "angle": 65,
+            "locations": [
+                    54.5,       29
+            ]
+        },
+        {
+            "id": "WS 000",
+            "size": "LARGE",
+            "type": "MISSILE",
+            "mount": "HARDPOINT",
+            "arc": 5,
+            "angle": 270,
+            "locations": [
+                      46,        3
+            ]
+        },
+        {
+            "id": "WS 002",
+            "size": "LARGE",
+            "type": "MISSILE",
+            "mount": "HARDPOINT",
+            "arc": 5,
+            "angle": 270,
+            "locations": [
+                      89,        2
+            ]
+        },
+        {
+            "id": "WS 003",
+            "size": "SMALL",
+            "type": "BUILT_IN",
+            "mount": "HARDPOINT",
+            "arc": 5,
+            "angle": 270,
+            "locations": [
+                      67,      1.5
+            ]
+        },
+        {
+            "id": "LB 000",
+            "size": "SMALL",
+            "type": "LAUNCH_BAY",
+            "mount": "HIDDEN",
+            "arc": 0,
+            "angle": 0,
+            "locations": [
+                    31.5,     49.5,
+                      46,     49.5,
+                    14.5,     49.5
+            ]
+        }
+    ],
+    "engineSlots": [
+        {
+            "location": [
+                -81, 38
+            ],
+            "length": 80,
+            "width": 16,
+            "angle": 180,
+            "contrailSize": 64,
+            "style": "MIDLINE"
+        },
+        {
+            "location": [
+                -83, 27
+            ],
+            "length": 80,
+            "width": 16,
+            "angle": 180,
+            "contrailSize": 64,
+            "style": "MIDLINE"
+        },
+        {
+            "location": [
+                -84, 16
+            ],
+            "length": 80,
+            "width": 16,
+            "angle": 180,
+            "contrailSize": 64,
+            "style": "MIDLINE"
+        },
+        {
+            "location": [
+                -83, -16
+            ],
+            "length": 80,
+            "width": 16,
+            "angle": 180,
+            "contrailSize": 64,
+            "style": "MIDLINE"
+        },
+        {
+            "location": [
+                -83, -27
+            ],
+            "length": 80,
+            "width": 16,
+            "angle": 180,
+            "contrailSize": 64,
+            "style": "MIDLINE"
+        },
+        {
+            "location": [
+                -82, -38
+            ],
+            "length": 80,
+            "width": 16,
+            "angle": 180,
+            "contrailSize": 64,
+            "style": "MIDLINE"
+        },
+        {
+            "location": [
+                -50.5, -46.5
+            ],
+            "length": 46.5,
+            "width": 12,
+            "angle": 193,
+            "contrailSize": 64,
+            "style": "MIDLINE"
+        },
+        {
+            "location": [
+                -50.5, 46.5
+            ],
+            "length": 46.5,
+            "width": 12,
+            "angle": 167,
+            "contrailSize": 64,
+            "style": "MIDLINE"
+        },
+        {
+            "location": [
+                -46.5, 60
+            ],
+            "length": 34.5,
+            "width": 8,
+            "angle": 166.5,
+            "contrailSize": 64,
+            "style": "MIDLINE"
+        },
+        {
+            "location": [
+                -46.5, -60
+            ],
+            "length": 34.5,
+            "width": 8,
+            "angle": 193.5,
+            "contrailSize": 64,
+            "style": "MIDLINE"
+        }
+    ],
+    "bounds": [
+            14.5,     49.5,
+              63,       50,
+             129,     29.5,
+             129,       10,
+             105,     10.5,
+        
+           105.5,      -10,
+            28.5,    -11.5,
+              27,    -53.5,
+             4.5,    -63.5,
+             3.5,      -74,
+        
+             -29,      -78,
+             -43,      -46,
+             -33,      -39,
+             -73,      -43,
+             -81,      -11,
+        
+             -45,       -9,
+             -45,       10,
+             -79,       11,
+             -78,       46,
+             -35,       37,
+        
+             -43,       48,
+             -29,       79,
+           -12.5,       74,
+           -11.5,     63.5,
+            12.5,     60.5
+    # 25 points total.
+    ]
+}

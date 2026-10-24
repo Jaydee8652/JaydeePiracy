@@ -1,0 +1,55 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 0,
+    "fluxVents": 17,
+    "goalVariant": true,
+    "hullId": "jdp_atlas",
+    "hullMods": [
+        "auxiliarythrusters",
+        "eccm",
+        "militarized_subsystems",
+        "missleracks",
+        "reinforcedhull",
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "suppressedMods": [],
+    "variantId": "jdp_atlas_Standard",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 000": "hveldriver",
+                "WS 003": "hveldriver",
+                "WS 008": "hveldriver",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 012": "jdp_cargo",
+                "WS 005": "jdp_cargo",
+                "WS 004": "jdp_cargo",
+                "WS 007": "jdp_cargo",
+                "WS 013": "jdp_cargo",
+                "WS 006": "jdp_cargo",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "vulcan",
+                "WS 002": "vulcan",
+                "WS 021": "vulcan",
+                "WS 020": "vulcan",
+                "WS 010": "vulcan",
+                "WS 011": "vulcan",
+            }
+        },
+    ],
+    "wings": [],
+    "modules": [],
+}

@@ -1,0 +1,64 @@
+{
+    "displayName": "Dragon",
+    "fluxCapacitors": 0,
+    "fluxVents": 3,
+    "goalVariant": true,
+    "hullId": "jdp_cassius",
+    "hullMods": [
+        "eccm",
+        "missleracks",
+        "reinforcedhull",
+        "targetingunit",
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "suppressedMods": [],
+    "variantId": "jdp_cassius_Dragon",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 016": "gauss",
+                "WS 013": "gauss",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 000": "dragon",
+                "WS 001": "dragon",
+                "WS 002": "dualflak",
+                "WS 003": "dualflak",
+                "WS 010": "dragon",
+                "WS 012": "dragon",
+                "WS 011": "dragon",
+                "WS 006": "dragon",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 005": "multineedler",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 015": "vulcan",
+                "WS 021": "vulcan",
+                "WS 009": "vulcan",
+                "WS 020": "vulcan",
+                "WS 008": "vulcan",
+                "WS 004": "dualflak",
+                "WS 014": "vulcan",
+                "WS 007": "dualflak",
+            }
+        },
+    ],
+    "wings": [],
+    "modules": [],
+}

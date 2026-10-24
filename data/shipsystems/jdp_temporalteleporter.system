@@ -1,0 +1,33 @@
+{
+	"id":"jdp_temporalteleporter",
+	"type":"TELEPORTER",
+	"aiType":"PHASE_TELEPORTER_2",
+	
+	"statsScript":"Jaydee8652.JaydeePiracy.scripts.systems.jdp_ModularJitterStats",
+
+
+	"jitterColor":[100,100,255,150],
+	"jitterCopies":5,
+	"jitterRange":25,
+	"jitterRangeRadiusFraction":0,
+	
+	#"engineGlowColor":[150,50,255,255],
+
+	"range":1500,
+	"randomRange":0,
+
+	"vulnerableChargeup":true,
+	"vulnerableChargedown":false,
+	"renderCopyDuringTeleport":false,
+	
+	"fadeActivationSoundOnChargedown":false,
+
+	"useSound":"system_temporalshell",
+	"outOfUsesSound":"gun_out_of_ammo",
+	
+	"aiHints":{
+		"activeSpeedIncrease":0,
+		"burstMovementPotential":1000,
+		"averageSpeedIncrease":350,
+	}
+}

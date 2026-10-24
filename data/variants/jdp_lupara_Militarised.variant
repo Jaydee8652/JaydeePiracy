@@ -1,0 +1,35 @@
+{
+    "displayName": "Militarised",
+    "fluxCapacitors": 0,
+    "fluxVents": 25,
+    "goalVariant": true,
+    "hullId": "jdp_lupara",
+    "hullMods": [
+        "hardenedshieldemitter",
+        "missleracks",
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "suppressedMods": [],
+    "variantId": "jdp_lupara_Militarised",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 006": "hveldriver",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 003": "mininglaser",
+                "WS 000": "cyclone",
+                "WS 002": "cyclone",
+            }
+        },
+    ],
+    "wings": [],
+    "modules": [],
+}

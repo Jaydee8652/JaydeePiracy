@@ -1,0 +1,19 @@
+{
+	"id":"jdp_antimatter_injector_shot",
+	"specClass":"projectile",
+	"onHitEffect":"Jaydee8652.JaydeePiracy.scripts.weapons.jdp_AntimatterInjectorOnHitEffect",
+	
+	"spawnType":"BALLISTIC_AS_BEAM",
+	"collisionClass":"RAY",
+	"collisionClassByFighter":"RAY_FIGHTER",
+	"length":80.0,
+	"width":60.0,
+	"hitGlowRadius":-1,
+	"fadeTime":0.25,
+	"fringeColor":[255,128,51,150],
+	"coreColor":[120,0,50,50],
+	"textureType":"ROUGH",  # only needed for BEAM spawnType
+	"textureScrollSpeed":-256,
+	"pixelsPerTexel":5.0
+	
+}

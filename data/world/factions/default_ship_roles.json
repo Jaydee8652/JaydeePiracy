@@ -1,0 +1,112 @@
+{
+	# should be a copy of "combatSmall", minus variants that are annoying to fight in low numbers
+	# for example, no Hyperions or fast beam-based kiting loadouts, or ships with damper field
+	"combatSmallForSmallFleet":{
+		"jdp_plunder_MIRV":5,
+		"jdp_plunder_Squall":5,
+		"jdp_plunder_Dragon":1,
+		"jdp_plunder_Suicidal":2,
+		"jdp_epistle_Messenger":0.5,
+		"jdp_florencia_Pursuit":5,
+		"jdp_florencia_hegemony_Auxilary":5,
+	},
+	"combatSmall":{
+		"jdp_plunder_MIRV":5,
+		"jdp_plunder_Squall":5,
+		"jdp_plunder_Dragon":1,
+		"jdp_plunder_Suicidal":2,
+		"jdp_epistle_Messenger":0.5,
+		"jdp_lorica_Hammer":1,
+		"jdp_lorica_Finisher":3,
+		"jdp_lorica_Support":3,
+		"jdp_florencia_Pursuit":1,
+		"jdp_florencia_hegemony_Auxilary":1,
+		"jdp_drover_lg_Lion":5,
+		"jdp_hummingbird_Standard":5,
+	},
+	"combatMedium":{
+		"jdp_meridian_Burst":3,
+		"jdp_meridian_Standoff":5,
+		"jdp_iota_Pulse":3,
+		"jdp_iota_Beam":1,
+		"jdp_lupara_Militarised":0.5,
+		"jdp_lupara_Mining":3,
+		"jdp_cinquedea_Plasma":3,
+		"jdp_grendel_lp_Hammer":1,
+		"jdp_phaeton2_Assault":5,
+		"jdp_falcon_vi_Phoenix":1,
+	},
+	"combatLarge":{
+		"jdp_shoebill_Standard":1,
+		"jdp_atlas_Standard":3,
+		"jdp_cydonia_Standard":1,
+	},
+	"combatCapital":{
+		"jdp_supremator_Lion":5,
+		"jdp_shoebill_Standard":3,
+		"jdp_eider_Standard":3,
+		"jdp_cassius_Dragon":1,
+		"jdp_cassius_Reaper":3,
+		"jdp_cassius_Artillery":5,
+		"jdp_arcubus_Elite":3,
+		"jdp_arcubus_Outdated":5,
+		"jdp_atlas_Standard":3,
+		"jdp_penrose_Omega":1,
+		"jdp_thunderer_Tachyon":1,
+		"jdp_pegasus_vi_Fenicem":1,
+	},
+
+	
+	# hybrid ships with good combat and cargo capacity
+	"combatFreighterSmall":{
+	},
+	"combatFreighterMedium":{
+	},
+	"combatFreighterLarge":{
+	},
+
+	# carriers
+	"carrierSmall":{
+	},
+	"carrierMedium":{
+		"jdp_gretchen_Standard":3,
+		"jdp_conduit_Standard":1,
+		"heron_DEM":3,
+	},
+	"carrierLarge":{
+	},
+
+	# phase ships
+	"phaseSmall":{
+	},
+	"personnelMedium":{
+	},
+	
+	# utility ships
+	"tug":{
+	},
+	"crig":{
+	},
+	"utility":{
+		"jdp_lupara_Mining":3,
+	},
+	"civilianRandom":{
+		"jdp_lupara_Mining":3,
+	},
+	
+	# freighters and such
+	"freighterSmall":{
+	},
+	"freighterMedium":{
+	},
+	"freighterLarge":{
+	},
+	"tankerSmall":{
+	},
+	"tankerMedium":{
+	},
+	"tankerLarge":{
+	},
+	
+	
+}

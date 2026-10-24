@@ -1,0 +1,55 @@
+{
+    "hullName": "Erratic Fusion Lamp",
+    "hullId": "jdp_lamp",
+    "hullSize": "CAPITAL_SHIP",
+    "style": "LOW_TECH",
+    "spriteName": "graphics/ships/jdp_lamp.png",
+    "height": 100,
+    "width": 100,
+    "center": [
+        50, 50
+    ],
+    "collisionRadius": 60,
+    "coversColor": "",
+    "shieldCenter": [
+        0, 0
+    ],
+    "shieldRadius": 60,
+    "viewOffset": 0,
+    "builtInMods": [
+        "axialrotation",
+        "vastbulk",
+        "jdp_fusionBurn"
+    ],
+    "builtInWeapons": {
+        "WS 000": "jdp_lamp_deco"
+    },
+    "builtInWings": [],
+    "builtInModules": null,
+    "weaponSlots": [
+        {
+            "id": "WS 000",
+            "size": "SMALL",
+            "type": "DECORATIVE",
+            "mount": "TURRET",
+            "arc": 0,
+            "angle": 0,
+            "locations": [
+                       0,        0
+            ]
+        }
+    ],
+    "engineSlots": [],
+    "bounds": [
+            33.5,      -34,
+              50,        0,
+              50,        0,
+            33.5,       34,
+            -0.5,       50,
+        
+             -35,       34,
+             -50,        0,
+             -35,      -34,
+            -0.5,      -50
+    ]
+}

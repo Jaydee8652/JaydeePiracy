@@ -1,0 +1,181 @@
+{
+    "hullName": "Pup",
+    "hullId": "jdp_pup",
+    "hullSize": "FIGHTER",
+    "style": "HIGH_TECH",
+    "spriteName": "graphics/ships/jdp_pup.png",
+    "height": 85,
+    "width": 54,
+    "center": [
+        27, 48
+    ],
+    "collisionRadius": 80,
+    "coversColor": "",
+    "shieldCenter": [
+        0, 0
+    ],
+    "shieldRadius": 55,
+    "viewOffset": 50,
+    "builtInWings": [],
+    "builtInModules": null,
+    "weaponSlots": [
+        {
+            "id": "WS 004",
+            "size": "MEDIUM",
+            "type": "ENERGY",
+            "mount": "HARDPOINT",
+            "arc": 5,
+            "angle": 0,
+            "locations": [
+                    21.5,        0
+            ]
+        },
+        {
+            "id": "WS 005",
+            "size": "SMALL",
+            "type": "MISSILE",
+            "mount": "HARDPOINT",
+            "arc": 5,
+            "angle": 0,
+            "locations": [
+                      13,       13
+            ]
+        },
+        {
+            "id": "WS 006",
+            "size": "SMALL",
+            "type": "MISSILE",
+            "mount": "HARDPOINT",
+            "arc": 5,
+            "angle": 0,
+            "locations": [
+                      13,      -13
+            ]
+        },
+        {
+            "id": "WS 000",
+            "size": "SMALL",
+            "type": "ENERGY",
+            "mount": "HIDDEN",
+            "arc": 5,
+            "angle": 0,
+            "locations": [
+                    -8.5,      -19
+            ]
+        },
+        {
+            "id": "WS 001",
+            "size": "SMALL",
+            "type": "ENERGY",
+            "mount": "HIDDEN",
+            "arc": 5,
+            "angle": 0,
+            "locations": [
+                    -8.5,       19
+            ]
+        },
+        {
+            "id": "WS 002",
+            "size": "SMALL",
+            "type": "ENERGY",
+            "mount": "HIDDEN",
+            "arc": 166,
+            "angle": 349,
+            "locations": [
+                   -12.5,      -10
+            ]
+        },
+        {
+            "id": "WS 003",
+            "size": "SMALL",
+            "type": "ENERGY",
+            "mount": "HIDDEN",
+            "arc": 166,
+            "angle": 11,
+            "locations": [
+                   -12.5,       10
+            ]
+        }
+    ],
+    "engineSlots": [
+        {
+            "location": [
+                -36.5, 14.5
+            ],
+            "length": 31.5,
+            "width": 13,
+            "angle": 164.5,
+            "contrailSize": 64,
+            "style": "HIGH_TECH"
+        },
+        {
+            "location": [
+                -42, 0
+            ],
+            "length": 64,
+            "width": 16,
+            "angle": 180,
+            "contrailSize": 64,
+            "style": "HIGH_TECH"
+        },
+        {
+            "location": [
+                -36.5, -14.5
+            ],
+            "length": 31.5,
+            "width": 13,
+            "angle": 195.5,
+            "contrailSize": 64,
+            "style": "HIGH_TECH"
+        },
+        {
+            "location": [
+                -40, -5.5
+            ],
+            "length": 47,
+            "width": 14,
+            "angle": 192,
+            "contrailSize": 64,
+            "style": "HIGH_TECH"
+        },
+        {
+            "location": [
+                -40, 5.5
+            ],
+            "length": 47,
+            "width": 14,
+            "angle": 168,
+            "contrailSize": 64,
+            "style": "HIGH_TECH"
+        }
+    ],
+    "bounds": [
+            34.5,     -7.5,
+              21,      -11,
+            19.5,      -17,
+              12,      -23,
+             4.5,      -24,
+        
+               3,    -15.5,
+              -2,    -15.5,
+              -5,    -24.5,
+           -15.5,    -24.5,
+             -25,    -15.5,
+        
+           -36.5,      -17,
+             -43,        1,
+           -36.5,       19,
+             -25,     15.5,
+           -15.5,     24.5,
+        
+              -5,     24.5,
+              -2,     15.5,
+             4.5,       24,
+              12,       23,
+            19.5,       17,
+        
+              21,       11,
+            34.5,      7.5
+    # 22 points total.
+    ]
+}

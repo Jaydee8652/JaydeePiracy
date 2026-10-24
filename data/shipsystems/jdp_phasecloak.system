@@ -1,0 +1,38 @@
+{
+	"id":"jdp_phasecloak",
+	"type":"PHASE_CLOAK",
+	"aiType":"PHASE_CLOAK",
+	
+	"statsScript":"Jaydee8652.JaydeePiracy.scripts.systems.jdp_PhaseCloakStats",
+	"runScriptWhilePaused":true, # only for the player's ship
+	"runScriptWhileIdle":true,  # this means unapply() never gets called
+	"blockActionsWhileChargingDown":false,
+	
+	"canNotCauseOverload":true,
+	
+	"phaseHighlight":"_glow1",
+	"phaseDiffuse":"_glow2",
+	
+	
+	"effectColor1":[255,50,50,200],
+	"effectColor2":[255,50,90,120],
+	
+	"clampTurnRateAfter":true,
+	"clampMaxSpeedAfter":true,
+	
+	"engineGlowColor":[0,0,0,0],
+	"engineGlowContrailColor":[0,0,0,0],
+	"engineGlowLengthMult":1,
+	"engineGlowWidthMult":1,
+	"engineGlowGlowMult":2,
+	
+	"soundFilterType":"LOWPASS",
+	"soundFilterGain":0.8,
+	"soundFilterGainHF":0.25,
+	
+	"shipAlpha":1, # handled in stats script
+	
+	"useSound":"system_phase_cloak_activate",
+	"deactivateSound":"system_phase_cloak_deactivate",
+	"outOfUsesSound":"system_phase_cloak_collision",
+}

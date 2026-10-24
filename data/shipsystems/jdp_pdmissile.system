@@ -1,0 +1,11 @@
+{
+	"id":"jdp_pdmissile",
+	"type":"WEAPON",
+	"aiType":"CANISTER_FLAK",
+
+	#"aiType":"CUSTOM",
+	#"aiScript":"Jaydee8652.JaydeePiracy.scripts.systems.jdp_PDMissileAI",
+
+	"weaponDataId":"jdp_defensetorpedo",
+	"outOfUsesSound":"gun_out_of_ammo",
+}

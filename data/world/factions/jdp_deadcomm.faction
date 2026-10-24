@@ -1,0 +1,33 @@
+{
+	id:"jdp_deadcomm",
+
+	"color":[155,155,155,255],	
+	"baseUIColor":[155,155,155,255],
+
+	"displayName":"ERROR: DATA INVALID",
+	"displayNameWithArticle":"ERROR: DATA INVALID",
+	"logo":"graphics/factions/jdp_deadcomm_flag.png",
+	"crest": "graphics/factions/jdp_deadcomm_crest.png",
+	"showInIntelTab":false,
+	"names":{
+	},
+	"portraits":{
+	},
+	"music":{
+		"theme":"music_none",
+		"market_neutral":"music_none",
+		"market_hostile":"music_none",
+		"market_friendly":"music_none",
+		"encounter_neutral":"music_none",
+		"encounter_hostile":"music_none",
+		"encounter_friendly":"music_none",
+	},
+    "ranks":{
+		"ranks":{
+			"jdp_dead":{"name":"ERROR: DATA INVALID"},
+		},
+		"posts":{
+			"jdp_error":{"name":"Please contact Tri-Tachyon Support for assistance"},
+		},
+	},
+},

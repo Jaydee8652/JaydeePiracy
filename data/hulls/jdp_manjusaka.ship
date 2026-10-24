@@ -1,0 +1,166 @@
+{
+    "hullName": "Manjusaka",
+    "hullId": "jdp_manjusaka",
+    "hullSize": "FIGHTER",
+    "style": "HIGH_TECH",
+    "spriteName": "graphics/ships/jdp_manjusaka.png",
+    "height": 64,
+    "width": 50,
+    "center": [
+        25, 32
+    ],
+    "collisionRadius": 40,
+    "coversColor": "",
+    "shieldCenter": [
+        0, 0
+    ],
+    "shieldRadius": 40,
+    "viewOffset": 50,
+    "builtInMods": [
+        "jdp_maerulanPhaseCoils",
+        "phase_anchor"
+    ],
+    "builtInWings": [],
+    "builtInModules": null,
+    "weaponSlots": [
+        {
+            "id": "WS 000",
+            "size": "SMALL",
+            "type": "UNIVERSAL",
+            "mount": "HIDDEN",
+            "arc": 5,
+            "angle": 0,
+            "locations": [
+                      -1,    -18.5
+            ]
+        },
+        {
+            "id": "WS 001",
+            "size": "SMALL",
+            "type": "UNIVERSAL",
+            "mount": "HIDDEN",
+            "arc": 5,
+            "angle": 0,
+            "locations": [
+                      -1,     18.5
+            ]
+        },
+        {
+            "id": "WS 002",
+            "size": "MEDIUM",
+            "type": "UNIVERSAL",
+            "mount": "HIDDEN",
+            "arc": 5,
+            "angle": 0,
+            "locations": [
+                       5,       -9
+            ]
+        },
+        {
+            "id": "WS 003",
+            "size": "MEDIUM",
+            "type": "UNIVERSAL",
+            "mount": "HIDDEN",
+            "arc": 5,
+            "angle": 0,
+            "locations": [
+                       5,        9
+            ]
+        },
+        {
+            "id": "WS 006",
+            "size": "SMALL",
+            "type": "SYSTEM",
+            "mount": "HIDDEN",
+            "arc": 5,
+            "angle": 230,
+            "locations": [
+                     -15,      -18
+            ]
+        },
+        {
+            "id": "WS 007",
+            "size": "SMALL",
+            "type": "SYSTEM",
+            "mount": "HIDDEN",
+            "arc": 5,
+            "angle": 130,
+            "locations": [
+                     -15,       18
+            ]
+        },
+        {
+            "id": "WS 004",
+            "size": "SMALL",
+            "type": "UNIVERSAL",
+            "mount": "HIDDEN",
+            "arc": 5,
+            "angle": 0,
+            "locations": [
+                      13,    -12.5
+            ]
+        },
+        {
+            "id": "WS 005",
+            "size": "SMALL",
+            "type": "UNIVERSAL",
+            "mount": "HIDDEN",
+            "arc": 5,
+            "angle": 0,
+            "locations": [
+                      13,     12.5
+            ]
+        }
+    ],
+    "engineSlots": [
+        {
+            "location": [
+                -30, -14.5
+            ],
+            "length": 12.5,
+            "width": 5,
+            "angle": 180,
+            "contrailSize": 12,
+            "style": "COBRA_BOMBER"
+        },
+        {
+            "location": [
+                -30, 14.5
+            ],
+            "length": 12.5,
+            "width": 5,
+            "angle": 180,
+            "contrailSize": 12,
+            "style": "COBRA_BOMBER"
+        },
+        {
+            "location": [
+                -26.5, -9
+            ],
+            "length": 24.5,
+            "width": 6,
+            "angle": 180,
+            "contrailSize": 12,
+            "style": "COBRA_BOMBER"
+        },
+        {
+            "location": [
+                -26.5, 9
+            ],
+            "length": 24.5,
+            "width": 6,
+            "angle": 180,
+            "contrailSize": 12,
+            "style": "COBRA_BOMBER"
+        }
+    ],
+    "bounds": [
+           -31.5,      -17,
+               8,    -23.5,
+            27.5,        0,
+            27.5,        0,
+               8,     23.5,
+        
+           -31.5,       17
+    ]
+}

@@ -1,0 +1,57 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 0,
+    "fluxVents": 0,
+    "goalVariant": true,
+    "hullId": "jdp_gretchen",
+    "hullMods": [
+        "reinforcedhull",
+        "safetyoverrides",
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "suppressedMods": [],
+    "variantId": "jdp_gretchen_Standard",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 015": "pilum",
+                "WS 016": "pilum",
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 000": "swarmer",
+                "WS 001": "swarmer",
+                "WS 002": "swarmer",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 010": "hveldriver",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 009": "vulcan",
+                "WS 008": "vulcan",
+                "WS 005": "vulcan",
+                "WS 007": "vulcan",
+            }
+        },
+    ],
+    "wings": [
+        "dagger_wing",
+        "longbow_wing",
+        "broadsword_wing",
+    ],
+    "modules": [],
+}

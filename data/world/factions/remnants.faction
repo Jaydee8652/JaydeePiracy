@@ -1,0 +1,20 @@
+{
+    "hullFrequency":{
+        "hulls":{
+            "jdp_iota":1,
+        },
+    },
+    "knownShips":{
+        "hulls":[
+            "jdp_iota",
+        ],
+    },
+    "ranks":{
+		"ranks":{
+            "jdp_captive":{"name":"Captive AI Core"},
+		},
+		"posts":{
+            "jdp_blank":{"name":" "},
+		},
+	},
+},

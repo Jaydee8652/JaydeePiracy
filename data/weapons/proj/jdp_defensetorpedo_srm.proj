@@ -1,0 +1,42 @@
+{
+	"id":"jdp_defensetorpedo_srm",
+	"specClass":"missile",	
+	"missileType":"MISSILE",
+	"sprite":"graphics/proj/jdp_defensetorpedo_srm.png",
+	"size":[6,15],	
+	"center":[3,6],
+	"collisionRadius":12,
+	"collisionClass":"MISSILE_NO_FF",
+	"explosionColor":[255,165,50,255],
+	"explosionRadius":50,
+	"maxFlightTime":3,
+	"engineSpec":{
+                "turnAcc":720,
+                "turnRate":360,
+                "acc":800,
+                "dec":400},			  
+	"engineSlots":[
+                {"id":"ES1",
+                "loc":[-3, 0],
+                "style":"CUSTOM",
+                "styleSpec":{
+                        "mode":"QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used
+                		"engineColor":[85,155,255,255],
+                		"contrailDuration":0.5f,
+                		"contrailWidthMult":0.5f,
+                		"contrailWidthAddedFractionAtEnd":2,  # can be negative. makes trail spread out/narrow at the end
+                		"contrailMinSeg":15, # min segment length, in pixels
+                		"contrailMaxSpeedMult":.0f,
+                		"contrailAngularVelocityMult":0.5f,
+                		"contrailSpawnDistMult":.75, # how far away from engine it starts
+                		"contrailColor":[85,155,255,255],
+                		"glowSizeMult":0.5f,
+                		"type":"SMOKE" # GLOW or SMOKE; additive or regular blend mode
+                },
+                "width":4.0,
+                "length":20.0,
+                "angle":180.0
+                }],
+        "renderTargetIndicator":false,
+        "onHitEffect":"Jaydee8652.JaydeePiracy.scripts.weapons.jdp_DefenseTorpedoOnHitEffect",
+}

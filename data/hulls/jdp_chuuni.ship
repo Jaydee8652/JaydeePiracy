@@ -1,0 +1,307 @@
+{
+    "hullName": "Chuuni",
+    "hullId": "jdp_chuuni",
+    "hullSize": "CRUISER",
+    "style": "JDP_CHUUNI",
+    "spriteName": "graphics/ships/jdp_chuuni.png",
+    "height": 278,
+    "width": 192,
+    "center": [
+        96, 139
+    ],
+    "collisionRadius": 165,
+    "coversColor": "230,245,255,255",
+    "shieldCenter": [
+        0, 0
+    ],
+    "shieldRadius": 165,
+    "viewOffset": 0,
+    "builtInMods": [
+        "jdp_scwarzsechHide",
+        "delicate"
+    ],
+    "builtInWeapons": {
+        "WS 011": "jdp_chuuni_deco"
+    },
+    "builtInWings": [],
+    "builtInModules": null,
+    "weaponSlots": [
+        {
+            "id": "WS 000",
+            "size": "MEDIUM",
+            "type": "UNIVERSAL",
+            "mount": "TURRET",
+            "renderOrderMod": 10,
+            "arc": 210,
+            "angle": 50.5,
+            "locations": [
+                     -11,       40
+            ]
+        },
+        {
+            "id": "WS 001",
+            "size": "LARGE",
+            "type": "UNIVERSAL",
+            "mount": "TURRET",
+            "renderOrderMod": 10,
+            "arc": 215,
+            "angle": 309.5,
+            "locations": [
+                      26,      -37
+            ]
+        },
+        {
+            "id": "WS 009",
+            "size": "LARGE",
+            "type": "SYNERGY",
+            "mount": "HARDPOINT",
+            "renderOrderMod": 10,
+            "arc": 5,
+            "angle": 0,
+            "locations": [
+                      72,        0
+            ]
+        },
+        {
+            "id": "WS 010",
+            "size": "MEDIUM",
+            "type": "UNIVERSAL",
+            "mount": "TURRET",
+            "renderOrderMod": 10,
+            "arc": 204,
+            "angle": 32,
+            "locations": [
+                      29,       33
+            ]
+        },
+        {
+            "id": "WS 002",
+            "size": "SMALL",
+            "type": "ENERGY",
+            "mount": "TURRET",
+            "renderOrderMod": 10,
+            "arc": 225,
+            "angle": 52,
+            "locations": [
+                      57,       40
+            ]
+        },
+        {
+            "id": "WS 003",
+            "size": "SMALL",
+            "type": "ENERGY",
+            "mount": "TURRET",
+            "renderOrderMod": 10,
+            "arc": 225,
+            "angle": 308,
+            "locations": [
+                      57,      -40
+            ]
+        },
+        {
+            "id": "WS 004",
+            "size": "SMALL",
+            "type": "SYNERGY",
+            "mount": "TURRET",
+            "renderOrderMod": 10,
+            "arc": 225,
+            "angle": 29,
+            "locations": [
+                    77.5,       37
+            ]
+        },
+        {
+            "id": "WS 005",
+            "size": "SMALL",
+            "type": "SYNERGY",
+            "mount": "TURRET",
+            "renderOrderMod": 10,
+            "arc": 225,
+            "angle": 331,
+            "locations": [
+                    77.5,      -37
+            ]
+        },
+        {
+            "id": "WS 006",
+            "size": "SMALL",
+            "type": "SYNERGY",
+            "mount": "TURRET",
+            "renderOrderMod": 10,
+            "arc": 123,
+            "angle": 246,
+            "locations": [
+                    -2.5,      -41
+            ]
+        },
+        {
+            "id": "WS 007",
+            "size": "SMALL",
+            "type": "ENERGY",
+            "mount": "TURRET",
+            "renderOrderMod": 10,
+            "arc": 230,
+            "angle": 205,
+            "locations": [
+                     -98,      -51
+            ]
+        },
+        {
+            "id": "WS 008",
+            "size": "SMALL",
+            "type": "ENERGY",
+            "mount": "TURRET",
+            "renderOrderMod": 10,
+            "arc": 230,
+            "angle": 155,
+            "locations": [
+                     -98,       51
+            ]
+        },
+        {
+            "id": "WS 011",
+            "size": "LARGE",
+            "type": "DECORATIVE",
+            "mount": "HARDPOINT",
+            "arc": 0,
+            "angle": 0,
+            "locations": [
+                   -69.5,     -0.5
+            ]
+        }
+    ],
+    "engineSlots": [
+        {
+            "location": [
+                -85, -15.5
+            ],
+            "length": 98,
+            "width": 21,
+            "angle": 186.5,
+            "contrailSize": 12,
+            "style": "OMEGA"
+        },
+        {
+            "location": [
+                -85, 15.5
+            ],
+            "length": 98,
+            "width": 21,
+            "angle": 173.5,
+            "contrailSize": 12,
+            "style": "OMEGA"
+        },
+        {
+            "location": [
+                -70.5, -73
+            ],
+            "length": 65,
+            "width": 18,
+            "angle": 233.5,
+            "contrailSize": 12,
+            "style": "OMEGA"
+        },
+        {
+            "location": [
+                -70.5, 73
+            ],
+            "length": 65,
+            "width": 18,
+            "angle": 126.5,
+            "contrailSize": 12,
+            "style": "OMEGA"
+        },
+        {
+            "location": [
+                -86, -68.5
+            ],
+            "length": 83.5,
+            "width": 17,
+            "angle": 233.5,
+            "contrailSize": 12,
+            "style": "OMEGA"
+        },
+        {
+            "location": [
+                -86, 68.5
+            ],
+            "length": 83.5,
+            "width": 17,
+            "angle": 126.5,
+            "contrailSize": 12,
+            "style": "OMEGA"
+        },
+        {
+            "location": [
+                -56.5, -78.5
+            ],
+            "length": 49,
+            "width": 14,
+            "angle": 233.5,
+            "contrailSize": 12,
+            "style": "OMEGA"
+        },
+        {
+            "location": [
+                -56.5, 78.5
+            ],
+            "length": 49,
+            "width": 14,
+            "angle": 126.5,
+            "contrailSize": 12,
+            "style": "OMEGA"
+        }
+    ],
+    "bounds": [
+            93.5,     19.5,
+           125.5,     22.5,
+             139,     30.5,
+             119,     37.5,
+           135.5,     42.5,
+        
+            33.5,     64.5,
+              35,     80.5,
+              24,       66,
+            10.5,     95.5,
+              16,       71,
+        
+             -13,     82.5,
+           -65.5,     82.5,
+             -88,       66,
+          -101.5,     70.5,
+            -139,       62,
+        
+          -121.5,     45.5,
+          -116.5,     31.5,
+             -99,     28.5,
+             -85,      7.5,
+             -67,      7.5,
+        
+             -67,     -7.5,
+             -85,     -7.5,
+             -99,    -28.5,
+          -116.5,    -31.5,
+          -121.5,    -45.5,
+        
+            -139,      -62,
+          -101.5,    -70.5,
+             -88,      -66,
+           -65.5,    -82.5,
+             -13,    -82.5,
+        
+              16,      -71,
+            10.5,    -95.5,
+              24,      -66,
+              35,    -80.5,
+            33.5,    -64.5,
+        
+           135.5,    -42.5,
+             119,    -37.5,
+             139,    -30.5,
+           125.5,    -22.5,
+            93.5,    -19.5,
+        
+              86,        0
+    # 41 points total.
+    ]
+}

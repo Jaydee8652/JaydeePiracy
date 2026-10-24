@@ -1,0 +1,57 @@
+{
+	"id":"player",
+
+    "ranks":{
+		"posts":{
+			"jdp_xenobio":{"name":"Xenobiology Officer"},
+		},
+	},
+
+	"flags":[
+		{
+			"logo":"graphics/factions/jdp_pirate_flag.png",
+			"crest":"graphics/factions/jdp_pirate_crest.png"
+		},
+		{
+			"logo":"graphics/factions/jdp_indie_flag.png",
+			"crest":"graphics/factions/jdp_indie_crest.png"
+		},
+		{
+			"logo":"graphics/factions/jdp_league_flag.png",
+			"crest":"graphics/factions/jdp_league_crest.png"
+		},
+		{
+			"logo":"graphics/factions/jdp_heg_flag.png",
+			"crest":"graphics/factions/jdp_heg_crest.png"
+		},
+		{
+			"logo":"graphics/factions/jdp_tritach_flag.png",
+			"crest":"graphics/factions/jdp_tritach_crest.png"
+		},
+		{
+			"logo":"graphics/factions/jdp_church_flag.png",
+			"crest":"graphics/factions/jdp_church_crest.png"
+		},
+		{
+			"logo":"graphics/factions/jdp_sindria_flag.png",
+			"crest":"graphics/factions/jdp_sindria_crest.png"
+		},
+		{
+			"logo":"graphics/factions/jdp_path_flag.png",
+			"crest":"graphics/factions/jdp_path_crest.png"
+		},
+		{
+			"logo":"graphics/factions/jdp_remnant_flag.png",
+			"crest":"graphics/factions/jdp_remnant_crest.png"
+		},
+		{
+			"logo":"graphics/factions/jdp_domain_flag.png",
+			"crest":"graphics/factions/jdp_domain_crest.png"
+		},
+		{
+			"logo":"graphics/factions/jdp_mercenary_flag.png",
+			"crest":"graphics/factions/jdp_mercenary_crest.png"
+		},
+	],
+
+}

@@ -1,0 +1,14 @@
+{
+    "hullFrequency":{
+        "hulls":{
+            "jdp_cassius":0.5,
+            "jdp_lorica":1,
+        },
+    },
+    "knownShips":{
+        "hulls":[
+            "jdp_cassius",
+            "jdp_lorica",
+        ],
+    },
+},

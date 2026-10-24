@@ -1,0 +1,32 @@
+{
+    "hullName": "Volatile Cargo Pods",
+    "hullId": "jdp_plunder_cargo",
+    "hullSize": "FRIGATE",
+    "style": "LOW_TECH",
+    "spriteName": "graphics/ships/deco/jdp_plunder_cargo.png",
+    "height": 73,
+    "width": 33,
+    "center": [
+        16.5, 36.5
+    ],
+    "collisionRadius": 40,
+    "coversColor": "",
+    "shieldCenter": [
+        0, 0
+    ],
+    "shieldRadius": 40,
+    "viewOffset": 0,
+    "builtInMods": [
+        "jdp_increasedExplosion"
+    ],
+    "builtInWings": [],
+    "builtInModules": null,
+    "weaponSlots": [],
+    "engineSlots": [],
+    "bounds": [
+           -36.5,    -16.5,
+            36.5,    -16.5,
+            36.5,     16.5,
+           -36.5,     16.5
+    ]
+}

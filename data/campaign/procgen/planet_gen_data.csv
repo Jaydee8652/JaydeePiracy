@@ -1,0 +1,8 @@
+id,type,category,frequency,habOffsetMin,habOffsetMax,habOffsetYOUNG,habOffsetAVERAGE,habOffsetOLD,tags,probOrbits,minOrbits,maxOrbits,minRadius,maxRadius,minColor,maxColor,YOUNG,AVERAGE,OLD,star_orange_giant,star_red_giant,star_red_supergiant,star_red_dwarf,star_orange,star_yellow,star_browndwarf,star_white,star_blue_giant,star_blue_supergiant,star_neutron,black_hole,binary,trinary,cat_giant,cat_frozen,cat_cryovolcanic,cat_hab1,cat_hab2,cat_hab3,cat_hab4,cat_hab5,cat_barren,cat_toxic,lagrange,in_asteroids,is_moon
+#Unique,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+jdp_infested,PLANET,cat_hab3,0,0,0,,,,,0.1,1,2,130,220,255 255 255,255 255 255,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+jdp_eutrophicated,PLANET,cat_hab3,0,0,0,,,,,0.1,1,2,130,220,255 255 255,255 255 255,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+jdp_glassed,PLANET,cat_ocean,0,2,100,,,,,0.1,1,2,130,220,255 255 255,255 255 255,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+jdp_depleted,PLANET,cat_barren,0,-100,100,,,,,0.1,1,2,130,220,255 255 255,255 255 255,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+jdp_beguiling,PLANET,cat_hab3,0,0,1,,,,,0.1,1,2,130,220,220 230 240,255 255 255,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+jdp_volatile_giant,PLANET,cat_giant,0,0,100,-10,,,,0.95,2,4,250,400,220 64 48,220 64 48,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

@@ -1,0 +1,35 @@
+{
+	"id":"jdp_combatmasterlidararray",
+	"type":"STAT_MOD",
+	"aiType":"LIDAR_ARRAY",
+	
+	"statsScript":"Jaydee8652.JaydeePiracy.scripts.systems.jdp_CombatmasterLidarArrayStats",
+
+	#"runScriptWhilePaused":true, # only for the player's ship
+	"runScriptWhileIdle":true, # unapply() never gets called
+		
+	"fadeActivationSoundOnChargedown":true,
+	"outOfUsesSound":"gun_out_of_ammo",
+
+	"engineGlowLengthMult":1,
+	"engineGlowWidthMult":1,
+	"engineGlowGlowMult":2,
+	
+	"flameoutOnImpactChance":0,
+
+	"clampTurnRateAfter":true,
+	"clampMaxSpeedAfter":false,
+
+	"useSound":"system_plasma_jets",
+	"loopSound":"system_plasma_jets_loop",
+	
+	"aiHints":{
+		"activeSpeedIncrease":125,
+		"burstMovementPotential":0,
+		"averageSpeedIncrease":80,
+	}
+}
+
+
+
+

@@ -1,0 +1,169 @@
+{
+    "hullName": "Laplacian",
+    "hullId": "jdp_laplacian",
+    "hullSize": "DESTROYER",
+    "style": "JDP_LAPLACIAN",
+    "spriteName": "graphics/ships/jdp_laplacian.png",
+    "height": 200,
+    "width": 80,
+    "center": [
+        40, 100
+    ],
+    "collisionRadius": 110,
+    "coversColor": "230,245,255,255",
+    "shieldCenter": [
+        0, 0
+    ],
+    "shieldRadius": 115,
+    "viewOffset": 0,
+    "builtInMods": [
+        "jdp_frictionlessHull",
+        "jdp_cloakingField"
+    ],
+    "builtInWings": [],
+    "builtInModules": null,
+    "weaponSlots": [
+        {
+            "id": "WS 000",
+            "size": "MEDIUM",
+            "type": "UNIVERSAL",
+            "mount": "TURRET",
+            "arc": 360,
+            "angle": 0,
+            "locations": [
+                      29,       13
+            ]
+        },
+        {
+            "id": "WS 001",
+            "size": "SMALL",
+            "type": "UNIVERSAL",
+            "mount": "TURRET",
+            "arc": 360,
+            "angle": 0,
+            "locations": [
+                     -13,        3
+            ]
+        },
+        {
+            "id": "WS 002",
+            "size": "SMALL",
+            "type": "UNIVERSAL",
+            "mount": "TURRET",
+            "arc": 231,
+            "angle": 219.5,
+            "locations": [
+                     -39,      -20
+            ]
+        },
+        {
+            "id": "WS 003",
+            "size": "SMALL",
+            "type": "UNIVERSAL",
+            "mount": "TURRET",
+            "arc": 167,
+            "angle": 327,
+            "locations": [
+                      27,      -13
+            ]
+        },
+        {
+            "id": "WS 004",
+            "size": "SMALL",
+            "type": "UNIVERSAL",
+            "mount": "TURRET",
+            "arc": 163,
+            "angle": 29,
+            "locations": [
+                      64,       18
+            ]
+        },
+        {
+            "id": "WS 005",
+            "size": "MEDIUM",
+            "type": "UNIVERSAL",
+            "mount": "HARDPOINT",
+            "arc": 5,
+            "angle": 0,
+            "locations": [
+                      70,       -5
+            ]
+        }
+    ],
+    "engineSlots": [
+        {
+            "location": [
+                -71, -14
+            ],
+            "length": 40,
+            "width": 12,
+            "angle": 180,
+            "contrailSize": 12,
+            "style": "JDP_LAPLACIAN"
+        },
+        {
+            "location": [
+                -30.5, 21
+            ],
+            "length": 40,
+            "width": 12,
+            "angle": 180,
+            "contrailSize": 12,
+            "style": "JDP_LAPLACIAN"
+        },
+        {
+            "location": [
+                -50, 5
+            ],
+            "length": 93,
+            "width": 18,
+            "angle": 180,
+            "contrailSize": 12,
+            "style": "JDP_LAPLACIAN"
+        },
+        {
+            "location": [
+                0, 25
+            ],
+            "length": 23,
+            "width": 4,
+            "angle": 169,
+            "contrailSize": 12,
+            "style": "JDP_LAPLACIAN"
+        },
+        {
+            "location": [
+                -5.5, -26.5
+            ],
+            "length": 23,
+            "width": 4,
+            "angle": 184.5,
+            "contrailSize": 12,
+            "style": "JDP_LAPLACIAN"
+        }
+    ],
+    "bounds": [
+             -77,      -26,
+             -40,      -27,
+           -25.5,    -26.5,
+              16,      -34,
+            61.5,      -14,
+        
+              76,      -14,
+              76,        3,
+            95.5,       27,
+            57.5,     29.5,
+            39.5,     35.5,
+        
+              22,     34.5,
+           -11.5,     24.5,
+             -47,     23.5,
+             -38,       16,
+           -40.5,      9.5,
+        
+           -94.5,      3.5,
+             -62,       -1,
+             -82,    -19.5
+    # 18 points total.
+    ]
+}

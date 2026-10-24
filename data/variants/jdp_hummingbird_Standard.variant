@@ -1,0 +1,47 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 1,
+    "fluxVents": 10,
+    "goalVariant": true,
+    "hullId": "jdp_hummingbird",
+    "hullMods": [
+        "hardenedshieldemitter",
+        "stabilizedshieldemitter",
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "suppressedMods": [],
+    "variantId": "jdp_hummingbird_Standard",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 002": "railgun",
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 000": "gazer",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "ionpulser",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 005": "vulcan",
+            }
+        },
+    ],
+    "wings": [],
+    "modules": [],
+}

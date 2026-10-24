@@ -1,0 +1,49 @@
+{
+    "displayName": "Support",
+    "fluxCapacitors": 0,
+    "fluxVents": 11,
+    "goalVariant": true,
+    "hullId": "jdp_lorica",
+    "hullMods": [
+        "armoredweapons",
+        "blast_doors",
+        "heavyarmor",
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "suppressedMods": [],
+    "variantId": "jdp_lorica_Support",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "dualflak",
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 005": "salamanderpod",
+                "WS 004": "salamanderpod",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 002": "railgun",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 003": "vulcan",
+            }
+        },
+    ],
+    "wings": [],
+    "modules": [],
+}

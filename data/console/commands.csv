@@ -1,0 +1,4 @@
+command,class,tags,syntax,help
+AddAdmin,Jaydee8652.JaydeePiracy.console.AddAdmin,"cheat,campaign",AddAdmin [optionalSkillId] [optionalLevel],Adds a random administrator to your fleet. You can optionally specify a starting skill
+LevelSpecialist,Jaydee8652.JaydeePiracy.console.LevelSpecialist,"cheat,campaign",LevelSpecialist [specialistId] [experience],Adds XP to a given specialist
+ListSpecialists,Jaydee8652.JaydeePiracy.console.ListSpecialists,"cheat,campaign",ListSpecialists,Lists the IDs of all active specialists

@@ -1,0 +1,59 @@
+fieldID,fieldName,fieldType,defaultValue,secondaryValue,fieldDescription,minValue,maxValue,tab
+#luna_exampleHeader,Example Header,Header,Example Section,,,,,Examples
+#luna_exampleText,Example Text Field,Text,"Any value below is merely an example for Modders. 
+None of the Settings here do anything.
+",,,,,Examples
+#luna_exampleString,Example String,String,some string,,"Strings will accept any characters put in, with no filtering.",,,Examples
+#luna_exampleBoolean,Example Boolean,Boolean,TRUE,,A button that switches between true and false.,,,Examples
+#luna_exampleInt,Example Int,Int,100,,"Int Fields will only accept whole Numbers, and block any other character from being entered.",-50,200,Examples
+#luna_exampleDouble,Example Double,Double,10.2,,Doubles allow only numbers and a single decimal dot (.) ,0,20,Examples
+#luna_exampleKeybind,Example Keybind,Keycode,0,,"Lets users register a keybind. The saved keycodes are the same as used by org.lwjgl.input.Keyboard and Starsectors InputEventAPI.
+
+Make sure to set a condition for your input checks to not accept numbers of 0, as lwjgl sets both unbound & unknown characters to that value.",,,Examples
+#luna_newExampleColor,Example Color,Color,#f22e6e,,"Creates a color picker, giving both a hex text field and three sliders for the HSV color selection.
+",,,Examples
+#luna_exampleRadio,Example Radio,Radio,None,"None, Hegemony, Tritachyon, Persean League, Sindrian, Independent","Creates a radio button selector. 
+
+The defaultValue decides which one is selected by default, the secondaryValue creates the list of choices with a comma seperated String. 
+Can be retrieved as a String.",,,Examples
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+jdp_campaignHeader,JaydeePiracy Campaign Header,Header,Campaign Level Settings,,,,,Campaign
+jdp_campaignMidSave,Description,Text,"[Enabling these settings mid save will generate them retroactively, but disabling them will not cause them to be removed from existing saves.]",,,,,Campaign
+,,,,,,,,
+jdp_campaignHeaderColonyItems,JaydeePiracy Campaign Header,Header,Colony Item Exploration Events,,,,,Campaign
+jdp_campaignColonyItemsGlobal,Colony Item Events,Boolean,TRUE,,Global setting to toggle Colony Item exploration events. Individual settings only apply if this is true.,,,Campaign
+jdp_campaignIndividualDesc,Description,Text,"These events are unique, written events discoverable in the sector. One exists for each Colony Item that is not otherwise gauranteed to be obtainable by exploration. 
+This ensures the sector will contain at least one of every Colony Item, and makes it semi-telegraphed where you would find them.",,,,,Campaign
+#jdp_campaignCryo,Cryoarithmetic Engine,Boolean,FALSE,,Individually toggles the event for the Cryoarithmetic Engine. NYI,,,Campaign
+jdp_campaignBiofactory,Biofactory Embryo,Boolean,TRUE,,Individually toggles the event for the Biofactory Embryo.,,,Campaign
+jdp_campaignSoil,Soil Nanites,Boolean,TRUE,,Individually toggles the event for Soil Nanites.,,,Campaign
+jdp_campaignBore,Autonomous Mantle Bore,Boolean,TRUE,,Individually toggles the event for the Autonomous Mantle Bore.,,,Campaign
+#jdp_campaignLamp,Orbital Fusion Lamp,Boolean,FALSE,,Individually toggles the event for the Orbital Fusion Lamp. NYI,,,Campaign
+#jdp_campaignReplicator,Combat Drone Replicator,Boolean,FALSE,,Individually toggles the event for the Combat Drone Replicator. NYI,,,Campaign
+#jdp_campaignHolosuite,Dealmaker Holosuite,Boolean,FALSE,,Individually toggles the event for the Dealmaker Holosuite. NYI,,,Campaign
+#jdp_campaignTap,Hypershunt Tap,Boolean,FALSE,,Individually toggles the event for the Hypershunt Tap. NYI,,,Campaign
+#jdp_campaignDynamo,Plasma Dynamo,Boolean,FALSE,,Individually toggles the event for the Plasma Dynamo. NYI,,,Campaign
+#jdp_campaignFullerene,Fullerene Spool,Boolean,FALSE,,Individually toggles the event for the Fullerene Spool. NYI,,,Campaign
+,,,,,,,,
+jdp_campaignHeader,JaydeePiracy Campaign Header,Header,Miscellaneous Exploration Events,,,,,Campaign
+jdp_campaignSubsurface,Subsurface Ecosystem,Boolean,TRUE,,Toggles the generation of the Subsurface Ecosystem market condition.,,,Campaign
+jdp_campaignSubsurfaceDesc,Description,Text,"Subsurface Ecosystem is a condition that generates on Frozen worlds, approximately six per sector. Providing an incredibly poor output Aquaculture Industry on the associated market, this subtly shifts the balance of food production as a rare few non-habitable worlds can now produce it in limited amounts.",,,,,Campaign
+jdp_campaignMadoka,PMMM Buffalo,Boolean,TRUE,,Toggles the generation of the PMMM Buffalo Easter Egg.,,,Campaign
+,,,,,,,,
+jdp_shroudedPhase,Shrouded Phase,Boolean,FALSE,,When enabled allows Shrouded Dweller hullmods to be installed on phase ships. Likely not balanced or stable.,,,Experimental
+jdp_experimentalHeader,JaydeePiracy Campaign Header,Header,Experimental Settings,,,,,Experimental
+jdp_experimentalDisclaimer,Description,Text,"These settings are for experimental features, enable them at your own discretion.",,,,,Experimental
+jdp_experimentalMidSave,Description,Text,"[Enabling these settings mid save will generate them retroactively, but disabling them will not cause them to be removed from existing saves.]",,,,,Experimental
+jdp_experimentalFlowerfish,Flowerfish XO,Boolean,TRUE,,When enabled the Flowerfish XO for Second in Command can be found monthly on Ailmar in Westernesse.,,,Campaign
+jdp_experimentalInstrument,Instrument Specialist,Boolean,FALSE,,When enabled the Instrument Specialist can be found on Jangala in Corvus.,,,Experimental
+,,,,,,,,
+jdp_experimentalIndividualDesc,Description,Text,Events here have incomplete writing and mechanics. [SHOULD NOT BE ENABLED] unless you are testing something.,,,,,Experimental
+jdp_campaignLamp,Orbital Fusion Lamp,Boolean,FALSE,,Individually toggles the event for the Orbital Fusion Lamp. [NOT YET IMPLEMENTED],,,Experimental
+jdp_campaignReplicator,Combat Drone Replicator,Boolean,FALSE,,Individually toggles the event for the Combat Drone Replicator. [NOT YET IMPLEMENTED],,,Experimental
+jdp_campaignHolosuite,Dealmaker Holosuite,Boolean,FALSE,,Individually toggles the event for the Dealmaker Holosuite. [NOT YET IMPLEMENTED],,,Experimental
+jdp_campaignTap,Hypershunt Tap,Boolean,FALSE,,Individually toggles the event for the Hypershunt Tap. [NOT YET IMPLEMENTED],,,Experimental
+jdp_campaignDynamo,Plasma Dynamo,Boolean,FALSE,,Individually toggles the event for the Plasma Dynamo. [NOT YET IMPLEMENTED],,,Experimental
+jdp_campaignFullerene,Fullerene Spool,Boolean,FALSE,,Individually toggles the event for the Fullerene Spool. [NOT YET IMPLEMENTED],,,Experimental
+jdp_campaignCryo,Cryoarithmetic Engine,Boolean,FALSE,,Individually toggles the event for the Cryoarithmetic Engine. [NOT YET IMPLEMENTED],,,Experimental

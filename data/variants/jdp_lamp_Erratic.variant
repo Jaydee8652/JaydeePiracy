@@ -1,0 +1,17 @@
+{
+    "displayName": "",
+    "fluxCapacitors": 0,
+    "fluxVents": 0,
+    "goalVariant": false,
+    "hullId": "jdp_lamp",
+    "hullMods": [],
+    "quality": 0.5,
+    "variantId": "jdp_lamp_Erratic",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": { }
+        }
+    ]
+}

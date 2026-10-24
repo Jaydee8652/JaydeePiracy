@@ -1,0 +1,97 @@
+name,id,tier,rarity,tech/manufacturer,tags,uiTags,base value,unlocked,hidden,hiddenEverywhere,cost_frigate,cost_dest,cost_cruiser,cost_capital,script,desc,short,sModDesc,sprite
+#Built-in,,,,,,,,,,,,,,,,,,,
+External Missile Racks,jdp_externalMissileRacks,,,,"no_drop, no_sell, codex_unlockable",,,,TRUE,,0,0,0,0,Jaydee8652.JaydeePiracy.hullmods.jdp_externalMissileRacks,"This ship is equipped with a large external missile storage silo, made of repurposed cargo containers salvaged from an Atlas-class Superfreighter. It is capable of storing a large quantity of ordinance, increasing missile capacity by %s, but moving said stockpiles into firing position is a laborious and hazardous proposition, reducing missile rate of fire by %s.
+
+The destruction of the cargo module and cooking-off of its contents reduces remaining missile capacity by %s.",,,graphics/hullmods/jdp_externalMissileRacks.png
+Maintenance Nanite Tanks,jdp_maintenanceNaniteTanks,,,,"no_drop, no_sell, codex_unlockable",,,,TRUE,,0,0,0,0,Jaydee8652.JaydeePiracy.hullmods.jdp_maintenanceNaniteTanks,"This ship is equipped with large tanks of specialised maintenance and construction nanites.
+
+Reduces the time required to repair disabled weapons and engines (in combat) by %s and reduces overload duration by %s.",Increases weapon repair rate in combat.,,graphics/hullmods/jdp_maintenanceNaniteTanks.png
+Heavy Energy Integration,jdp_heavyEnergyIntegration,,,,"no_drop, no_sell, codex_unlockable",,,,TRUE,,0,0,0,0,Jaydee8652.JaydeePiracy.hullmods.jdp_heavyEnergyIntegration,"An attempt to reduce the ordnance point cost of large energy weapons by %s.
+ 
+While successful, it was also successful in claiming the lives of many Sindrian petty officers, executed for treason when they naively notified their superiors of the systems numerous design flaws. The mess of auxiliary reactors, dedicated flux conduits and tangled grids increases the chance of critical malfunction, although by a small enough amount that it can be scrubbed from official combat logs.",,,graphics/hullmods/jdp_heavyEnergyIntegration.png
+Dumb-fire Conversion,jdp_dumbfireConversion,,,,"no_drop, no_sell, codex_unlockable",Weapons,,,TRUE,,0,0,0,0,Jaydee8652.JaydeePiracy.hullmods.jdp_dumbfireConversion,"Modified aftermarket for mining operations, the missile fabrication bays on this ship produce missiles with simplified guidance systems and forward focused propulsion systems, increasing their speed by %s and hitpoints by %s at the cost of killing their maneuverability, reducing it by %s and effectively making them dumb-fire. Missiles with a second stage will activate if they can reach engagement range.
+
+The space saved within missiles by using a dumb-fire guidance computer is used to supplement the strength of the warhead, increasing damage by %s.",Converts all missiles to dumb-fire rockets.,,graphics/hullmods/jdp_dumbfireConversion.png
+Antimatter-Fusion Plant,jdp_antimatterPlant,,,,"no_drop, no_sell, codex_unlockable",,,,TRUE,,0,0,0,0,Jaydee8652.JaydeePiracy.hullmods.jdp_antimatterPlant,"This ship is equipped with an incredibly rare portable Antimatter-Fusion Plant, allowing it to produce Antimatter fuel out of motes gathered in Hyperspace. While the rate of production is low, and will realistically never exceed consumption, it does mean the ship has an unusually low rate of fuel use for its size and allows it to stabilise the fleets drive bubble, increasing maximum burn by %s.
+
+This system constantly produces an immense amount of waste heat, while this is safely dissipated by the ships aft radiator complex, it is practically impossible to hide, capping sensor profile at a minimum of %s. When in combat these radiators can contribute to emergency flux dissipation, reducing overload duration by %s.",,,graphics/hullmods/jdp_antimatterPlant.png
+Magnetic Accelerator,jdp_magneticAccelerator,,,,"no_drop, no_sell, codex_unlockable",Weapons,,,TRUE,,0,0,0,0,Jaydee8652.JaydeePiracy.hullmods.jdp_magneticAccelerator,"A set of inbuilt magnetic accelerators improves the velocity and range of projectile weapons installed in the ships spinal mounts by %s.
+
+In addition, a highly sophisticated and dedicated targeting computer is coupled to this system for analysis and rangefinding. Accurate, reliable and arguably a delta-level AI in its own right, the provided data allows projectile weapons installed in the ships spinal mounts to %s.",Increases projectile speed.,,graphics/hullmods/jdp_magneticAccelerator.png
+Sixth Battlegroup,jdp_sixthBattlegroup,,,,"no_drop, no_sell, codex_unlockable",,,,TRUE,,0,0,0,0,Jaydee8652.JaydeePiracy.hullmods.jdp_sixthBattlegroup,"This ship is a survivor of the original 6th Domain Battlegroup which was rotated out of the Persean Sector before the Collapse. Ships damaged in small skirmishes just before the changeover were reluctantly left behind, intended for the 14th Battlegroup to restore them and bolster their own numbers. Unfortunately few remained where they had been stored by the end of the Cold Passage, having been claimed by Warlord Leonis and other desperate polities in the interim.
+
+It is a prime specimen of the 6th Battlegroup's unorthodox full acceptance of the ""Cruiser School"" doctrine, particularly exhibited by a series of armour cutbacks and drive tunings (performed with pre-Collapse industrial methods) which, while reducing armor plate density by %s, allow for a %s increase in speed, handling and maneuverability. Exceptionally well-tuned energy systems increase flux throughput and capacity by %s over standard examples of this hull.",,,graphics/hullmods/jdp_sixthBattlegroup.png
+Scwarzsech Hide,jdp_scwarzsechHide,,,,"no_drop, no_sell, codex_unlockable",,,,TRUE,,0,0,0,0,Jaydee8652.JaydeePiracy.hullmods.jdp_scwarzsechHide,"Logs, schematics and readouts describe a bleeding edge active defence system inextricably fused to the hull of this ship, internally referred to as simply The Scwarzsech Prototype. While scans indicate it is somewhat crystalline in nature, an onboard promotional assistant helpfully explains that it is better conceptualised in terms of living matter, like the hide of an Volturnian Cephalopod.
+
+The surface moves and shifts in mesmerising patterns when provided energy from the ships flux capacitors, consuming %s to %s spread across all damaged cells. 
+
+Once the total repaired armor exceeds %s times the ships base armor value, the rate of repair slows proportional to the total amount of repaired armor.",,,graphics/hullmods/jdp_scwarzsechHide.png
+Audacious Livery!,jdp_audaciousLivery,,,,"no_drop, no_sell, codex_unlockable",,,,TRUE,,0,0,0,0,Jaydee8652.JaydeePiracy.hullmods.jdp_audaciousLivery,"This ship has been redecorated with a truly audacious livery by its pirate crew. You get the sense that, in some small way, this livery helps stave off the entropy of the universe thanks to some esoteric faustian bargain.
+
+Provides no benefits.",,,graphics/hullmods/jdp_audaciousLivery.png
+Frictionless Hull,jdp_frictionlessHull,,,,"no_drop, no_sell, codex_unlockable",,,,TRUE,,0,0,0,0,Jaydee8652.JaydeePiracy.hullmods.jdp_frictionlessHull,"The hull of this ship is made of an esoteric and frictionless material.
+
+This substance is ""slippery"" in its interactions with space-time, permanently increasing timeflow aboard the ship by %s and reducing the effects of environmental hazards by %s. 
+
+Prone to shattering unpredictably when impacted, the effective armor strength for the damage reduction calculation is reduced to %s of its actual value. 
+
+Increasing the amount of subjective time experienced by the ship gives greater opportunity for issues and defects to arise, increasing maintenance by %s.
+
+Working under temporally enhanced conditions is an immense strain on both equipment and crew, reducing the peak performance time by a factor of %s.",,,graphics/hullmods/jdp_frictionlessHull.png
+Cloaking Field,jdp_cloakingField,,,,"no_drop, no_sell, codex_unlockable",,,,TRUE,,0,0,0,0,com.fs.starfarer.api.impl.hullmods.PhaseField,"The ship is able to run its esoteric cloaking system at low levels for extended periods of time, reducing its effective sensor profile by %s.",Reduces fleetwide sensor profile.,,graphics/hullmods/jdp_cloakingField.png
+Boarding Nets,jdp_boardingNets,,,,"no_drop, no_sell, codex_unlockable",,,,TRUE,,0,0,0,0,Jaydee8652.JaydeePiracy.hullmods.jdp_boardingNets,"Being intended primarily for policing action, this vessel is equipped with boarding nets and a substantial armoury. While the ship is unable to provide direct support on the ground, these amenities increases the effective strength of planetary raids by %s, up to the total number of marines in the fleet.",Improves effectiveness of raids.,,graphics/hullmods/jdp_boardingNets.png
+Maerulan Phase Coils,jdp_maerulanPhaseCoils,,,Flowerfish Network,"no_drop, no_sell, codex_unlockable",,,,TRUE,,0,0,0,0,Jaydee8652.JaydeePiracy.hullmods.jdp_maerulanPhaseCoils,"The phase coils on this ship have been extensively modified and expertly tuned by the engineering savant Maerula, leader of the Flowerfish Network.
+
+Reduces phase cloak cooldown by %s and allows the coils to theoretically handle any level of hard flux, increasing the threshold at which speed bottoms out by %s. For standard-design coils with no other modifications, this effectively removes the threshold.",,,graphics/hullmods/jdp_maerulanPhaseCoils.png
+Mobile Minefield,jdp_mobileMinefield,,,,"no_drop, no_sell, codex_unlockable",,,,TRUE,,0,0,0,0,Jaydee8652.JaydeePiracy.hullmods.jdp_mobileMinefield,"Mines attack enemy ships during battle.
+
+Deployed by a ship before the engagement starts, the mines are less numerous and accurate than those provided by a static installation.","Mines attack enemy ships during battle. 
+
+Deployed by a minelayer ship before the engagement starts, the provided mines are less numerous and less precise than those that support static installations. Utilising a deployable minefield in the presence of an enemy station is considered infeasible.",,graphics/hullmods/jdp_mobileMinefield.png
+Banisher Core,jdp_banisherCore,,,,"no_drop, no_sell, codex_unlockable",Weapons,,,TRUE,,0,0,0,0,Jaydee8652.JaydeePiracy.hullmods.jdp_banisherCore,"A dedicated ""Banisher Targeting Core"" is installed on this ship for active counter-design. Adept at small scale structural analysis, damage against frigate and destroyer class vessels is improved by %s.
+
+The core also has the unfortunate combination of being both utterly inept at and very adamant about its analysis of larger structures, reducing damage against cruiser and capital class vessels to %s of its normal value. 
+
+This level of incompetence is almost bordering on malice, potentially suggesting an intentional constraint implemented by the core's engineers for reasons unknown.",,,graphics/hullmods/jdp_banisherCore.png
+Ancient Testbed,jdp_ancientTestbed,,,,"no_drop, no_sell, codex_unlockable",,,,TRUE,,0,0,0,0,Jaydee8652.JaydeePiracy.hullmods.jdp_ancientTestbed,"This ship was originally designed as a testbed for a suite of at the time novel technologies. While historically intersting, its performance in combat scenarios suffers accordingly.
+
+The cramped flight deck, designed before the practicalities of effective fighter re-armament were fully understood, increases replacement launch time by %s.
+
+Old pattern flux conduits and a by modern standards underpowered reactor starve weapon mounts, increasing the flux generation of ballistic weapons by %s and energy weapons by %s.
+
+A primitive form of a missile autoloader system reduces missile rate of fire by %s.",,,graphics/hullmods/jdp_ancientTestbed.png
+Missile Speedloader,jdp_missileSpeedloader,,,,"no_drop, no_sell, codex_unlockable",,,,TRUE,,0,0,0,0,Jaydee8652.JaydeePiracy.hullmods.jdp_missileSpeedloader,"The missile racks of this ship have been extensively modified to favour speed over capacity, increasing missile rate of fire by %s at the cost of reducing missile capacity by %s.
+
+Precludes increasing the size of the ships missile racks, however ships modified in this way usually have other ways to replenish their missile ammunition stores.",,,graphics/hullmods/jdp_missileSpeedloader.png
+Erroneous Ordinance,jdp_erroneousOrdinance,,,,"dmod, codex_require_related",,,,TRUE,,0,0,0,0,Jaydee8652.JaydeePiracy.hullmods.jdp_erroneousOrdinance,"Excess missile feedstocks, explosive magazines and ammunition stores have been installed on this ship in profoundly shortsighted locations. Crowding out the ships corridors and maintenance ducts, these prove immensely hazardous to repair crews and loaders, especially considering they are prone to cooking-off during combat.
+
+Crew casualties in combat are increased by %s and repair rate for disabled weapons and engines is reduced by %s. The death explosion damage and range of this ship is increased by a factor of %s.",,,graphics/hullmods/jdp_erroneousOrdinance.png
+Throughdeck Bays,jdp_throughdeckBays,,,,"no_drop, no_sell, codex_unlockable",,,,TRUE,,0,0,0,0,Jaydee8652.JaydeePiracy.hullmods.jdp_throughdeckBays,"The flightdeck of this ship passes through the hull uninterrupted, reducing overall capacity but streamlining combat operations. Fighter refit time is reduced by %s.
+
+Extra fighter capacity can be brought online if this efficiency is sacrificed, allowing the installation of a %s despite the ship already having fighter bays, increasing the number of operational fighter bays to %s at the cost of nullifying the refit bonus.",,,graphics/hullmods/jdp_throughdeckBays.png
+Fusion Burn,jdp_fusionBurn,,,,"no_drop, no_sell, codex_unlockable",,,,TRUE,,0,0,0,0,Jaydee8652.JaydeePiracy.hullmods.jdp_fusionBurn,This structure constantly flares intense radiative heat.,,,graphics/hullmods/jdp_fusionBurn.png
+Mirror Shield,jdp_mirrorShield,,,,"no_drop, no_sell, codex_unlockable",,,,TRUE,,0,0,0,0,Jaydee8652.JaydeePiracy.hullmods.jdp_mirrorShield,"This ship is equipped with a novel and esoteric shield waveform, capable of redirecting incoming energy.",,,graphics/hullmods/jdp_mirrorShield.png
+,,,,,,,,,,,,,,,,,,,
+#Hidden,,,,,,,,,,,,,,,,,,,
+True Demon,jdp_trueDemon,0,,,,,,,TRUE,TRUE,0,0,0,0,Jaydee8652.JaydeePiracy.hullmods.jdp_trueDemon,"Provides benefits to the Laplcians during the boss fight.
+
+%s
+%s",,,graphics/icons/intel/investigation.png
+Mercenary Relay Helper,jdp_mercenaryRelayHelper,0,,,,,,,TRUE,TRUE,0,0,0,0,Jaydee8652.JaydeePiracy.hullmods.jdp_mercenaryRelayHelper,Manages installing Relay Drones into the ship.,,,graphics/icons/intel/investigation.png
+Increased Explosion,jdp_increasedExplosion,,,,,,,,TRUE,TRUE,0,0,0,0,Jaydee8652.JaydeePiracy.hullmods.jdp_increasedExplosion,Increased explosion radius and damage.,,,graphics/icons/intel/investigation.png
+,,,,,,,,,,,,,,,,,,,
+#Obtainable,,,,,,,,,,,,,,,,,,,
+Emulated Frictionless Hull,jdp_emulatedFrictionlessHull,,,Novel Technology,"no_drop, no_sell, codex_unlockable, no_build_in",,,,,,15,25,35,45,Jaydee8652.JaydeePiracy.hullmods.jdp_emulatedFrictionlessHull,"Installs a coating of %s onto the outer hull of the ship.
+
+While not as intensive of an effect as would be afforded by a hull made purely of the material, this substance is still ""slippery"" in its interactions with space-time, permanently increasing timeflow aboard the ship by %s/%s/%s/%s depending on hullsize and reducing the effects of environmental hazards by %s. 
+
+Prone to shattering unpredictably when impacted, the effective armor strength for the damage reduction calculation is reduced to %s of its actual value. 
+
+Increasing the amount of subjective time experienced by the ship gives greater opportunity for issues and defects to arise, increasing maintenance by %s.
+
+Working under temporally enhanced conditions is an immense strain on both equipment and crew, reducing the peak performance time by a factor of %s.",,,graphics/hullmods/jdp_emulatedFrictionlessHull.png
+Mercenary Relay,jdp_mercenaryRelay,,,Flowerfish Network,"no_drop, no_sell, codex_unlockable, no_build_in",,,,,,0,0,10,0,Jaydee8652.JaydeePiracy.hullmods.jdp_mercenaryRelay,"Extensively modifies the ship to support a Flowerfish Mercenary Relay, increasing combat vision range by %s su.",,,graphics/hullmods/jdp_mercenaryRelay.png
+Slat Armor,jdp_slatArmor,,,,"no_drop, no_sell, codex_unlockable",,,,TRUE,,5,10,15,25,Jaydee8652.JaydeePiracy.hullmods.jdp_slatArmor,"While at the time a revolutionary development, this slat armor package is less effective than modern ""spaced"" armor designs, reducing the effective armor strength for the damage reduction calculation to %s of its actual value.
+
+The cage like structure occasionally causes explosive pre-detonation, effectively reducing High Explosive damage by %s.",,,graphics/hullmods/jdp_slatArmor.png
+Ground Support Fighters,jdp_supportFighter,,,Flowerfish Network,,,,,TRUE,,0,0,0,0,Jaydee8652.JaydeePiracy.hullmods.jdp_supportFighter,"The fighter complement of this vessel includes multi-role orbital to surface platforms, versatile ground operations assets with extensive counter-measures, close support weaponry and airlift capacity.",,,graphics/hullmods/jdp_supportFighter.png

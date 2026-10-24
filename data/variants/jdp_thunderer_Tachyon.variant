@@ -1,0 +1,86 @@
+{
+    "displayName": "Tachyon",
+    "fluxCapacitors": 0,
+    "fluxVents": 25,
+    "goalVariant": true,
+    "hullId": "jdp_thunderer",
+    "hullMods": [
+        "advancedoptics",
+        "extendedshieldemitter",
+        "frontemitter",
+        "hardenedshieldemitter",
+        "stabilizedshieldemitter",
+        "turretgyros",
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "suppressedMods": [],
+    "variantId": "jdp_thunderer_Tachyon",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "jdp_nariman",
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0010": "locust",
+                "WS0009": "locust",
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0023": "phasebeam",
+                "WS000": "phasebeam",
+                "WS 004": "phasebeam",
+                "WS 005": "phasebeam",
+                "WS 002": "hveldriver",
+                "WS 003": "hveldriver",
+                "WS0018": "phasebeam",
+                "WS0017": "phasebeam",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0012": "phasebeam",
+                "WS0011": "phasebeam",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0008": "hveldriver",
+                "WS0007": "hveldriver",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "guardian",
+                "WS0004": "guardian",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0014": "pdburst",
+                "WS0013": "pdburst",
+                "WS0016": "pdburst",
+                "WS0015": "pdburst",
+            }
+        },
+    ],
+    "wings": [],
+    "modules": [],
+}

@@ -1,0 +1,20 @@
+{
+    "hullFrequency":{
+        "hulls":{
+            "jdp_arcubus":0.3,
+            "jdp_florencia_hegemony":5,
+        },
+    },
+    "knownShips":{
+        "hulls":[
+            "jdp_arcubus",
+            "jdp_florencia_hegemony"
+        ],
+    },
+    "priorityShips":{
+		"tags":[],
+		"hulls":[
+            "jdp_arcubus",
+		],
+	},
+},

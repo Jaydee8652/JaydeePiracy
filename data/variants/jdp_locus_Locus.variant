@@ -1,0 +1,21 @@
+{
+    "displayName": "Locus",
+    "fluxCapacitors": 0,
+    "fluxVents": 0,
+    "goalVariant": false,
+    "hullId": "jdp_locus",
+    "hullMods": [],
+    "variantId": "jdp_locus_Locus",
+    "weaponGroups": [],
+    "modules": {
+        "WS 040": "jdp_locus_hangar_Locus",
+        "WS 037": "jdp_locus_hangar_Locus",
+        "WS 035": "jdp_locus_hangar_Locus",
+        "WS 033": "jdp_locus_spire_Locus",
+        "WS 032": "jdp_locus_spire_Locus",
+        "WS 038": "jdp_locus_spire_Locus",
+        "WS 001": "jdp_locus_wedge_Locus",
+        "WS 027": "jdp_locus_wedge_Locus",
+        "WS 030": "jdp_locus_wedge_Locus"
+    }
+}

@@ -1,0 +1,44 @@
+name,id,tier,rarity,base value,range,damage/second,damage/shot,emp,impact,turn rate,OPs,ammo,ammo/sec,reload size,type,energy/shot,energy/second,chargeup,chargedown,burst size,burst delay,min spread,max spread,spread/shot,spread decay/sec,beam speed,proj speed,launch speed,flight time,proj hitpoints,autofireAccBonus,extraArcForAI,hints,tags,groupTag,tech/manufacturer,for weapon tooltip>>,primaryRoleStr,speedStr,trackingStr,turnRateStr,accuracyStr,customPrimary,customPrimaryHL,customAncillary,customAncillaryHL,noDPSInTooltip,number
+Dragonfire DEM Torpedo (Single),jdp_singledragon,5,0,2000,1200,,4000,,15,20,12,1,,,ENERGY,0,,0,10,1,,0,0,0,0,,150,0,12,600,,,"GUIDED_POOR, STRIKE, SYSTEM","strike8, missile3, merc, rare_bp, damage_special, damage_soft_flux, no_drop, no_drop_salvage, restricted,",,,,Torpedo,Slow,Good,,,"The missile fires a high-powered laser when it gets near the target, dealing approximately %s energy damage in a short burst. This damage is affected by missile damage modifiers and not energy weapon ones.",4000,,,TRUE,12.11
+Dual Gazer SRM,jdp_dualgazer,5,0,1300,1600,,400,,15,10,9,2,,,KINETIC,0,,0,10,2,,0,0,0,0,,150,25,5,250,,,"DO_NOT_AIM, SYSTEM","missile12, merc, rare_bp, damage_special, damage_soft_flux, no_drop, no_drop_salvage, restricted,",,,,Suppression,Slow,Good,,,"Each missile fires a graviton beam at the target, dealing approximately %s kinetic damage over the course of %s seconds. This damage is affected by missile damage modifiers and not energy weapon ones.",1000 | 10,,,TRUE,12.21
+Nariman LRM Launcher,jdp_nariman,5,0,7500,10000,,1500,3000,60,8,24,12,0.25,6,ENERGY,0,,0,15,6,0.5,0,0,0,0,,350,150,60,1000,,,"DO_NOT_AIM, DO_NOT_CONSERVE, SYSTEM, SHOW_IN_CODEX","missile20, strike13, utility15, rare_bp, hist1t, merc, ind, codex_unlockable, no_drop, no_drop_salvage, restricted,",,,,Long Range Support,Fast,Medium,,,,1000 | 1500,,,,100.5
+Salamander MRM,jdp_heatseeker,1,,225,2000,,100,1500,15,30,3,,,,FRAGMENTATION,0,,0,25,1,,0,0,0,,,400,50,15,150,,,"DO_NOT_AIM, HEATSEEKER, SYSTEM","utility13, missile0, missile_bp, merc, ind, no_drop, no_drop_salvage, restricted,",,,,Anti Engine,Fast,Excellent,,,,,,,TRUE,11.25
+Cargo IED Launcher,jdp_cargo,1,,6000,12000,,2000,0,60,2,25,3,0.026,1,HIGH_EXPLOSIVE,1000,,,20,1,,0,0,0,0,,300,35,60,600,,,"DO_NOT_AIM, DIRECT_AIM, STRIKE, SYSTEM, SHOW_IN_CODEX","missile18, strike15, codex_unlockable, no_drop, no_drop_salvage, restricted,",,,,Artillery,Medium,Terrible,,,,,,,,100.5
+Tyrant's Eye,jdp_tyrantseye,3,0,10000,900,1500,,,0,7,30,,,,ENERGY,,1500,0.1,0.1,,,,,,,10000,,,,,,,FIRE_WHEN_INEFFICIENT,"energy20, beam15, pd15, LR, no_drop, no_drop_salvage, restricted, codex_unlockable",,,,Suppression,,,,,"Creates blazes of energetic dark-matter along the beam length targeted at nearby enemy missiles and fighters, dealing up to %s energy damage.",400,,,,21
+Tyrant's Eye Minelayer,jdp_tyrantseye_minelayer,0,,,,,400,,25,,,,,,ENERGY,0,,,,1,,,,,,,0,0,20,1000,,,SYSTEM,,,Unknown,,,,,,,,,,,,38.5
+Belligerent Tirocannon,jdp_beleagure_gun,0,,10000,1000,,400,,30,8,38,,,,KINETIC,200,,0,2,8,0.1,0,10,1,5,,800,,,100,,,"SYSTEM,SHOW_IN_CODEX","no_drop, no_drop_salvage, restricted",,,,Anti Shield,,,,,,,,,,7.25
+Antimatter Injector,jdp_antimatter_injector,3,,10000,600,,125,,3,40,22,,,,KINETIC,0,,,0.05,6,0.05,0,0,0,0,,400,,,,,,"SYSTEM,SHOW_IN_CODEX","no_drop, no_drop_salvage, restricted, jdp_engine",,Pirate,,Anti Everything,,,,,,,,,,20
+PD Torpedo,jdp_defensetorpedo,1,0.75,400,1200,,150,,3,15,,5,1,3,FRAGMENTATION,0,,0,1,1,0,7,14,14,12,,475,35,3.7,40,,,SYSTEM,,,Kalafina Larme,,Point Defense (Area),,,,,,,,,,11.23
+Icebreaker,jdp_icebreaker,3,0.3,2250,1000,,275,400,40,10,25,,,,KINETIC,350,,0,10,1,,,,,,,500,,,1000,,,"SHOW_IN_CODEX,USE_LESS_VS_SHIELDS","no_drop, no_drop_salvage, restricted, he20",,Fabrique Orbitale,,Cyberwarfare,,,,,"Fires a spool that will break if its length exceeds maximum range, hits on hull establish a connection for cyberwarfare. 
+
+Maintaining this connection for %s seconds disables all target weapons and engines.",10,,,,5.5
+Hookshot,jdp_grapple,3,0.3,2250,1000,,275,400,40,10,0,,,,KINETIC,350,,0,2,1,,,,,,,500,,,1000,,,"SHOW_IN_CODEX,USE_LESS_VS_SHIELDS","no_drop, no_drop_salvage, restricted, he20",,Fabrique Orbitale,,Cyberwarfare,,,,,"Fires a spool that will break if its length exceeds maximum range, hits on hull establish a connection for cyberwarfare. 
+
+Maintaining this connection for %s seconds disables all target weapons and engines.",10,,,,5.5
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Broadhead Carronade,jdp_broadhead_he,3,0,5000,1000,,600,,100,10,25,,,,HIGH_EXPLOSIVE,480,,0,3,2,0.3,,,,,,1200,,,,,,SHOW_IN_CODEX,"no_drop, no_drop_salvage, restricted, codex_unlockable, he20, kinetic20",,Kalafina Larme,,Variable,,,,,"Equipped with a variable ammo loader, gunnery crews can tailor the payload to the immediate combat situation.
+
+%s: Deals %s damage. Hits on shields have a small chance to arc through to weapons and engines, dealing %s EMP damage. The chance to pierce the shields is based on the target's hard flux level.
+
+%s: Deals %s damage. Detonates at half range, scattering %s submunitions each dealing %s on impact or further detonation with a proximity fuse.",Bluescreen Round| kinetic | 300 | Spidershot Round | high explosive | 6 | 160,,,,
+Broadhead (Split),jdp_broadhead_split,3,0,5000,500,,1000,,50,10,25,,,,HIGH_EXPLOSIVE,480,,0,3,2,0.3,,,,,,1200,,,,,,SYSTEM,"no_drop, no_drop_salvage, restricted",,Kalafina Larme,,,,,,,"Fires a spool that will %s if its length exceeds maximum range, hits on %s establish a connection for cyberwarfare. 
+
+Maintaining this connection for %s seconds disables all target %s and %s.",,,,,
+Broadhead (Kinetic),jdp_broadhead_kinetic,3,0,5000,1000,,380,300,20,10,25,,,,KINETIC,480,,0,3,2,0.3,0,0,0,0,,1200,,,,,,SYSTEM,"no_drop, no_drop_salvage, restricted",,Kalafina Larme,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Solar Panel,jdp_solar,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,47
+Pusher Plate (Midline),jdp_pusherplate_midline,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,pusherplate,,,,,,,,,,,,,,42.5
+Lidar Array Dish (Green Laser),jdp_lidardish,0,,1,0,100,,,0,200,0,1000,1000,,ENERGY,,0,0.2,0.2,0.35,0,,,,,1000000,,,,,,,SYSTEM,lidar,,,,Special,,,,,,,,,,43.5
+Deshret Lidar,jdp_deshretlidar,0,,1,1000,100,,,0,200,0,1000,1000,,ENERGY,,0,0.2,0.2,0.35,0,,,,,1000000,,,,,,,SYSTEM,lidar,,,,Special,,,,,,,,,,43.5
+Beleagure Lidar,jdp_beleagurelidar,0,,1,0,100,,,0,200,0,1000,1000,,ENERGY,,0,0.2,0.2,0.35,0,,,,,1000000,,,,,,,SYSTEM,lidar,,,,Special,,,,,,,,,,43.5
+Sensor Dish,jdp_epistlesensordish,,,,,,,,,100,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,43
+Marlin Deco,jdp_marlin_deco,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,42.5
+Custodian Eyes,jdp_custodian_eyes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,eyes,,,,,,,,,,,,,,47
+Beleagure Eyes,jdp_beleagure_eyes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,eyes,,,,,,,,,,,,,,47
+Hummingbird Coil,jdp_hummingbird_coil,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,47
+Large Vector Engine Cap,jdp_eider_vector,,,,1,120,,,,45,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,"no_drop, no_drop_salvage, restricted",,,,,,,,,,,,,,
+Tripathia Deco,jdp_tripathia_deco,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,42.5
+Chuuni Deco,jdp_chuuni_deco,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,42.5
+Tripathia Ring,jdp_tripathia_ring,,,,,,,,,10,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,43
+Lamp Deco,jdp_lamp_deco,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,47
+Reaction Control System,jdp_reactioncontrol,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,42.5

@@ -1,0 +1,15 @@
+id,name,iconPath,npcSpawnWeight,plugin
+#Flowefish,,,,
+jdp_flowerfishOurStrategicAdvantage,Our Strategic Advantage,graphics/icons/skills/flowerfish/jdp_flowerfishOurStrategicAdvantage.png,1,Jaydee8652.JaydeePiracy.scripts.skills.flowerfish.jdp_flowerfishOurStrategicAdvantage
+,,,,
+jdp_flowerfishUrbanCamo,Urban Camouflage,graphics/icons/skills/flowerfish/jdp_flowerfishUrbanCamo.png,0.1,Jaydee8652.JaydeePiracy.scripts.skills.flowerfish.jdp_flowerfishUrbanCamo
+jdp_flowerfishSupersymmetry,Supersymmetry,graphics/icons/skills/flowerfish/jdp_flowerfishSupersymmetry.png,1,Jaydee8652.JaydeePiracy.scripts.skills.flowerfish.jdp_flowerfishSupersymmetry
+jdp_flowerfishWithTheNetwork,With The Network,graphics/icons/skills/flowerfish/jdp_flowerfishWithTheNetwork.png,1,Jaydee8652.JaydeePiracy.scripts.skills.flowerfish.jdp_flowerfishWithTheNetwork
+,,,,
+jdp_flowerfishFirstSecondThird,"First, Second, Third",graphics/icons/skills/flowerfish/jdp_flowerfishFirstSecondThird.png,0.1,Jaydee8652.JaydeePiracy.scripts.skills.flowerfish.jdp_flowerfishFirstSecondThird
+jdp_flowerfishPunchDownClawUp,"Punch Down, Claw Up",graphics/icons/skills/flowerfish/jdp_flowerfishPunchDownClawUp.png,1,Jaydee8652.JaydeePiracy.scripts.skills.flowerfish.jdp_flowerfishPunchDownClawUp
+jdp_flowerfishAccountingOfBurdens,Accounting of Burdens,graphics/icons/skills/flowerfish/jdp_flowerfishAccountingOfBurdens.png,1,Jaydee8652.JaydeePiracy.scripts.skills.flowerfish.jdp_flowerfishAccountingOfBurdens
+jdp_flowerfishQuadrupolarCoupling,Quadrupolar Coupling,graphics/icons/skills/flowerfish/jdp_flowerfishQuadrupolarCoupling.png,1,Jaydee8652.JaydeePiracy.scripts.skills.flowerfish.jdp_flowerfishQuadrupolarCoupling
+,,,,
+jdp_flowerfishPerpetualPursuit,Perpetual Pursuit,graphics/icons/skills/flowerfish/jdp_flowerfishPerpetualPursuit.png,1,Jaydee8652.JaydeePiracy.scripts.skills.flowerfish.jdp_flowerfishPerpetualPursuit
+jdp_flowerfishPersonalDiscretion,Personal Discretion,graphics/icons/skills/flowerfish/jdp_flowerfishPersonalDiscretion.png,0.1,Jaydee8652.JaydeePiracy.scripts.skills.flowerfish.jdp_flowerfishPersonalDiscretion

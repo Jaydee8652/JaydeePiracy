@@ -1,0 +1,20 @@
+{
+    "id":"jdp_bluescreenrounds",
+    "type":"STAT_MOD",
+    "aiType":"CUSTOM",
+    "aiScript":"Jaydee8652.JaydeePiracy.scripts.systems.jdp_BluescreenRoundAI",
+
+    "weaponGlowColor":[100,150,250,255],
+    "weaponTypes":[BALLISTIC],
+
+    "useSound":"system_ammo_feeder",
+    "deactivateSound":"system_high_energy_focus_deactivate",
+
+    "outOfUsesSound":"gun_out_of_ammo",	
+
+    "aiHints":{
+        "activeSpeedIncrease":0,
+        "burstMovementPotential":0,
+        "averageSpeedIncrease":0,
+    }
+}

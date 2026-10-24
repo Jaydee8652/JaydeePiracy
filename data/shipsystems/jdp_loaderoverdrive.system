@@ -1,0 +1,13 @@
+{
+    "id":"jdp_loaderoverdrive",
+	"type":"STAT_MOD",
+	"aiType":"WEAPON_BOOST",
+	
+	"statsScript":"Jaydee8652.JaydeePiracy.scripts.systems.jdp_LoaderOverdrive",
+
+    "weaponGlowColor":[255,200,0,155],
+    "weaponTypes":[BALLISTIC],
+	
+	"useSound":"system_ammo_feeder",
+	"outOfUsesSound":"gun_out_of_ammo",
+}

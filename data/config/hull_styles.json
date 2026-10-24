@@ -1,0 +1,81 @@
+{
+	# The following hull style ids are reserved and can not be used:
+	# "sounds", "DEFAULT", "FIGHTER", "FRIGATE", "DESTROYER", "CRUISER", "CAPITAL_SHIP"
+	"JDP_CHUUNI":{
+		"hyperspaceJitterColor":[100,165,255,200],
+		"baseCampaignExplosionColor":[100,165,255,255],
+		"baseCombatExplosionColor":[100,165,255,255],
+		"combatExplosionNonFlashColorOverride":[100,165,255,255], # the more billowy explosion
+		"fighterRepairFlickerColor":[100,165,255,255],
+		"fighterChipIconColor":[100,165,255,255],
+		"weaponDisabledExplosionColor":[100,165,255,255],
+		"shieldRingColor":[255,255,255,255],
+		"shieldInnerColor":[125,125,225,75],
+		"fluxVentCoreColor":[255,255,255,255],
+		"fluxVentFringeColor":[125,0,155,255],
+		"engineLoopSet":"engine_loop", 					# id of entry in sounds.json
+		"engineAccelerateSet":"engine_accelerate",		# id of entry in sounds.json
+		"empLoopSet":"emp_loop",						# id of entry in sounds.json
+		"fluxLoopSet":"flux_loop",						# id of entry in sounds.json
+		"ventFluxSet":"vent_flux",						# id of entry in sounds.json
+		"shieldBurnoutSet":"shield_burnout",			# id of entry in sounds.json
+		"shieldLowerSet":"shield_lower",				# id of entry in sounds.json
+		"shieldRaiseSet":"shield_raise",				# id of entry in sounds.json
+		"explosionShipSet":"explosion_ship",			# id of entry in sounds.json
+		"damageDecalSheet":"graphics/damage/damage_decal_sheet_base.png",
+		"damageDecalGlowSheet":"graphics/damage/damage_decal_sheet_glow.png",
+		
+		#"colorShiftCovers":true,
+		"coversColorShiftAmount":1,  # 0 to 1
+		"coversMatchShipBrightness":true,
+		"slotCoverSmallTurret":"graphics/weapons/covers/jdp_cover_turret_chuuni_small.png",
+		"slotCoverSmallHardpoint":"graphics/weapons/covers/jdp_cover_hardpoint_chuuni_small.png",
+		"slotCoverMediumTurret":"graphics/weapons/covers/jdp_cover_turret_chuuni_medium.png",
+		"slotCoverMediumHardpoint":"graphics/weapons/covers/jdp_cover_hardpoint_chuuni_medium.png",
+		"slotCoverLargeTurret":"graphics/weapons/covers/jdp_cover_turret_chuuni_large.png",
+		"slotCoverLargeHardpoint":"graphics/weapons/covers/jdp_cover_hardpoint_chuuni_large.png",
+		
+		"dHullOverlaySmall":"graphics/damage/ship_damage_over3.png",
+		"dHullOverlayLarge":"graphics/damage/ship_damage_over3.png",
+	},
+	"JDP_LAPLACIAN":{
+		"hyperspaceJitterColor":[100,165,255,200],
+		"baseCampaignExplosionColor":[100,165,255,255],
+		"baseCombatExplosionColor":[255,50, 50,255],
+		"combatExplosionNonFlashColorOverride":[255,50, 50,255], # the more billowy explosion
+		"fighterRepairFlickerColor":[255,50, 50,255],
+		"fighterChipIconColor":[255,50, 50,255],
+		"weaponDisabledExplosionColor":[255,50, 50,255],
+		"shieldRingColor":[255,50, 50,255],
+		"shieldInnerColor":[255,50, 90,75],
+		"fluxVentCoreColor":[255,50, 50,255],
+		"fluxVentFringeColor":[255,50, 90,255],
+		"engineLoopSet":"engine_loop", 					# id of entry in sounds.json
+		"engineAccelerateSet":"engine_accelerate",		# id of entry in sounds.json
+		"empLoopSet":"emp_loop",						# id of entry in sounds.json
+		"fluxLoopSet":"flux_loop",						# id of entry in sounds.json
+		"ventFluxSet":"vent_flux",						# id of entry in sounds.json
+		"shieldBurnoutSet":"shield_burnout",			# id of entry in sounds.json
+		"shieldLowerSet":"shield_lower",				# id of entry in sounds.json
+		"shieldRaiseSet":"shield_raise",				# id of entry in sounds.json
+		"explosionShipSet":"explosion_ship",			# id of entry in sounds.json
+		"damageDecalSheet":"graphics/damage/damage_decal_sheet_base.png",
+		"damageDecalGlowSheet":"graphics/damage/damage_decal_sheet_glow.png",
+		
+		#"colorShiftCovers":true,
+		"coversColorShiftAmount":1,  # 0 to 1
+		"coversMatchShipBrightness":true,
+		"slotCoverSmallTurret":"graphics/weapons/covers/jdp_cover_turret_laplacian_small.png",
+		"slotCoverSmallHardpoint":"graphics/weapons/covers/jdp_cover_hardpoint_laplacian_small.png",
+		"slotCoverMediumTurret":"graphics/weapons/covers/jdp_cover_turret_laplacian_medium.png",
+		"slotCoverMediumHardpoint":"graphics/weapons/covers/jdp_cover_hardpoint_laplacian_medium.png",
+		"slotCoverLargeTurret":"graphics/weapons/covers/jdp_cover_turret_laplacian_large.png",
+		"slotCoverLargeHardpoint":"graphics/weapons/covers/jdp_cover_hardpoint_laplacian_large.png",
+		
+		"dHullOverlaySmall":"graphics/damage/ship_damage_over3.png",
+		"dHullOverlayLarge":"graphics/damage/ship_damage_over3.png",
+	},	
+}
+
+
+

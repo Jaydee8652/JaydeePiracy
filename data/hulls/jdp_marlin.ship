@@ -1,0 +1,207 @@
+{
+    "hullName": "Marlin",
+    "hullId": "jdp_marlin",
+    "hullSize": "CRUISER",
+    "style": "HIGH_TECH",
+    "spriteName": "graphics/ships/jdp_marlin.png",
+    "height": 329,
+    "width": 176,
+    "center": [
+        88, 164.5
+    ],
+    "collisionRadius": 175,
+    "coversColor": "",
+    "shieldCenter": [
+        0, 0
+    ],
+    "shieldRadius": 175,
+    "viewOffset": 0,
+    "builtInMods": [
+        "jdp_maerulanPhaseCoils",
+        "phasefield",
+        "neural_interface",
+        "eccm"
+    ],
+    "builtInWings": [],
+    "builtInModules": null,
+    "weaponSlots": [
+        {
+            "id": "JDP_Radiator 001R",
+            "size": "SMALL",
+            "type": "STATION_MODULE",
+            "mount": "TURRET",
+            "renderOrderMod": 100,
+            "arc": 120,
+            "angle": 180,
+            "locations": [
+                    -56.5,      -33
+            ]
+        },
+        {
+            "id": "JDP_Radiator 002R",
+            "size": "SMALL",
+            "type": "STATION_MODULE",
+            "mount": "TURRET",
+            "renderOrderMod": 200,
+            "arc": 60,
+            "angle": 180,
+            "locations": [
+                    -56.5,      -33
+            ]
+        },
+        {
+            "id": "JDP_Radiator 003R",
+            "size": "SMALL",
+            "type": "STATION_MODULE",
+            "mount": "TURRET",
+            "renderOrderMod": 300,
+            "arc": 90,
+            "angle": 180,
+            "locations": [
+                    -56.5,      -33
+            ]
+        },
+        {
+            "id": "JDP_Radiator 004R",
+            "size": "SMALL",
+            "type": "STATION_MODULE",
+            "mount": "TURRET",
+            "renderOrderMod": 400,
+            "arc": 30,
+            "angle": 180,
+            "locations": [
+                    -56.5,      -33
+            ]
+        },
+        {
+            "id": "JDP_Radiator 001L",
+            "size": "SMALL",
+            "type": "STATION_MODULE",
+            "mount": "TURRET",
+            "renderOrderMod": 100,
+            "arc": 120,
+            "angle": 180,
+            "locations": [
+                    -56.5,      33
+            ]
+        },
+        {
+            "id": "JDP_Radiator 002L",
+            "size": "SMALL",
+            "type": "STATION_MODULE",
+            "mount": "TURRET",
+            "renderOrderMod": 200,
+            "arc": 60,
+            "angle": 180,
+            "locations": [
+                    -56.5,      33
+            ]
+        },
+        {
+            "id": "JDP_Radiator 003L",
+            "size": "SMALL",
+            "type": "STATION_MODULE",
+            "mount": "TURRET",
+            "renderOrderMod": 300,
+            "arc": 90,
+            "angle": 180,
+            "locations": [
+                    -56.5,      33
+            ]
+        },
+        {
+            "id": "JDP_Radiator 004L",
+            "size": "SMALL",
+            "type": "STATION_MODULE",
+            "mount": "TURRET",
+            "renderOrderMod": 400,
+            "arc": 30,
+            "angle": 180,
+            "locations": [
+                    -56.5,      33
+            ]
+        }
+    ],
+    "engineSlots": [
+        {
+            "location": [
+                -142, 34.5
+            ],
+            "length": 64,
+            "width": 16,
+            "angle": 180,
+            "contrailSize": 64,
+            "style": "HIGH_TECH"
+        },
+        {
+            "location": [
+                -142, -34.5
+            ],
+            "length": 64,
+            "width": 16,
+            "angle": 180,
+            "contrailSize": 64,
+            "style": "HIGH_TECH"
+        },
+        {
+            "location": [
+                -120.5, 0
+            ],
+            "length": 122.5,
+            "width": 18,
+            "angle": 180,
+            "contrailSize": 64,
+            "style": "HIGH_TECH"
+        }
+    ],
+    "bounds": [
+           105.5,      6.5,
+            64.5,     21.5,
+              57,       13,
+            42.5,       17,
+              33,     29.5,
+        
+             8.5,       36,
+              -3,       31,
+            -7.5,       39,
+           -23.5,       59,
+             -71,       87,
+        
+             -85,       87,
+           -89.5,     74.5,
+          -115.5,       66,
+          -125.5,       51,
+            -144,       39,
+        
+            -144,       28,
+            -156,       28,
+            -164,       20,
+            -147,        4,
+            -147,       -4,
+        
+            -164,      -20,
+            -156,      -28,
+            -144,      -28,
+            -144,      -39,
+          -125.5,      -51,
+        
+          -115.5,      -66,
+           -89.5,    -74.5,
+             -85,      -87,
+             -71,      -87,
+           -23.5,      -59,
+        
+            -7.5,      -39,
+              -3,      -31,
+              15,      -37,
+              48,    -31.5,
+              33,    -29.5,
+        
+            42.5,      -17,
+              57,      -13,
+            64.5,    -21.5,
+           105.5,     -6.5,
+             162,        0
+    # 40 points total.
+    ]
+}

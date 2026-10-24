@@ -1,0 +1,35 @@
+{
+    "displayName": "Pursuit",
+    "fluxCapacitors": 0,
+    "fluxVents": 19,
+    "goalVariant": true,
+    "hullId": "jdp_florencia",
+    "hullMods": [
+        "militarized_subsystems",
+        "targetingunit",
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "suppressedMods": [],
+    "variantId": "jdp_florencia_Pursuit",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 000": "hveldriver",
+                "WS 001": "hveldriver",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 002": "railgun",
+                "WS 003": "railgun",
+            }
+        },
+    ],
+    "wings": [],
+    "modules": [],
+}

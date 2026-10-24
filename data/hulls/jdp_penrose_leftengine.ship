@@ -1,0 +1,97 @@
+{
+    "hullName": "Penrose Left Engine",
+    "hullId": "jdp_penrose_leftengine",
+    "hullSize": "CRUISER",
+    "style": "OMEGA",
+    "spriteName": "graphics/ships/jdp_penrose/jdp_penrose_leftengine.png",
+    "height": 320,
+    "width": 80,
+    "center": [
+        42.5, 160.5
+    ],
+    "moduleAnchor": [
+        175, -90
+    ],
+    "collisionRadius": 160,
+    "coversColor": "",
+    "shieldCenter": [
+        -0.5, 2.5
+    ],
+    "shieldRadius": 175,
+    "viewOffset": 0,
+    "builtInMods": [
+        "automated",
+        "fluxbreakers",
+        "always_detaches",
+        "reduced_explosion",
+        "jdp_linkedEngines",
+        "jdp_modularShip",
+        "shard_spawner"
+    ],
+    "builtInWings": [],
+    "builtInModules": null,
+    "weaponSlots": [
+        {
+            "id": "WS 000",
+            "size": "SMALL",
+            "type": "UNIVERSAL",
+            "mount": "HARDPOINT",
+            "arc": 205,
+            "angle": 78,
+            "locations": [
+                    64.5,    -16.5
+            ]
+        },
+        {
+            "id": "WS 001",
+            "size": "SMALL",
+            "type": "UNIVERSAL",
+            "mount": "HARDPOINT",
+            "arc": 212,
+            "angle": 74.5,
+            "locations": [
+                   -11.5,     -5.5
+            ]
+        },
+        {
+            "id": "WS 002",
+            "size": "SMALL",
+            "type": "UNIVERSAL",
+            "mount": "HARDPOINT",
+            "arc": 191,
+            "angle": 131,
+            "locations": [
+                   -50.5,     10.5
+            ]
+        }
+    ],
+    "engineSlots": [
+        {
+            "location": [
+                -92, 7.5
+            ],
+            "length": 116.5,
+            "width": 51,
+            "angle": 180,
+            "contrailSize": 12,
+            "style": "OMEGA"
+        }
+    ],
+    "bounds": [
+              -1,     27.5,
+             141,       27,
+           145.5,        5,
+             118,      3.5,
+              79,      -30,
+        
+             -22,    -36.5,
+           -65.5,      -28,
+             -61,    -23.5,
+          -103.5,       -7,
+            -158,     20.5,
+        
+           -82.5,       21,
+             -32,     22.5
+    # 12 points total.
+    ]
+}

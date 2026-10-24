@@ -1,0 +1,73 @@
+{
+    "displayName": "Prototype",
+    "fluxCapacitors": 13,
+    "fluxVents": 30,
+    "goalVariant": true,
+    "hullId": "jdp_chuuni",
+    "hullMods": [
+        "autorepair",
+        "hardenedshieldemitter",
+        "targetingunit",
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "suppressedMods": [],
+    "variantId": "jdp_chuuni_Prototype",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 009": "jdp_tyrantseye",
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 006": "amsrm",
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 000": "resonatormrm",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "multineedler",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 004": "ioncannon",
+                "WS 005": "ioncannon",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 010": "cryoblaster",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 008": "pdburst",
+                "WS 007": "pdburst",
+                "WS 002": "pdburst",
+                "WS 003": "pdburst",
+            }
+        },
+    ],
+    "wings": [],
+    "modules": [],
+}

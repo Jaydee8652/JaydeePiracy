@@ -1,0 +1,21 @@
+name,id,flux/second,f/s (base rate),f/s (base cap),flux/use,f/u (base rate),f/u (base cap),cr/u,max uses,regen,charge up,active,down,cooldown,toggle,noDissipation,noHardDissipation,hardFlux,noFiring,noTurning,noStrafing,noAccel,noShield,noVent,isPhaseCloak,tags,icon
+Advanced Lidar,jdp_lidararray,1,,,,,,,,,3.25,5,1,10,,,,,,,,,,,,,graphics/icons/hullsys/lidar_barrage.png
+Quickdraw Lidar,jdp_quickdrawlidararray,1,,,,,,,,,1.25,5,0.5,10,,,,,,,,,,,,,graphics/icons/hullsys/lidar_barrage.png
+Combatmaster Lidar,jdp_combatmasterlidararray,1,,,,,,,,,3.25,5,0.5,10,,,,,,,,,,,,,graphics/icons/hullsys/lidar_barrage.png
+Target Designator,jdp_targetdesignator,1,,,,,,,,,3.25,7.5,1,20,,,,,,,,,,,,,graphics/icons/hullsys/lidar_barrage.png
+Ancient Lidar,jdp_ancientlidar,1,,,,,,,,,3.25,7.5,1,20,,,,,,,,,,,,,graphics/icons/hullsys/lidar_barrage.png
+Unstable Burn,jdp_unstableburn,1,,,,,,,,,0.5,5,1,10,TRUE,,,,,TRUE,TRUE,TRUE,TRUE,,,movement,graphics/icons/hullsys/burn_drive.png
+Advanced Temporal Shell,jdp_temporalshell,0.25,,,,,0.25,,,,4,10,2,10,,,,,,,,,,,,,graphics/icons/hullsys/temporal_shell.png
+Temporal Teleporter,jdp_temporalteleporter,,,,,,0.05,,1,0.05,1,0,0.05,10,,,,TRUE,,,,,,,,movement,graphics/icons/hullsys/displacer.png
+Pursuit Drive,jdp_banisher,,,,,,,,,,1,5,2,10,,,,,,,,,,,,movement,graphics/icons/hullsys/infernium_injector.png
+Domain Autoforge,jdp_forgevats,,,,,,0.5,,,,1,0,0,45,,,,,,,,,,,,,graphics/icons/hullsys/missile_autoforge.png
+Drone EMP Emitter,jdp_arcdrone,,,,,,0.2,,,,0.5,15,0.5,3,,,,,,,,,,,,,graphics/icons/hullsys/emp_emitter.png
+Cloak of Darkness,jdp_phasecloak,,,,,,,,,,0.25,2.5,0.25,10,TRUE,TRUE,TRUE,TRUE,TRUE,,,,TRUE,,TRUE,,graphics/icons/hullsys/phase_cloak.png
+Cloak Entry,jdp_cloakentry,,,,,,,,,,0.25,2.5,0.25,10,TRUE,TRUE,TRUE,TRUE,TRUE,,,,TRUE,,,restricted,graphics/icons/hullsys/phase_cloak.png
+Bluescreen Round,jdp_bluescreenrounds,,,,,,,,4,0.02,,,,10,TRUE,,,,,,,,,,,,graphics/icons/hullsys/jdp_bluescreenrounds.png
+Dual Orion Device,jdp_dualorion,,,,,,,,6,0.2,0,0.001,0,1,,,,,,,,,,,,movement,graphics/icons/hullsys/orion_drive.png
+Loader Overdrive,jdp_loaderoverdrive,,,,,,,,,,1,,1,5,TRUE,,,,,,,,,,,,graphics/icons/hullsys/ammo_feeder.png
+Orion Device,jdp_phaseorion,,,,,,,,3,0.2,0,0.001,0,1,,,,,,,,,,,,"movement, hide_in_codex",graphics/icons/hullsys/orion_drive.png
+Maerulan Skimmer,jdp_maerulanskimmer,,,,,,,,3,0.1,0.25,,0.25,0,,TRUE,,TRUE,,,,,,,,movement,graphics/icons/hullsys/displacer.png
+Defense Torpedo,jdp_pdmissile,,,,,,,,5,0.1,,,,0.5,,,,,,,,,,,,defensive,graphics/icons/hullsys/jdp_defense_torpedo.png
+Radiators,jdp_radiators,0.25,,,,,0.25,,,,5,10,5,10,,,,,,,,,,,,,graphics/icons/hullsys/temporal_shell.png

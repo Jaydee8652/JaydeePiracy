@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="AodCapitals">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../AoTD - Seats of Power-3.2.0/jars/AodCapitals.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

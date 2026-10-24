@@ -1,0 +1,62 @@
+{
+    "displayName": "Auxilary",
+    "fluxCapacitors": 0,
+    "fluxVents": 12,
+    "goalVariant": true,
+    "hullId": "jdp_florencia_hegemony",
+    "hullMods": [
+        "auxiliarythrusters",
+        "eccm",
+        "missleracks",
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "suppressedMods": [],
+    "variantId": "jdp_florencia_hegemony_Auxilary",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "typhoon",
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 000": "typhoon",
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 002": "vulcan",
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 003": "vulcan",
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 005": "vulcan",
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 004": "swarmer",
+            }
+        },
+    ],
+    "wings": [],
+    "modules": [],
+}

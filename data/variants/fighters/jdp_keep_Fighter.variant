@@ -1,0 +1,26 @@
+{
+    "displayName": "Fighter",
+    "fluxCapacitors": 0,
+    "fluxVents": 0,
+    "goalVariant": false,
+    "hullId": "jdp_keep",
+    "hullMods": [],
+    "quality": 1.0,
+    "variantId": "jdp_keep_Fighter",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 001": "annihilator"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 000": "chaingun"
+            }
+        }
+    ]
+}

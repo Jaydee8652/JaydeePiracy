@@ -1,0 +1,108 @@
+{
+    "hullName": "Penrose Shard",
+    "hullId": "jdp_penrose_shard",
+    "hullSize": "DESTROYER",
+    "style": "OMEGA",
+    "spriteName": "graphics/ships/jdp_penrose/jdp_penrose_shard.png",
+    "height": 220,
+    "width": 120,
+    "center": [
+        66, 99
+    ],
+    "moduleAnchor": [
+        0, -100
+    ],
+    "collisionRadius": 135,
+    "coversColor": "",
+    "shieldCenter": [
+        0, 0
+    ],
+    "shieldRadius": 135,
+    "viewOffset": 0,
+    "builtInMods": [
+        "automated",
+        "fluxbreakers",
+        "always_detaches",
+        "reduced_explosion",
+        "jdp_linkedEngines",
+        "jdp_modularShip",
+        "shard_spawner"
+    ],
+    "builtInWings": [],
+    "builtInModules": null,
+    "weaponSlots": [
+        {
+            "id": "WS 000",
+            "size": "MEDIUM",
+            "type": "UNIVERSAL",
+            "mount": "TURRET",
+            "arc": 213,
+            "angle": 46,
+            "locations": [
+                     -35,        9
+            ]
+        },
+        {
+            "id": "WS 001",
+            "size": "SMALL",
+            "type": "UNIVERSAL",
+            "mount": "TURRET",
+            "arc": 258,
+            "angle": 112.5,
+            "locations": [
+                     -49,       32
+            ]
+        }
+    ],
+    "engineSlots": [
+        {
+            "location": [
+                -29.5, -31
+            ],
+            "length": 35.5,
+            "width": 16,
+            "angle": 180,
+            "contrailSize": 12,
+            "style": "OMEGA"
+        },
+        {
+            "location": [
+                -43, -14.5
+            ],
+            "length": 36,
+            "width": 13,
+            "angle": 180,
+            "contrailSize": 12,
+            "style": "OMEGA"
+        },
+        {
+            "location": [
+                -76.5, 47
+            ],
+            "length": 36.5,
+            "width": 17,
+            "angle": 180,
+            "contrailSize": 12,
+            "style": "OMEGA"
+        }
+    ],
+    "bounds": [
+           -79.5,     60.5,
+             107,    -13.5,
+             110,      -21,
+              81,      -26,
+             119,    -43.5,
+        
+             109,      -50,
+            19.5,    -47.5,
+              -6,      -39,
+           -22.5,      -41,
+             -53,    -10.5,
+        
+           -72.5,       -6,
+             -65,       17,
+             -82,     34.5,
+             -91,       57
+    # 14 points total.
+    ]
+}

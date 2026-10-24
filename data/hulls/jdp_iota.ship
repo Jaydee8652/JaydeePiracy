@@ -1,0 +1,284 @@
+{
+    "hullName": "Iota",
+    "hullId": "jdp_iota",
+    "hullSize": "CRUISER",
+    "style": "HIGH_TECH",
+    "spriteName": "graphics/ships/jdp_iota.png",
+    "height": 226,
+    "width": 170,
+    "center": [
+        85, 113
+    ],
+    "collisionRadius": 140,
+    "coversColor": "",
+    "shieldCenter": [
+        0, 0
+    ],
+    "shieldRadius": 135,
+    "viewOffset": 0,
+    "builtInMods": [
+        "automated",
+        "delicate"
+    ],
+    "builtInWings": [],
+    "builtInModules": null,
+    "weaponSlots": [
+        {
+            "id": "WS 000",
+            "size": "LARGE",
+            "type": "ENERGY",
+            "mount": "TURRET",
+            "arc": 200,
+            "angle": 20,
+            "locations": [
+                       9,       61
+            ]
+        },
+        {
+            "id": "WS 002",
+            "size": "SMALL",
+            "type": "ENERGY",
+            "mount": "TURRET",
+            "arc": 200,
+            "angle": 0,
+            "locations": [
+                      99,      -19
+            ]
+        },
+        {
+            "id": "WS 003",
+            "size": "SMALL",
+            "type": "ENERGY",
+            "mount": "TURRET",
+            "arc": 200,
+            "angle": 26.5,
+            "locations": [
+                      38,       57
+            ]
+        },
+        {
+            "id": "WS 004",
+            "size": "LARGE",
+            "type": "SYNERGY",
+            "mount": "HARDPOINT",
+            "arc": 5,
+            "angle": 0,
+            "locations": [
+                      93,      -42
+            ]
+        },
+        {
+            "id": "WS 005",
+            "size": "MEDIUM",
+            "type": "HYBRID",
+            "mount": "HARDPOINT",
+            "arc": 8,
+            "angle": 0,
+            "locations": [
+                      88,       46
+            ]
+        },
+        {
+            "id": "WS 006",
+            "size": "MEDIUM",
+            "type": "HYBRID",
+            "mount": "HARDPOINT",
+            "arc": 8,
+            "angle": 0,
+            "locations": [
+                      99,       26
+            ]
+        },
+        {
+            "id": "WS 008",
+            "size": "SMALL",
+            "type": "SYSTEM",
+            "mount": "HIDDEN",
+            "arc": 5,
+            "angle": 45,
+            "locations": [
+                    48.5,        0
+            ]
+        },
+        {
+            "id": "WS 009",
+            "size": "SMALL",
+            "type": "SYSTEM",
+            "mount": "HIDDEN",
+            "arc": 5,
+            "angle": -45,
+            "locations": [
+                     6.5,      -51
+            ]
+        },
+        {
+            "id": "WS 001",
+            "size": "SMALL",
+            "type": "ENERGY",
+            "mount": "TURRET",
+            "arc": 140,
+            "angle": 240,
+            "locations": [
+                     -40,      -58
+            ]
+        },
+        {
+            "id": "WS 010",
+            "size": "SMALL",
+            "type": "ENERGY",
+            "mount": "TURRET",
+            "arc": 140,
+            "angle": 120,
+            "locations": [
+                     -40,       58
+            ]
+        },
+        {
+            "id": "WS 007",
+            "size": "MEDIUM",
+            "type": "LAUNCH_BAY",
+            "mount": "HIDDEN",
+            "arc": 30,
+            "angle": 0,
+            "locations": [
+                    -2.5,    -69.5,
+                      42,    -16.5,
+                       7,      -80
+            ]
+        }
+    ],
+    "engineSlots": [
+        {
+            "location": [
+                -109.5, -44.5
+            ],
+            "length": 100,
+            "width": 28,
+            "angle": 180,
+            "contrailSize": 12,
+            "style": "HIGH_TECH"
+        },
+        {
+            "location": [
+                -109.5, 44.5
+            ],
+            "length": 100,
+            "width": 28,
+            "angle": 180,
+            "contrailSize": 12,
+            "style": "HIGH_TECH"
+        },
+        {
+            "location": [
+                -104.5, -56.5
+            ],
+            "length": 72.5,
+            "width": 17,
+            "angle": 180,
+            "contrailSize": 12,
+            "style": "HIGH_TECH"
+        },
+        {
+            "location": [
+                -104.5, 56.5
+            ],
+            "length": 72.5,
+            "width": 17,
+            "angle": 180,
+            "contrailSize": 12,
+            "style": "HIGH_TECH"
+        },
+        {
+            "location": [
+                -101.5, 65.5
+            ],
+            "length": 39,
+            "width": 9,
+            "angle": 180,
+            "contrailSize": 12,
+            "style": "HIGH_TECH"
+        },
+        {
+            "location": [
+                -101, -65.5
+            ],
+            "length": 39,
+            "width": 9,
+            "angle": 180,
+            "contrailSize": 12,
+            "style": "HIGH_TECH"
+        },
+        {
+            "location": [
+                -92.5, 27.5
+            ],
+            "length": 72.5,
+            "width": 17,
+            "angle": 180,
+            "contrailSize": 12,
+            "style": "HIGH_TECH"
+        },
+        {
+            "location": [
+                -92.5, -27.5
+            ],
+            "length": 72.5,
+            "width": 17,
+            "angle": 180,
+            "contrailSize": 12,
+            "style": "HIGH_TECH"
+        }
+    ],
+    "bounds": [
+            74.5,       12,
+             107,     11.5,
+           106.5,     34.5,
+            95.5,     34.5,
+              95,     55.5,
+        
+              57,       55,
+              47,     68.5,
+            31.5,     68.5,
+            16.5,     81.5,
+            -3.5,       81,
+        
+           -17.5,       68,
+             -31,     76.5,
+             -56,     75.5,
+           -70.5,     81.5,
+            -102,       69,
+        
+          -110.5,     39.5,
+             -93,     33.5,
+           -93.5,     23.5,
+             -67,       14,
+             -34,       24,
+        
+           -42.5,        0,
+             -34,      -24,
+             -67,      -14,
+           -93.5,    -23.5,
+             -93,    -33.5,
+        
+          -110.5,    -39.5,
+            -102,      -69,
+           -70.5,    -81.5,
+             -56,    -75.5,
+             -31,    -76.5,
+        
+           -17.5,      -68,
+              27,      -69,
+            45.5,    -55.5,
+              63,    -53.5,
+              66,    -60.5,
+        
+            98.5,    -62.5,
+            98.5,    -57.5,
+             109,      -57,
+           110.5,      -10,
+            76.5,      -10,
+        
+              78,        0
+    # 41 points total.
+    ]
+}

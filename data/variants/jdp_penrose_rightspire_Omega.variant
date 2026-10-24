@@ -1,0 +1,48 @@
+{
+    "displayName": "Omega",
+    "fluxCapacitors": 0,
+    "fluxVents": 12,
+    "goalVariant": true,
+    "hullId": "jdp_penrose_rightspire",
+    "hullMods": [
+        "armoredweapons",
+        "autorepair",
+        "heavyarmor",
+        "pointdefenseai",
+        "reinforcedhull",
+        "safetyoverrides",
+        "targetingunit",
+        "turretgyros",
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "suppressedMods": [],
+    "variantId": "jdp_penrose_rightspire_Omega",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 002": "cryoblaster",
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 000": "disintegrator",
+                "WS 001": "disintegrator",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 003": "minipulser",
+                "WS 004": "minipulser",
+            }
+        },
+    ],
+    "wings": [],
+    "modules": [],
+}

@@ -1,0 +1,42 @@
+{
+    "hullFrequency":{
+        "hulls":{
+            "jdp_atlas":1,
+            "jdp_lorica":1,
+            "jdp_grendel_lp":5,
+        },
+    },
+    "knownShips":{
+        "hulls":[
+            "jdp_atlas",
+            "jdp_lorica",
+            "jdp_grendel_lp",
+        ],
+    },
+    "factionDoctrine":{
+		"warships":5,
+		"carriers":1,
+		"phaseShips":3,
+		
+		"officerQuality":2,
+		"shipQuality":1,
+		"numShips":4,
+		
+		"shipSize":3,
+		
+		"aggression":5,
+		
+		"combatFreighterProbability":1,     				# instead of some portion of the freighters in a fleet
+		"combatFreighterCombatUseFraction":0.75,			# as part of the normal combat lineup
+		"combatFreighterCombatUseFractionWhenPriority":1,   # as part of normal combat lineup, when marked as priority ship
+		"autofitRandomizeProbability":0.5,
+
+		"commanderSkillsShuffleProbability":1,
+		"commanderSkills":[
+			"crew_training",
+			"officer_training",
+			"coordinated_maneuvers",
+			"flux_regulation",
+		],
+	},
+},
