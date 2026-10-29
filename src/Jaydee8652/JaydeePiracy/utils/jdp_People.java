@@ -236,6 +236,7 @@ public class jdp_People {
 		person.getName().setLast("Tsimnova");
 		person.setImportance(PersonImportance.HIGH);
 		person.setPortraitSprite(Global.getSettings().getSpriteName("characters", JDP_AGYALA));
+
 		if (!ip.containsPerson(person)) {
 			log.info("JDP_RETROGEN_PEOPLE: " + person.getName().getFullName() + " (" + person.getId() + ") did not exist. Has been generated retroactively");
 			ip.addPerson(person);

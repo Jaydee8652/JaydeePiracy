@@ -47,7 +47,7 @@ public class jdp_magneticAccelerator extends BaseHullMod {
 	}
 
 	public String getDescriptionParam(int index, HullSize hullSize) {
-		if (index == 0) return "" + (int) SPEED_BONUS + "%";
+		if (index == 0) return (int) SPEED_BONUS + "%";
 		if (index == 1) return "fire over friendly vessels";
 		return null;
 	}

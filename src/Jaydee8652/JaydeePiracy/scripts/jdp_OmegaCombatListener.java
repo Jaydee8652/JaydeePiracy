@@ -41,19 +41,22 @@ public class jdp_OmegaCombatListener implements FleetEventListener {
 	public void reportBattleOccurred(CampaignFleetAPI fleet, CampaignFleetAPI primaryWinner, BattleAPI battle) {
 		if (fleet == primaryWinner && battle.getNonPlayerSide().stream().anyMatch(f -> f.getFaction().getId().equals(Factions.OMEGA))) {
 			if (!fleet.getContainingLocation().getEntitiesWithTag(Entities.CORONAL_TAP).isEmpty()) {
-				log.info("JDP_LOG: The Penrose has been generated");
-				Global.getSector().getMemoryWithoutUpdate().set("$jdp_conquered_hypershunt", true);
-				addPenroseFleet();
+				if (!Global.getSector().getMemoryWithoutUpdate().contains("$jdp_conquered_hypershunt")) {
+					Global.getSector().getMemoryWithoutUpdate().set("$jdp_conquered_hypershunt", true);
+					log.info("JDP_LOG: The Penrose has been generated");
 
-				Global.getSector().addScript(new DelayedActionScript(2) {
-					@Override
-					public void doAction() {
-						CampaignFleetAPI player = Global.getSector().getPlayerFleet();
-						if (player == null) return;
-						log.info("JDP_LOG: The Penrose Quest has fired");
-						Global.getSector().getCampaignUI().showInteractionDialog(new RuleBasedInteractionDialogPluginImpl("jdp_hypershuntConquered"), player);
-					}
-				});
+					addPenroseFleet();
+
+					Global.getSector().addScript(new DelayedActionScript(2) {
+						@Override
+						public void doAction() {
+							CampaignFleetAPI player = Global.getSector().getPlayerFleet();
+							if (player == null) return;
+							log.info("JDP_LOG: The Penrose Quest has fired");
+							Global.getSector().getCampaignUI().showInteractionDialog(new RuleBasedInteractionDialogPluginImpl("jdp_hypershuntConquered"), player);
+						}
+					});
+				}
 				//In theory, if a mod adds an Omega fleet that spawns in Hypershunt Systems it would also trigger
 				//this Listener, however for my purposes, the description of the quest says you killed Omega in a
 				//system with a Hypershunt, so it would still be correct.

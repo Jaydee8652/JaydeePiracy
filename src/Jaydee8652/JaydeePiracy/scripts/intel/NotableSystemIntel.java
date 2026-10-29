@@ -32,6 +32,7 @@ public class NotableSystemIntel extends FleetLogIntel {
 		setListInfoParam(DISCOVERED_PARAM);
 		Global.getSector().getIntelManager().addIntel(this, false, textPanel);
 		setListInfoParam(null);
+		this.setImportant(true);
 	}
 	
 	@Override

@@ -515,7 +515,8 @@ public class jdp_planetkillerLaunchSite extends BaseIndustry implements MarketIm
 	@Override
 	public void unapply() {
 		super.unapply();
-		market.getStats().getDynamic().getStat(jdp_Stats.PATHER_INTEREST_MULT).unmodifyMult(id);
+		//TODO: RETURN
+		//market.getStats().getDynamic().getStat(jdp_Stats.PATHER_INTEREST_MULT).unmodifyMult(id);
 
 		//Tag for dialogue
 		Global.getSector().getMemoryWithoutUpdate().set(INTERFECTOR_KEY, false);
@@ -565,7 +566,7 @@ public class jdp_planetkillerLaunchSite extends BaseIndustry implements MarketIm
 
 			float bonus = getImmigrationBonus();
 			tooltip.addPara("Pragmatic individuals are currently seeking immigration to secure peace of mind, increasing population growth: %s", opad, h, "+" + Math.round(bonus));
-			tooltip.addPara("The Luddic Path have redoubled their infiltration and subversion efforts against this \"Avatar of Moloch\", increasing Pather Interest from industries by %s", opad, h,"100%");
+			//tooltip.addPara("The Luddic Path have redoubled their infiltration and subversion efforts against this \"Avatar of Moloch\", increasing Pather Interest from industries by %s", opad, h,"100%");
 			tooltip.addPara("The instant and assured threat of Terracide presented by this installation will serve as potent leverage in our negotiations with other factions, likely forcing them to the table when they would otherwise refuse.", h, opad);
 		}
 	}
