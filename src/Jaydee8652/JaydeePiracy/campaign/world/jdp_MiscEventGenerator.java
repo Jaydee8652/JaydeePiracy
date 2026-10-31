@@ -61,16 +61,35 @@ public class jdp_MiscEventGenerator extends BaseThemeGenerator {
 	@Override
 	public void generateForSector(ThemeGenContext context, float allowedSectorFraction) {
 		if (jdp_lunaSettings.jdp_campaignColonyItemsGlobal().equals(true)) {
-			if (jdp_lunaSettings.jdp_campaignDynamo().equals(true)) addPlasmaDynamo();
-			if (jdp_lunaSettings.jdp_campaignBiofactory().equals(true)) addBiofactoryEmbryo();
-			if (jdp_lunaSettings.jdp_campaignSoil().equals(true)) addSoilNanites();
-			if (jdp_lunaSettings.jdp_campaignLamp().equals(true)) addOrbitalFusionLamp();
-			if (jdp_lunaSettings.jdp_campaignBore().equals(true)) addAutonomousMantleBore();
-			if (jdp_lunaSettings.jdp_campaignFullerene().equals(true)) addFullereneSpool();
-			if (jdp_lunaSettings.jdp_campaignReplicator().equals(true)) addCombatDroneReplicator();
-			if (jdp_lunaSettings.jdp_campaignCryo().equals(true)) addCryoarithmeticEngine();
-			if (jdp_lunaSettings.jdp_campaignHolosuite().equals(true)) addDealmakerHolosuite();
+			if (jdp_lunaSettings.jdp_campaignDynamo().equals(true)) {
+				addPlasmaDynamo();
+			}
+			if (jdp_lunaSettings.jdp_campaignBiofactory().equals(true)) {
+				addBiofactoryEmbryo();
+			}
+			if (jdp_lunaSettings.jdp_campaignSoil().equals(true)) {
+				addSoilNanites();
+			}
+			if (jdp_lunaSettings.jdp_campaignLamp().equals(true)) {
+				addOrbitalFusionLamp();
+			}
+			if (jdp_lunaSettings.jdp_campaignBore().equals(true)) {
+				addAutonomousMantleBore();
+			}
+			if (jdp_lunaSettings.jdp_campaignFullerene().equals(true)) {
+				addFullereneSpool();
+			}
+			if (jdp_lunaSettings.jdp_campaignReplicator().equals(true)) {
+				addCombatDroneReplicator();
+			}
+			if (jdp_lunaSettings.jdp_campaignCryo().equals(true)) {
+				addCryoarithmeticEngine();
+			}
+			if (jdp_lunaSettings.jdp_campaignHolosuite().equals(true)) {
+				addDealmakerHolosuite();
+			}
 		}
+
 		if (jdp_lunaSettings.jdp_campaignMadoka().equals(true)) addMadokaBuffalo();
 		if (jdp_lunaSettings.jdp_campaignSubsurface().equals(true)) addSubsurfaceEcosystems();
 		if (!Global.getSettings().getModManager().isModEnabled("IndEvo")) addKantaMinefield();
@@ -803,6 +822,8 @@ public class jdp_MiscEventGenerator extends BaseThemeGenerator {
 						data.addShip(copy);
 
 						Misc.setSalvageSpecial(entity, data);
+					} else {
+						log.info("JDP_RETROGEN_EVENTS: 		[WARNING] Failed to add pointer to " + source + " (Penelope's Star does not contain a Stable Location)");
 					}
 				} else {
 					log.info("JDP_RETROGEN_EVENTS: 		[WARNING] Failed to add pointer to " + source + " (Penelope's Star does not exist)");

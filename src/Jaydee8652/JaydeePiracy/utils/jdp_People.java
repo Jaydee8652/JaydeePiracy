@@ -89,9 +89,11 @@ public class jdp_People {
 			data.createSpecialist(person, JDP_PROFICIENCY_TERRAFORMER);
 
 			var qaras = Global.getSector().getEconomy().getMarket("qaras");
-			person.setMarket(qaras);
-			qaras.getCommDirectory().addPerson(person, 4);
-			qaras.getCommDirectory().getEntryForPerson(person).setHidden(true);
+			if (qaras != null) {
+				person.setMarket(qaras);
+				qaras.getCommDirectory().addPerson(person, 4);
+				qaras.getCommDirectory().getEntryForPerson(person).setHidden(true);
+			}
 		} else
 			log.info("JDP_RETROGEN_PEOPLE: " + person.getName().getFullName() + " (" + person.getId() + ") already exists. No action taken");
 

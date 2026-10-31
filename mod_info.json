@@ -2,7 +2,7 @@
   "id": "jaydeepiracy",
   "name": "JaydeePiracy",
   "author": "Jaydee8652",
-  "version": { "major": '6', "minor": '0', "patch": '1' },
+  "version": { "major": '6', "minor": '0', "patch": '2' },
 	"description":"Adds a variety of weird ships, new quests and an industry.",
   "gameVersion": "0.98a-RC8",
   "jars": [ "jars/JaydeePiracy.jar" ],
