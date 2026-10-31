@@ -246,9 +246,11 @@ public class jdp_People {
 			data.createSpecialist(person, JDP_PROFICIENCY_INSTRUMENT);
 
 			var jangala = Global.getSector().getEconomy().getMarket("jangala");
-			person.setMarket(jangala);
-			jangala.getCommDirectory().addPerson(person, 4);
-			if (jdp_lunaSettings.jdp_experimentalInstrument().equals(false)) jangala.getCommDirectory().getEntryForPerson(person).setHidden(true);
+			if (jangala != null) {
+				person.setMarket(jangala);
+				jangala.getCommDirectory().addPerson(person, 4);
+				if (jdp_lunaSettings.jdp_experimentalInstrument().equals(false)) jangala.getCommDirectory().getEntryForPerson(person).setHidden(true);
+			}
 		} else
 			log.info("JDP_RETROGEN_PEOPLE: " + person.getName().getFullName() + " (" + person.getId() + ") already exists. No action taken");
 
