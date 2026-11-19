@@ -4,11 +4,11 @@
   "author": "Jaydee8652",
   "version": {
     "major": "6",
-    "minor": "0",
-    "patch": "3"
+    "minor": "1",
+    "patch": "0"
   },
   "description": "Adds a variety of weird ships, new quests and an industry.",
-  "gameVersion": "0.98.5a-RC5",
+  "gameVersion": "0.98.5a-RC8",
   "jars": [
     "jars/JaydeePiracy.jar"
   ],
@@ -17,12 +17,11 @@
     {
       "id": "JaydeeProficiencies",
       "name": "JaydeeProficiencies",
-      "version": "2.0.1"
+      "version": "2.1.0"
     },
     {
       "id": "MagicLib",
       "name": "MagicLib"
     }
   ],
-  "originalGameVersion": "0.98a-RC8"
 }
