@@ -237,6 +237,7 @@ public class jdp_People {
 		person.getName().setFirst("Agyala");
 		person.getName().setLast("Tsimnova");
 		person.setImportance(PersonImportance.HIGH);
+		person.addTag(Tags.ANTI_LUDDIC_ADMIN);
 		person.setPortraitSprite(Global.getSettings().getSpriteName("characters", JDP_AGYALA));
 
 		if (!ip.containsPerson(person)) {

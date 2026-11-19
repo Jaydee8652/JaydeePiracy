@@ -1,7 +1,6 @@
 package Jaydee8652.JaydeePiracy.hullmods;
 
-import Jaydee8652.JaydeePiracy.scripts.skills.jdp_totalinternalreflection;
-import Jaydee8652.JaydeeProficiencies.utils.refl.ReflectionUtilis;
+
 import com.fs.starfarer.api.Global;
 import com.fs.starfarer.api.combat.*;
 import com.fs.starfarer.api.combat.listeners.AdvanceableListener;
@@ -11,12 +10,6 @@ import com.fs.starfarer.api.loading.WeaponGroupSpec;
 import com.fs.starfarer.api.loading.WeaponGroupType;
 import com.fs.starfarer.api.ui.TooltipMakerAPI;
 import com.fs.starfarer.api.util.Misc;
-import com.fs.starfarer.combat.ai.system.V;
-import com.fs.starfarer.combat.entities.Ship;
-import com.fs.starfarer.loading.S;
-import org.lazywizard.lazylib.CollisionUtils;
-import org.lazywizard.lazylib.MathUtils;
-import org.lazywizard.lazylib.combat.CombatUtils;
 import org.lwjgl.opengl.GL11;
 import org.lwjgl.util.vector.Vector2f;
 
@@ -24,7 +17,6 @@ import java.awt.*;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.EnumSet;
-import java.util.List;
 import java.util.Objects;
 
 import static Jaydee8652.JaydeeProficiencies.utils.combat.jdp_WeaponMutationUtils.*;

@@ -1,7 +1,6 @@
 package Jaydee8652.JaydeePiracy.scripts.skills;
 
 import java.awt.*;
-import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -11,24 +10,12 @@ import com.fs.starfarer.api.characters.ShipSkillEffect;
 import com.fs.starfarer.api.characters.SkillSpecAPI;
 import com.fs.starfarer.api.combat.*;
 import com.fs.starfarer.api.combat.ShipAPI.HullSize;
-import com.fs.starfarer.api.combat.listeners.AdvanceableListener;
 import com.fs.starfarer.api.combat.listeners.DamageDealtModifier;
-import com.fs.starfarer.api.impl.campaign.ids.Stats;
-import com.fs.starfarer.api.impl.campaign.intel.BaseIntelPlugin;
 import com.fs.starfarer.api.impl.campaign.skills.BaseSkillEffectDescription;
-import com.fs.starfarer.api.loading.DamagingExplosionSpec;
 import com.fs.starfarer.api.ui.TooltipMakerAPI;
 import com.fs.starfarer.api.util.Misc;
-import com.fs.util.C;
-import lunalib.lunaUI.elements.LunaElement;
-import org.lazywizard.lazylib.CollisionUtils;
 import org.lazywizard.lazylib.MathUtils;
-import org.lazywizard.lazylib.combat.CombatUtils;
 import org.lwjgl.util.vector.Vector2f;
-
-import static Jaydee8652.JaydeePiracy.scripts.skills.jdp_omegakin.DAMAGE_BONUS_PERCENT;
-import static Jaydee8652.JaydeePiracy.scripts.skills.jdp_omegakin.jdp_omegakinListener;
-import static Jaydee8652.JaydeeProficiencies.utils.combat.jdp_CombatUtils.getProjectilesFromSource;
 
 public class jdp_appliedcontravention {
 	public static Map<HullSize, Float> BONUS = new HashMap<HullSize, Float>();

@@ -2854,6 +2854,33 @@ jdp_plasmaDynamoKlaesIgnore,PickGreeting,"$id == jdp_klaes score:30000",,"The pu
 
 To see the silver amphiptere attached to piracy is not uncommon, but its implications are clear. This station was once the haunt of Warlord Leonis, inheriting the comms frequencies he himself inherited from the Domain.","0:cutCommLink:Cut the comm link",
 "#END Plasma Dynamo Hubris Event",,,,,,
+,,,,,,
+# Fullerene Spool Hubris Event,,,,,,
+,,,,,,
+# Kugel Comm Relay,,,,,,"# gaDHO ARRAY_THEN_ABYSS"
+jdp_fullereneSpoolRelayStart,OpenInteractionDialog,"$jdp_kugelRelay score:1000","ShowDefaultVisual
+PrintDescription 1","Your $shipOrFleet approaches the $nameInText.","jdp_fullereneSpoolRelay1:Install the hardware package to read the array's datastores
+100:defaultLeave:Leave",
+jdp_fullereneSpoolRelay1,DialogOptionSelected,"$option == jdp_fullereneSpoolRelay1","$global.gaDHO_visitedArray = true","Your operations chief oversees the installation with their usual methodical precision and discipline.
+
+The hardware is interfaced with a secure computing environment on your flagship, and your tech team stands by to oversee the results.
+","jdp_fullereneSpoolRelay2:""Activate the system.""",
+jdp_fullereneSpoolRelay2,DialogOptionSelected,"$option == jdp_fullereneSpoolRelay2",,"The telemetry streams across space to your flagship by the flicker of the discreet little comms laser your ops team installed.
+
+Your technology officer confirms that while the data isn't perfect, it has a vastly lower corruption rate than Elek's copy from the Galatia Academy archive.","jdp_fullereneSpoolRelay3:""What are we looking at?""",
+jdp_fullereneSpoolRelay3,DialogOptionSelected,"$option == jdp_fullereneSpoolRelay3",,"""We have a fix on where they were looking,"" Tech says proudly as they transfer you the coordinates.
+
+""It would appear to be a minor planet in the Abyss. No star, no nebulae; no primary but itself.""","jdp_fullereneSpoolRelay4:""What's so interesting about a nameless rock?""",
+jdp_fullereneSpoolRelay4,DialogOptionSelected,"$option == jdp_fullereneSpoolRelay4",,"""Well, $playerSirOrMadam, nothing about the rock itself.""
+
+""The Domain Explorarium ordered a non-routine survey of the volume. We don't know what they were looking for, but the survey program found... well, it appears as though something happened, something violent. A series of high-energy events over a short period of time a little over 200 cycles ago. A starless rock is, um, very unlikely to produce such effects naturally.""
+
+They pause, then speak tentatively. ""A battle, maybe? We can't say for sure. I don't know what would be worth fighting over out there. Or even looking for.""","jdp_fullereneSpoolRelay5:Continue",
+jdp_fullereneSpoolRelay5,DialogOptionSelected,"$option == jdp_fullereneSpoolRelay5","jdp_DeployShip","There's only one way to find out.
+
+And it's best done with plenty of extra supplies and fuel. Every spacer knows that the Abyss is not to be trifled with. Of those foolish captains who attempt to find their fortune there, the few who return are often starving, having to mothball ships for fuel and supplies during the long crawl back to the Core Worlds.","defaultLeave:Leave",
+"#END Kugel Comm Relay",,,,,,
+"#END Fullerene Spool Hubris Event",,,,,,
 "#END Hubris Events",,,,,,
 ,,,,,,
 # DEV OPTIONS,,,,,,

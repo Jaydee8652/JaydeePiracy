@@ -34,9 +34,6 @@ public class jdp_DevResetFractal extends BaseCommandPlugin {
 		Global.getSector().addScript(new DelayedActionScript(1) {
 			@Override
 			public void doAction() {
-
-				Global.getSector().getMemoryWithoutUpdate().unset("$player.shotSedge");
-
 				Global.getSector().getMemoryWithoutUpdate().unset("$jdp_PRinProgress");
 				Global.getSector().getMemoryWithoutUpdate().unset("$jdp_PRref");
 

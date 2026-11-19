@@ -2,36 +2,21 @@ package Jaydee8652.JaydeePiracy.scripts.skills;
 
 import Jaydee8652.JaydeePiracy.campaign.econ.jdp_makeshiftSolarArray;
 
-import Jaydee8652.JaydeePiracy.JaydeePiracyPlugin;
-import Jaydee8652.JaydeePiracy.scripts.intel.admin.SubpopulationTooltipCreator;
 import Jaydee8652.JaydeePiracy.utils.jdp_Conditions;
 import Jaydee8652.JaydeeProficiencies.specialists.elements.jdp_DisplayElement;
-import Jaydee8652.JaydeeProficiencies.specialists.tooltips.ConditionTooltipCreator;
 import Jaydee8652.JaydeeProficiencies.utils.campaign.jdp_DelayedActionScript;
 import Jaydee8652.JaydeeProficiencies.utils.campaign.jdp_DelayedDepletionScript;
-import Jaydee8652.JaydeeProficiencies.utils.campaign.jdp_TerraformingProcessUtils;
-import com.fs.starfarer.api.EveryFrameScript;
 import com.fs.starfarer.api.Global;
 import com.fs.starfarer.api.campaign.SectorEntityToken;
 import com.fs.starfarer.api.campaign.comm.CommMessageAPI;
-import com.fs.starfarer.api.campaign.econ.Industry;
 import com.fs.starfarer.api.campaign.econ.MarketAPI;
-import com.fs.starfarer.api.campaign.econ.MarketConditionAPI;
 import com.fs.starfarer.api.characters.*;
-import com.fs.starfarer.api.impl.campaign.RuleBasedInteractionDialogPluginImpl;
 import com.fs.starfarer.api.impl.campaign.ids.*;
 import com.fs.starfarer.api.impl.campaign.intel.BaseIntelPlugin;
 import com.fs.starfarer.api.impl.campaign.intel.MessageIntel;
 import com.fs.starfarer.api.impl.campaign.skills.BaseSkillEffectDescription;
 import com.fs.starfarer.api.ui.TooltipMakerAPI;
-import com.fs.starfarer.api.util.DelayedActionScript;
 import com.fs.starfarer.api.util.Misc;
-import com.fs.starfarer.campaign.CampaignPlanet;
-import com.fs.starfarer.campaign.Faction;
-import com.fs.starfarer.campaign.econ.Market;
-import com.fs.starfarer.ui.G;
-import com.fs.starfarer.ui.d;
-import org.apache.log4j.Logger;
 import org.lwjgl.input.Keyboard;
 import Jaydee8652.JaydeePiracy.campaign.entities.jdp_SolarEntityPlugin.*;
 
@@ -46,7 +31,6 @@ import static Jaydee8652.JaydeeProficiencies.specialists.jdp_SpecialistUtils.get
 import static Jaydee8652.JaydeeProficiencies.utils.campaign.jdp_IndustryUtils.getIndustryByTag;
 import static Jaydee8652.JaydeeProficiencies.utils.campaign.jdp_IndustryUtils.updateMarket;
 import static Jaydee8652.JaydeeProficiencies.utils.campaign.jdp_TerraformingProcessUtils.addTerraformingDisplay;
-import static com.fs.starfarer.api.impl.campaign.ids.Conditions.RARE_ORE_SPARSE;
 
 import Jaydee8652.JaydeeProficiencies.utils.campaign.jdp_TerraformingProcessUtils.TerraformingProcessData;
 

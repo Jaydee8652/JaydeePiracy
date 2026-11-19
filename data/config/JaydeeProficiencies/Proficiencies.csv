@@ -11,6 +11,6 @@ id,name,color,tags,type,maxLevel,mentor,apprenticeMaxLevel,order,plugin
 ","#(Max level for the Apprentice of a Specialist with this Proficiency)
 #Should be 1 if Proficiency cannot have an Apprentice","#(In theory used for sorting)
 #Unused",
-jdp_instrument,Instrument,"120,65,155,255",no_commlink,admin,6,,1,2,Jaydee8652.JaydeePiracy.scripts.proficiencies.jdp_ProficiencyInstrument
+jdp_instrument,Instrument,"120,65,155,255",no_commlink,admin,5,admin,2,2,Jaydee8652.JaydeePiracy.scripts.proficiencies.jdp_ProficiencyInstrument
 jdp_terraformer,Terraformer,"35,160,160,255",no_commlink,admin,5,admin,3,1,Jaydee8652.JaydeePiracy.scripts.proficiencies.jdp_ProficiencyTerraformer
-jdp_dancer,Dancer,"235,235,235,255","no_commlink, ai_person, no_player_admin_xp_gain",officer,5,player,2,1,Jaydee8652.JaydeePiracy.scripts.proficiencies.jdp_ProficiencyDancer
+jdp_dancer,Dancer,"235,235,235,255","no_commlink, ai_person, no_player_admin_xp_gain",officer,5,player,2,3,Jaydee8652.JaydeePiracy.scripts.proficiencies.jdp_ProficiencyDancer

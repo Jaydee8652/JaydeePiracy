@@ -235,7 +235,6 @@ public class jdp_Hiroc {
 	public static NascentGravityWellAPI getWell() {
 		return (NascentGravityWellAPI) Global.getSector().getMemoryWithoutUpdate().get(JDP_NASCENT_WELL_KEY);
 	}
-	
 }
 
 

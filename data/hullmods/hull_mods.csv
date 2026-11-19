@@ -53,13 +53,11 @@ Banisher Core,jdp_banisherCore,,,,"no_drop, no_sell, codex_unlockable",Weapons,,
 The core also has the unfortunate combination of being both utterly inept at and very adamant about its analysis of larger structures, reducing damage against cruiser and capital class vessels to %s of its normal value. 
 
 This level of incompetence is almost bordering on malice, potentially suggesting an intentional constraint implemented by the core's engineers for reasons unknown.",,,graphics/hullmods/jdp_banisherCore.png
-Ancient Testbed,jdp_ancientTestbed,,,,"no_drop, no_sell, codex_unlockable",,,,TRUE,,0,0,0,0,Jaydee8652.JaydeePiracy.hullmods.jdp_ancientTestbed,"This ship was originally designed as a testbed for a suite of at the time novel technologies. While historically intersting, its performance in combat scenarios suffers accordingly.
+Ancient Testbed,jdp_ancientTestbed,,,,"no_drop, no_sell, codex_unlockable",,,,TRUE,,0,0,0,0,Jaydee8652.JaydeePiracy.hullmods.jdp_ancientTestbed,"This ship was originally designed as a testbed for a suite of at the time novel technologies. While historically interesting, its performance in combat scenarios suffers accordingly.
 
 The cramped flight deck, designed before the practicalities of effective fighter re-armament were fully understood, increases replacement launch time by %s.
 
-Old pattern flux conduits and a by modern standards underpowered reactor starve weapon mounts, increasing the flux generation of ballistic weapons by %s and energy weapons by %s.
-
-A primitive form of a missile autoloader system reduces missile rate of fire by %s.",,,graphics/hullmods/jdp_ancientTestbed.png
+Old pattern flux conduits - and a by modern standards underpowered reactor - starve weapon mounts, increasing the flux generation of ballistic weapons by %s and energy weapons by %s.",,,graphics/hullmods/jdp_ancientTestbed.png
 Missile Speedloader,jdp_missileSpeedloader,,,,"no_drop, no_sell, codex_unlockable",,,,TRUE,,0,0,0,0,Jaydee8652.JaydeePiracy.hullmods.jdp_missileSpeedloader,"The missile racks of this ship have been extensively modified to favour speed over capacity, increasing missile rate of fire by %s at the cost of reducing missile capacity by %s.
 
 Precludes increasing the size of the ships missile racks, however ships modified in this way usually have other ways to replenish their missile ammunition stores.",,,graphics/hullmods/jdp_missileSpeedloader.png
@@ -91,7 +89,4 @@ Increasing the amount of subjective time experienced by the ship gives greater o
 
 Working under temporally enhanced conditions is an immense strain on both equipment and crew, reducing the peak performance time by a factor of %s.",,,graphics/hullmods/jdp_emulatedFrictionlessHull.png
 Mercenary Relay,jdp_mercenaryRelay,,,Flowerfish Network,"no_drop, no_sell, codex_unlockable, no_build_in",,,,,,0,0,10,0,Jaydee8652.JaydeePiracy.hullmods.jdp_mercenaryRelay,"Extensively modifies the ship to support a Flowerfish Mercenary Relay, increasing combat vision range by %s su.",,,graphics/hullmods/jdp_mercenaryRelay.png
-Slat Armor,jdp_slatArmor,,,,"no_drop, no_sell, codex_unlockable",,,,TRUE,,5,10,15,25,Jaydee8652.JaydeePiracy.hullmods.jdp_slatArmor,"While at the time a revolutionary development, this slat armor package is less effective than modern ""spaced"" armor designs, reducing the effective armor strength for the damage reduction calculation to %s of its actual value.
-
-The cage like structure occasionally causes explosive pre-detonation, effectively reducing High Explosive damage by %s.",,,graphics/hullmods/jdp_slatArmor.png
 Ground Support Fighters,jdp_supportFighter,,,Flowerfish Network,,,,,TRUE,,0,0,0,0,Jaydee8652.JaydeePiracy.hullmods.jdp_supportFighter,"The fighter complement of this vessel includes multi-role orbital to surface platforms, versatile ground operations assets with extensive counter-measures, close support weaponry and airlift capacity.",,,graphics/hullmods/jdp_supportFighter.png

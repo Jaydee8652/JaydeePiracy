@@ -50,6 +50,13 @@ import static com.fs.starfarer.api.impl.campaign.world.GateHaulerLocation.ABYSS_
 
 public class jdp_Kugel {
 	public static String NOT_RANDOM_MISSION_TARGET = "$not_random_mission_target";
+	public static String JDP_KUGEL_RELAY = "$jdp_kugelRelay";
+
+	public static String JDP_KUGEL_WELL_KEY = "$jdp_kugelWellKey";
+	public static String JDP_KUGEL_RELAY_KEY = "$jdp_kugelRelayKey";
+	public static String JDP_KUGEL_KEY = "$jdp_kugelKey";
+
+
 	protected Random random = new Random();
 
 
@@ -169,8 +176,9 @@ public class jdp_Kugel {
 				null, // name - if null, defaultName from custom_entities.json will be used
 				"comm_relay", // type of object, defined in custom_entities.json
 				Factions.DERELICT); // faction
-		relay.setCircularOrbit(system.getCenter(), 90, orbitRadius, orbitDays);
+		relay.setCircularOrbitPointingDown(system.getCenter(), 270, orbitRadius, orbitDays);
 		relay.getMemoryWithoutUpdate().set(MemFlags.OBJECTIVE_NON_FUNCTIONAL, true);
+		relay.getMemoryWithoutUpdate().set(JDP_KUGEL_RELAY, true);
 
 		orbitRadius -= 200;
 		BaseThemeGenerator.EntityLocation loc = new BaseThemeGenerator.EntityLocation();
@@ -185,6 +193,34 @@ public class jdp_Kugel {
 		wormhole.getMemoryWithoutUpdate().unset(JumpPointInteractionDialogPluginImpl.UNSTABLE_KEY);
 
 		hideSystem(system);
+
+		LocationAPI hyper = Global.getSector().getHyperspace();
+
+		NascentGravityWellAPI well = Global.getSector().createNascentGravityWell(kugel, 0f);
+		well.addTag(Tags.NO_ENTITY_TOOLTIP);
+		well.setColorOverride(new Color(125, 50, 255));
+		hyper.addEntity(well);
+
+		MagicCampaign.hyperspaceCleanup(system);
+		system.updateAllOrbits();
+
+		well.autoUpdateHyperLocationBasedOnInSystemEntityAtRadius(kugel, 0);
+
+		Global.getSector().getMemoryWithoutUpdate().set(JDP_KUGEL_WELL_KEY, well);
+		Global.getSector().getMemoryWithoutUpdate().set(JDP_KUGEL_RELAY_KEY, relay);
+		Global.getSector().getMemoryWithoutUpdate().set(JDP_KUGEL_KEY, kugel);
+	}
+
+	public static NascentGravityWellAPI getWell() {
+		return (NascentGravityWellAPI) Global.getSector().getMemoryWithoutUpdate().get(JDP_KUGEL_WELL_KEY);
+	}
+
+	public static SectorEntityToken getRelay() {
+		return (SectorEntityToken) Global.getSector().getMemoryWithoutUpdate().get(JDP_KUGEL_RELAY_KEY);
+	}
+
+	public static PlanetAPI getPlanet() {
+		return (PlanetAPI) Global.getSector().getMemoryWithoutUpdate().get(JDP_KUGEL_KEY);
 	}
 }
 

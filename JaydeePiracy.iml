@@ -19,7 +19,6 @@
     <orderEntry type="library" exported="" name="lw_Console" level="project" />
     <orderEntry type="library" exported="" name="Industrial.Evolution-4.0" level="project" />
     <orderEntry type="library" exported="" name="Vok" level="project" />
-    <orderEntry type="library" exported="" name="SecondInCommand" level="project" />
     <orderEntry type="module-library" exported="">
       <library name="JaydeeProficiencies">
         <CLASSES>
@@ -29,5 +28,6 @@
         <SOURCES />
       </library>
     </orderEntry>
+    <orderEntry type="library" exported="" name="SecondInCommand" level="project" />
   </component>
 </module>

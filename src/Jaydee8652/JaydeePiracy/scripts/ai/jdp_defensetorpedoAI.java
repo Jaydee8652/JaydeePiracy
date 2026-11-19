@@ -33,10 +33,8 @@ public class jdp_defensetorpedoAI implements MissileAIPlugin, GuidedMissileAI{
     private final MissileAPI missile;
     private CombatEntityAPI target;
     private Vector2f lead = new Vector2f();
-    //    private float timer=0, delay=0.05f;
-    //data
+
     private final float MAX_SPEED;
-    //    private final int SEARCH_RANGE = 1000;
     private final float DAMPING = 0.05f;
     private final Color EXPLOSION_COLOR = new Color(255, 0, 0, 255);
     private final Color PARTICLE_COLOR = new Color(240, 200, 50, 255);

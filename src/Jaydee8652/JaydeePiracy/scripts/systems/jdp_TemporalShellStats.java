@@ -53,11 +53,6 @@ public class jdp_TemporalShellStats extends BaseShipSystemScript {
 		stats.getTimeMult().modifyMult(id, shipTimeMult);
 		if (player) {
 			Global.getCombatEngine().getTimeMult().modifyMult(id, 1f / shipTimeMult);
-//			if (ship.areAnyEnemiesInRange()) {
-//				Global.getCombatEngine().getTimeMult().modifyMult(id, 1f / shipTimeMult);
-//			} else {
-//				Global.getCombatEngine().getTimeMult().modifyMult(id, 2f / shipTimeMult);
-//			}
 		} else {
 			Global.getCombatEngine().getTimeMult().unmodify(id);
 		}
@@ -80,10 +75,6 @@ public class jdp_TemporalShellStats extends BaseShipSystemScript {
 
 		Global.getCombatEngine().getTimeMult().unmodify(id);
 		stats.getTimeMult().unmodify(id);
-		
-//		stats.getHullDamageTakenMult().unmodify(id);
-//		stats.getArmorDamageTakenMult().unmodify(id);
-//		stats.getEmpDamageTakenMult().unmodify(id);
 	}
 	
 	public StatusData getStatusData(int index, State state, float effectLevel) {
@@ -91,12 +82,6 @@ public class jdp_TemporalShellStats extends BaseShipSystemScript {
 		if (index == 0) {
 			return new StatusData("time flow altered", false);
 		}
-//		if (index == ) {
-//			return new StatusData("increased speed", false);
-//		}
-//		if (index == 1) {
-//			return new StatusData("increased acceleration", false);
-//		}
 		return null;
 	}
 }

@@ -66,8 +66,7 @@ public class jdp_PhaseCloakStats extends BaseShipSystemScript {
 		if (cloak == null) return;
 		
 		if (level > f) {
-			Global.getCombatEngine().maintainStatusForPlayerShip(STATUSKEY2,
-					cloak.getSpecAPI().getIconSpriteName(), cloak.getDisplayName(), "time flow altered", false);
+			Global.getCombatEngine().maintainStatusForPlayerShip(STATUSKEY2, cloak.getSpecAPI().getIconSpriteName(), cloak.getDisplayName(), "time flow altered", false);
 		} else {
 		}
 		

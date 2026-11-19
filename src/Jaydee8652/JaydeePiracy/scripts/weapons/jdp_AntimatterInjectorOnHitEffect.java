@@ -27,6 +27,8 @@ import com.fs.starfarer.api.util.FaderUtil;
 import com.fs.starfarer.api.util.IntervalUtil;
 import com.fs.starfarer.api.util.Misc;
 
+import static com.fs.starfarer.api.impl.combat.DisintegratorEffect.getDamageTypeMult;
+
 public class jdp_AntimatterInjectorOnHitEffect extends BaseCombatLayeredRenderingPlugin implements OnHitEffectPlugin {
 
 	// each tick is on average .9 seconds
@@ -317,31 +319,6 @@ public class jdp_AntimatterInjectorOnHitEffect extends BaseCombatLayeredRenderin
 			p.sprite.setColor(p.color);
 			p.sprite.renderAtCenter(loc.x, loc.y);
 		}
-	}
-	
-	
-	public static float getDamageTypeMult(ShipAPI source, ShipAPI target) {
-		if (source == null || target == null) return 1f;
-		
-		float damageTypeMult = target.getMutableStats().getArmorDamageTakenMult().getModifiedValue();
-		switch (target.getHullSize()) {
-		case CAPITAL_SHIP:
-			damageTypeMult *= source.getMutableStats().getDamageToCapital().getModifiedValue();
-			break;
-		case CRUISER:
-			damageTypeMult *= source.getMutableStats().getDamageToCruisers().getModifiedValue();
-			break;
-		case DESTROYER:
-			damageTypeMult *= source.getMutableStats().getDamageToDestroyers().getModifiedValue();
-			break;
-		case FRIGATE:
-			damageTypeMult *= source.getMutableStats().getDamageToFrigates().getModifiedValue();
-			break;
-		case FIGHTER:
-			damageTypeMult *= source.getMutableStats().getDamageToFighters().getModifiedValue();
-			break;
-		}
-		return damageTypeMult;
 	}
 
 	public Vector2f getOffset() {

@@ -12,12 +12,13 @@ public class jdp_Skills {
 	public static final String JDP_SOLAR = "jdp_solar";
 
 	public static final String JDP_PROFICIENCY_INSTRUMENT = "jdp_instrument";
-	public static final String JDP_HACKING = "jdp_hacking";
-	public static final String JDP_COINTEL = "jdp_counterintelligence";
+	public static final String JDP_HACKING = "jdp_legacyAuthkeys";
+	public static final String JDP_COINTEL = "jdp_cullingTheFlock";
 	public static final String JDP_RECIV = "jdp_recivilizationprogrammes";
-	public static final String JDP_AI = "jdp_ai";
-	public static final String JDP_ATROCITY = "jdp_atrocity";
+	public static final String JDP_AI = "jdp_constrainedIntelligences";
+	public static final String JDP_ATROCITY = "jdp_counternarrativeConstruction";
 	public static final String JDP_MARINETRAINING = "jdp_marinetraining";
+	public static final String JDP_RADICAL = "jdp_radicalOpportunism";
 
 	public static final String JDP_PROFICIENCY_DANCER = "jdp_dancer";
 	public static final String JDP_DEEPEUTECTICGRID = "jdp_deepeutecticgrid";

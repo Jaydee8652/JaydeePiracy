@@ -19,7 +19,7 @@ import java.awt.*;
 import static Jaydee8652.JaydeePiracy.utils.jdp_Skills.JDP_AI;
 import static Jaydee8652.JaydeeProficiencies.utils.campaign.jdp_IndustryUtils.addBrackets;
 
-public class jdp_ai {
+public class jdp_constrainedIntelligences {
 	public static String NAME = Global.getSettings().getSkillSpec(JDP_AI).getName();
 	public static int MOD = 1;
 

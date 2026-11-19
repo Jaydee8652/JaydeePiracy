@@ -55,5 +55,4 @@ public class jdp_AddLoot extends BaseCommandPlugin {
             default -> false;
         };
     }
-
 }

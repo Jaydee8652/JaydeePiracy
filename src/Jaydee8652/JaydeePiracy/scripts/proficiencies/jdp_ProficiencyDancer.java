@@ -20,6 +20,7 @@ import java.util.LinkedHashMap;
 import java.util.Map;
 
 import static Jaydee8652.JaydeeProficiencies.specialists.jdp_SpecialistUtils.createCargoStack;
+import static Jaydee8652.JaydeeProficiencies.utils.campaign.jdp_IndustryUtils.capitaliseFirst;
 import static Jaydee8652.JaydeeProficiencies.utils.campaign.jdp_IntelUtils.PICKER_PANEL_OUTER_GAP;
 
 public class jdp_ProficiencyDancer extends jdp_BaseProficiencyPlugin {
@@ -106,7 +107,7 @@ public class jdp_ProficiencyDancer extends jdp_BaseProficiencyPlugin {
             var color = Misc.getTextColor();
 
             if (Math.abs(FACTION_XP_CAP - value) <= 0) color = Misc.getGrayColor();
-            element.addRow(faction.getColor(), faction.getDisplayName(), color, Math.round(value) + "");
+            element.addRow(faction.getColor(), capitaliseFirst(faction.getDisplayName()), color, Math.round(value) + "");
         }
         element.addTable("No Experience Gained", 0, 10f);
 

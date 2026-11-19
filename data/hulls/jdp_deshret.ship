@@ -18,12 +18,8 @@
     "viewOffset": 0,
     "builtInMods": [
         "jdp_ancientTestbed",
-        "jdp_slatArmor",
         "missile_autoloader"
     ],
-    "builtInWeapons": {
-        "WS 007": "jdp_deshretlidar"
-    },
     "builtInWings": [],
     "builtInModules": null,
     "weaponSlots": [
@@ -91,17 +87,6 @@
             "angle": 90,
             "locations": [
                      -29,       94
-            ]
-        },
-        {
-            "id": "WS 007",
-            "size": "SMALL",
-            "type": "DECORATIVE",
-            "mount": "TURRET",
-            "arc": 240,
-            "angle": 360,
-            "locations": [
-                      17,        0
             ]
         },
         {

@@ -59,8 +59,7 @@ public class jdp_RefitApplicator implements jdp_refit_applicator.RefitApplicator
             }
         }
         //Destroy illegal items
-        //TODO: Dsiabled due to issue with Substance Abuse
-        //consumeItem(createCargoStack(CargoAPI.CargoItemType.FIGHTER_CHIP, RELAY_DRONE_NAME));
+        consumeItem(createCargoStack(CargoAPI.CargoItemType.FIGHTER_CHIP, RELAY_DRONE_NAME));
 
         //Apply Ground Support Fighters
         List<String> wings = stats.getVariant().getWings();
