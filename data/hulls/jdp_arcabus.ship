@@ -408,21 +408,21 @@
         },
         {
             "location": [
-                -166.5, -80
+                -162.5, -84
             ],
             "length": 117.5,
             "width": 32,
-            "angle": 180,
+            "angle": 197,
             "contrailSize": 12,
             "style": "LOW_TECH"
         },
         {
             "location": [
-                -166.5, 80
+                -162.5, 84
             ],
             "length": 117.5,
             "width": 32,
-            "angle": 180,
+            "angle": 163,
             "contrailSize": 12,
             "style": "LOW_TECH"
         },

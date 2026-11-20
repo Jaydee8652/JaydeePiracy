@@ -1,0 +1,433 @@
+Version 6.1.0 (2026/11/19) - NOT SAVE COMPATIBLE - 0.98.5a
+Version Version Versioning 
+
+-Fixed some UI crashes with the new update
+-Reworked the indev Instrument Specialist
+-Fixed a crash with Mirror Shield
+
+----------------------------------------------------------
+Version 6.0.3 (2026/10/31)
+Version Numbers are Cheap Hotfix 
+
+-Actually fixed the crash with random sector
+
+----------------------------------------------------------
+Version 6.0.2 (2026/10/31)
+Inebriation Hotfix 
+
+-Fixed a crash with random sector
+-Fixed the cause of a significant slowdown with Substance Abuse, Substance Abuse may still cause a similar issue with other mods, but the effect should be lessened.
+
+----------------------------------------------------------
+Version 6.0.1 (2026/10/29)
+Fear No More Hotfix 
+
+-Fixed the Penrose introduction firing twice if both Hypershunts are defeated in the same play session
+-Disabled the Pather Interest multiplier on the Interfector due to short term incompatibility with AoTD, should fix itself in 0.98.5a
+-Notable System intel is now marked as important
+
+----------------------------------------------------------
+Version 6.0.0 (2026/10/23) - NOT SAVE COMPATIBLE
+The Flattening
+
+Large scale "spring cleaning" of the codebase
+-Reworked the internals of all markets conditions, industries etc
+-Removed unused classes and assets
+-Changed ids of industries and hullmods to be more logical
+-Listener for the *Party* now cleans itself from the save upon activation
+-All listeners are added to persistent data upon initialization
+-Made people retrogen more modular
+-Flowerfish XO now spawns on game start as well as being refreshed every month
+-Fixed Encroaching Biofactory condition conflict with IndEvo military structures
+-Fixed Personal Discretion not incrementing IndEvo stored officers
+-Fixed Personal Discretion not removing excess elite skills if they were below the skill cap
+-Fixed Personal Discretion decreasing cryopod officer levels
+-Fixed Mercenary Relay not correctly unapplying when switching to an autofit 
+-Fixed Supersymmetry applying recursive bonuses
+-Fixed bullet time not correctly applying to Frictionless Hulls
+-AddLoot rulecommand now displays what was added to player cargo, should hopefully avoid confusion during the NMC-000 and Interfector events
+
+Now dependent on my library mod, JaydeeProficiencies
+-Generic utils are now there, colonyFlicker, isolatedMarket, updateMarket, getIndustryByTag, removeConditions, getPerson, refitApplicator etc
+-Moved orbit, fighterspec and star age validators
+-Moved jdp_StarSystemGenerator //(shuffle and other retrogen shenanigans so they can be used by other mods)
+-Contains the Proficiency System, hence the name
+
+Sprite Changes
+-Full resprite of the Iota, (collaboration with kirbo!)
+-Full resprite of the Chuuni, (collaboration with kirbo!)
+-Full resprite of the Eider
+-Slight sprite changes on the Plunder
+-Slight sprite changes on the Arcubus
+
+Content / Balance
+-Changed the Flowerfish Faction Doctrine to favour Cruiser School tactics
+-Added the Autonomous Mantle Bore Hubris Event, contains Rulison Plowshare Specialist
+-Full rework of the Penrose encounter
+-Rework of the Chuuni, can regenerate hull
+-Rework of the Plunder, cargo can be shot off to destroy missile ammo
+-Rework of the Arcubus, lost mounts but can fire over allies
+-Cydonia cannot have a sensor profile lower than 300
+-Mobile Minefield no longer functions during battles involving an enemy station
+-Slight nerf to Emulated Frictionless Hull
+-Added Luna setting to enable adding Shrouded Hullmods to phase ships
+-Luddic Majority now disapprove of building the Interfector
+-The Interfector now doubles local Pather Interest
+-Eochu Bres now starts the game with Commerce and a Dealmaker Holosuite
+-Mairaath now starts the game with Tech-Mining (Unless Mayasuran Navy is enabled)
+
+----------------------------------------------------------
+Version 5.2.2 (03/01/2026)
+Flowerfish Hotfix
+
+-Fixed With The Network occasionally applying a 20x damage mult 
+-Fixed Quadrupolar Coupling crashing with pilotable fighters
+-Fixed Adv. LIDAR stacking beam range bonuses
+
+-Changed the description, name and image of the Flowerfish HQ industry
+
+Version 5.2.1 (14/12/2025)
+Event Hotfix
+
+-Fixed hazard not properly applying from Hubris conditions
+-Included other distractions in blockFirstSurvey
+
+----------------------------------------------------------
+Version 5.2.0 (13/12/2025)
+Oh! A fish!
+
+-Tenuous release of the Flowerfish XO. Will eventually be tied to a quest, but for now can be acquired from Ailmar.
+
+----------------------------------------------------------
+Version 5.0.8 (3/11/2025)
+Relay Hotfix
+
+-Moved data used by the relay AI into its own class, now will not attempt to load a SiC skill if it somehow active without the mod.
+
+----------------------------------------------------------
+Version 5.0.6 (3/11/2025)
+Quest Hotfix
+
+-The credits file is now actually included with the mod! Should have always been like that...
+-Fixed two edge case generation code CTD
+-Added dialogue to Fractal Theorem to cover talking to Gargoyle about KA at the same time
+-Fixed Fractal Theorem progress not updating in dialogue
+-Fixed Alviss' Amnesia
+-Made Omega talk even if you have a friend
+
+New Ships
+-Added the Conduit //Totally Tubular!
+
+Experimental Features (Unfinished)
+-Flowerfish XO Beta can be enabled through LunaLib Settings.
+
+----------------------------------------------------------
+Version 5.0.4 (11/9/2025)
+Bullet time Hotfix
+
+-Fixed the Bullet time equation for Frictionless Hulls.
+-Scripted systems, (Hiroc and Dory) will now slightly shuffle themselves to dodge overlapping with other systems.
+-Reworked the "shuffling algorithm TM" (its just throwing darts) to be smarter and less prone to breaking.
+
+----------------------------------------------------------
+Version 5.0.2 (7/9/2025)
+Gatehome Hotfix
+
+-Added a minefield visual to Kanta's Den (Only applies without IndEvo)
+-Changed the color of Novel Technology tech class.
+-Removed Gatehome test from Dory System 
+
+----------------------------------------------------------
+Version 5.0.1 (1/9/2025)
+Shield Hotfix
+
+-Fixed the Penrose not using its shield anymore (bug with an in dev AI change)
+
+----------------------------------------------------------
+Version 5.0.0 (31/8/2025)
+The Not Done (TM) Update
+
+=NOT SAVE COMPATIBLE!=
+
+Fixes
+-All generation tasks are now performed retroactively, jdp_gen now removed.
+-Migrated all rulecmd into the jar proper.
+-Full audit of all descriptions, fixing countless typos and inconsistencies in layout or information presentation.
+-Fixed History Mystery being completed by completing Fractal Theorem.
+-Fixed the game not remembering you went to Hiroc for certain events.
+-Volturnian Lobster eggs now apply to Fishing Harbour (AoTD) without crashing the game.
+-Fixed the Penrose fleet tags, will not randomly attack fleets in NEX.
+-The Penrose is no longer available through the Omega Repository.
+-Fixed the Omegakin tags.
+-Thunderer and Shoebill are now rare blueprints.
+-Fixed the tags on build-ins, should no longer appear from arms dealers.
+-Fixed the fake ballistic mount on the Atlas Mk.2-LP.
+-Grendel (LP) has the Luddic Path design type.
+-Modular ships can no longer have Escort Package.
+-Fixed the posts of Rikka and Theresa.
+-Frictionless NMC-000 now can now be clicked to learn its hullmod.
+-Emulated Frictionless Hull and Frictionless Hull now apply bullet-time correctly.
+
+Crossmod
+-Added compatibility with the AoTD Seats of Power Timeline
+
+Balance Changes
+-Thunderer pretty heavily nerfed, worse weapon arcs and stats. Banisher Core is permanent. It shouldn't be able to win a one-on-one with other capitals given its niche.
+-Nerfed the Shoebill Minelayer, spawns less mines less accurately.
+-Eider can now fire its Orion Devices independently to aid in strafing and turning.
+-Meridian lost multiple weapon slots and experienced a general sledgehammer to its stats.
+-Keep now has an Annihilator instead of a Heavy Needler.
+-Emulated Frictionless Hull OP cost increased to 15/25/35/45. Can no longer be s-modded.
+-Grendel (LP) lost a large and medium missile hardpoint. AAF replaced with an Orion Drive.
+
+Sprite Changes
+-Fixed the strange edge on the Atlas MK2-LP
+-Full resprite of the Thunderer, (collaboration with NEON!)
+-Full resprite of the Arcubus, (collaboration with NEON!)
+-Full resprite of the Eider, (collaboration with Sikair)
+-Full resprite of the Grendel (LP)
+-Full resprite of the Meridian
+-Resprite of the Tyrant's Eye to better reflect its in universe design lineage.
+-Changed the face of the Demon...
+-Epistle sensor dish now spiiiiins!
+-Custodian Eyes now glow with ancient malice!
+-Frictionless NMC-000 resprited.
+
+Missions
+-Frictionless NMC-000 Name will change depending on the cycle you discover it. So NMC-206 if you find it within a cycle of newgame.
+-Rewrite of the Maddie encounter, now has an illustration.
+-Started the implementation of the Hubris Event System. Unique exploration events for finding colony items, currently only includes Biofactory Embryo and Soil Nanites.
+
+New Ships
+-Added the Hummingbird //Somehow the second Frigate in the mod
+-Added the Phaeton Mk.II //Burn the stars!
+
+Depreciation
+-Removed the Embrasure, it was a bad ship. : )
+-Removed the Tortuga, it was unimplemented anyway.
+-Removed the Arcabus (OLD), it was unimplemented anyway.
+-Removed the Heavy Needler (Fighter), pure bloat.
+
+Experimental Features (Unfinished)
+-Flowerfish XO Beta can be enabled through LunaLib Settings.
+-8 Remaining Hubris events can be enabled through LunaLib Settings.
+
+----------------------------------------------------------
+Version 4.0.2 (10/5/2025)
+The De-bloatening!? (No not really.)
+
+Fixes
+-Added proper compatibility with TriOS VRAM Estimation, should now be much more accurate.
+-Opis actually had a canon name I only half remembered. All mentions of the Opis Chartered Republic have been replaced with the Opis Chartery. 
+-Changed the internal name of the Hiroc system to allow dev commands to effect it. Will not apply retroactively.
+-Omega Cores have the Omegakin trait. This does in fact make the Penrose 25% more deadly... Have fun with that!
+-Fixed the Diktat Interfector dialogue option not being highlighted.
+-Made the Tyrant's Eye tooltip actually readable in the human tongue...
+-Fixed a typo that would never exist in the base game, because the base game never has typos! : )
+-"Fixed Lies being spoken. (Lie)"
+-Skills now appear the codex.
+-Modular ships no longer have null values, could in theory cause a crash with IndEvo.
+-Slightly changed the Thunderer sprite, will probably change more in the future.
+
+----------------------------------------------------------
+Version 4.0.1 (26/4/2025)
+The Liars Hotfix
+
+Fixes
+-Some Alviss dialogue forced you to tell the truth, can't have that. Gaslight, Gatekeep, Walkerboss
+-If you already have Ochre, killing him would not progress the quest.
+        Added a reset function to the Galatia Dev Directory, if you get stuck in Fractal Theorem, this will reset the quest in 3 in-game days.
+
+----------------------------------------------------------
+Version 4.0.0 (25/4/2025)
+The Duckie readability update.
+
+Fixes
+-Hayes Calhoum is now included in retrogen (and all the loveable characters in the new quest!).
+-The PK Site is now more suitable for skim readers, (Love you Duckie)
+-All PK leverage dialogue is highlighted for convenience.
+-Moved the mod plugin to the root so it is easier to find.
+-Fixed the tags on all fighters.
+-Penrose teleport has VFX now.
+-Cargo IED no longer has an insane contrail.
+-Interfector is important during History Mystery, it should now be much harder to lose track of.
+-Chuuni no longer available through the Historian.
+
+Buffs/Nerfs
+-Player Laplacian now 65 DP.
+-Penrose teleport has a chargeup time.
+-All Laplacians have less hull and armour, (technically it works like ablative but still).
+-Advanced LIDAR now affects non-hardpoint medium weapons.
+
+Missions
+-Recovering the Penrose is now a true ordeal.
+-Upsetting Alviss has consequences, I pray you never see them.
+-Menu tip to point you towards History Mystery.
+-Raid Volturn to steal lobster eggs! May have more consequences in future.
+
+Faction changes
+-Gave the Omega Faction a new colour and flag to differentiate them from the Remnants. Thanks MiniDeth3 for the flag!
+-Added the Flowerfish Mercenary Company pseudo-faction in Westernesse. Will be expanded on in later quests.
+
+Codex
+-Full Codex support for entry interrelations.
+
+----------------------------------------------------------
+Version 3.6.3 (2/4/2025)
+The DogeDeez redemption update.
+
+Fixes
+-The the true manifestation of typos.
+-The fix for the Emergent Threats icon issue broke the LunaLib icon. (Madness, but both should be fine now)
+
+----------------------------------------------------------
+Version 3.6.2 (2/4/2025)
+The DogeDeez update.
+
+I don't currently have the time for any major changes, but DogeDeez wanted me to fix this one issue so I have obliged.
+
+Fixes
+-Emergent Threats icon is no longer overridden by my own in LunaLib settings.
+-Emulated Frictionless Hull now requires an item to be installed, and can no longer be applied to phase ships.
+    (addspecial jdp_frictionlessmetal to cheat some in if you already did the event)
+-Grin, Hiroc and Convair are no longer random mission targets. (Won't be retroactively applied)
+
+----------------------------------------------------------
+Version 3.6.1 (30/3/2025)
+The compilation update
+
+Now compiled on Java 17! Can't believe I forgot to do that the first time.
+
+Fixes
+-Fractal and Red Pulsar are now unlockable entries.
+-Everything* that used to be hidden in the codex is now unlockable.
+-Hidden the Tyrant's Eye and other weapons
+-Removed unimplemented code that would potentially conflict with Iron Shell
+-Cargo IED had no tags, so the AI was very confused by it. (No idea how long that has been broken...)
+-Chuuni is no longer an independent ship in the codex.
+-Added gallery entries
+
+----------------------------------------------------------
+Version 3.6.0 (27/3/2025)
+The "I wasn't ready!" update
+
+Not everything in this mod has a modernized codex entry, if you find something with a missing description, feel free to DM me on Discord! 
+
+Warning! There's some unimplemented stuff lurking in these files because the stuff I've been working on isn't finished.
+(Man, my abyssal horrors are just peanuts to the real deal.)
+
+Fixes
+-Planetkiller, Omega Core and VI Package not hidden in codex. 
+-Typo in an unkown location.
+-Demons now have selective muteness.
+-Demon faces now appear with second-in-command. (Kinda ominous changelog reading this back)
+-Modular ships can no longer have makeshift shielding.
+-Penrose can no longer use crewed fighters.
+-Embrasure variants no longer have ITU. (Which they can't install anyway)
+-Banisher Core debuff not properly displayed as a debuff.
+
+New Ships
+-Added the Grendel (LP) //The AI went mad flying it for a reason, this ship belongs to Ludds faithful.
+-Added the Cinqueadea //Artillery cruiser
+-Added the Drover (LG) //Fighter jocks are losers!
+
+NYI- ADDED VARIANTS OF THE CINQUEDEA, GAZE UPON THEIR BROKEN HULLMODS IF YOU DARE
+
+----------------------------------------------------------
+Version 3.5.1 (22/3/2025) //Shifted version numbers over to allow for hotfixes without inflating the number
+The version convention hotfix
+
+Fixes
+-Banisher Core did not properly unapply the damage modifiers.
+-Fixed typo in some descriptions. (How intesive of a task)
+-Custodian no longer appears on the DEX blueprint
+-Fixed floating pixels on the Cydonia.
+-Arianna Harue no longer has Sindiran helmet markings.
+-Klaes Aberscain is no longer off the screen.
+
+Buffs/Nerfs
+-Custodians retuned, have less ships and less s-mods, but better officers. (also cleaned up the script that generates them)
+-Emulated Frictionless Hull now has campaign layer downsides and upsides.
+-Arcubus no longer has hangar bays. Stats and variants adjusted. (I might reintroduce the old one as a bounty eventually)
+
+----------------------------------------------------------
+Version 0.3.5 (19/3/2025) 
+The maintenance update
+
+Fixes
+-Arcubus and Supremator now have the correct tech class.
+-Fixed the arcs of some hardpoints
+-Fixed a strange conflict with PAGSM that assassinated Dunn.
+-Fixed some description typos. ("thock atmosphere" no more!)
+-Chuuni sub-core hullmod actually references the correct script now... (How embarrassing)
+-Moved all hullmods to the jar
+-Cleaned up MagicLib Bounties
+-Added retrogen, systems will now generate into existing saves
+
+Buffs/Nerfs
+-Gave the Embrasure Distributed Fire Control
+-Buffed the Stand-off Targeting Core but made it incompatible with other range increasing hullmods. (Net nerf to range.)
+-Made the DEM Trident and Heron more commonly used by the Persean League
+-Shoebill is now internally a battlecarrier rather than a carrier
+
+Bounty Ships
+-(On Hammers and Anvils) Eider //Return of the Mastery, now with Orion! (That pun wasn't intentional but it's very funny.)
+Available from gamestart
+
+New player flags,
+-Indies, (not really necessary, all player flags are independent, mostly exists for the forum page)
+
+Missions
+Grin system can now be found in the abyss. Spooky
+
+----------------------------------------------------------
+Version 0.3.4 (2-3-2025) //Non-American Date System...
+The "I went insane update"
+
+Fixes
+-Fixed artifacting on all ship sprites, weird floating damage PNGs begone!
+-Added versionchecker support
+
+New Ships
+-Added the Cydonia //Capital Apogee-Ox Hybrid
+-Added the Lupara //Sawn-off shotgun cruiser
+-Added the Lorica //Manticore sidegrade
+-Added the Buffalo (PMMM) //Joke ship, so rare you will never realistically find it
+
+Bounty Ships
+-(Fall Like a Thunderbolt) Thunderer //Overgrown Cruiser
+Available from gamestart
+
+-(Delusions of Grandeur) Chuuni //Edgy hypercruiser
+Defeat the Ziggurat
+
+-(Flight of the Phoenix) Falcon (VI-P) //Refernce to Sixth/Seventh Resurgence
+Available from gamestart
+
+New Weapons
+-Trident (DEM) //Persean League Trident Variant
+-Tyrant's Eye //Main weapon of the Chuuni, unique
+
+Buffs/Nerfs
+-Gave the Arcubus an increase to projectile velocity.
+-Increased Arcubus DP to 50.
+-Made the Embrasure much rarer. //(I personally don't like the ship so its being phased out. I won't remove it incase someone out there likes it)
+-Adjusted credit cost of a few ships.
+-Made the Supremator Heavy Energy Intergration hullmod actually work. It was too cruel and confused people.
+
+Missions 
+-A History Mystery
+Available from Alviss Sebestyen post being paid for the Galatia fiasco.
+Unlocks a new industry. //(Spoilers Omitted)
+
+New player flags, based on the alpha designs, intended to allow RP as a subfaction of the vanilla factions.
+-Tri-Tachyon
+-Sindrian Diktat
+-Hegemony
+-Persean League
+-Luddic Church
+-Luddic Path
+-Remnant
+-Derelict (DOMINT)
+-Pirates
+-Mercenaries
